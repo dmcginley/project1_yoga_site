@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Rubik:wght@300;400;500&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;1,400&family=Work+Sans:wght@300;400&display=swap');
+
+/* font-family: 'Cabin', sans-serif; */
+/* font-family: 'Work Sans', sans-serif; */
+
+
+
+/* [table of contents]
+
+1. gloable style
+
+2. typography
+
+3. components
+    3.1 buttons
+    3.2 span
+    3.3 section
+    3.4 cards
+ */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #aecec8;
+    --button-warning: #f76143;
+    --button-warning-hover: #df7c68;
+    --span-color: #ffa500;
+}
+
+/* ----------------
+    gloable style
+---------------- */
+html,
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
+    /* background-color: var(--primary-color); */
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(40ch, 240ch) 1fr;
+}
+
+.hero {
+    grid-row: 1;
+    background-image: url(/assets/images/hero_small.jpg);
+    filter: brightness(70%);
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+
+}
+
+.hero_content {
+    grid-column: 2/3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 0 3em 0;
+    /* background-color: rgba(153, 205, 50, 0.322); */
+}
+
+.hero_content p {
+    font-size: 1.4rem;
+    /* text-align: center; */
+    color: white;
+    /* background-color: aquamarine; */
+    display: inline-block;
+}
+
+.hero_text {
+    /* background-color: yellowgreen; */
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+.hero,
+span,
+section {
+    grid-column: 2/3;
+}
+
+/* ----------------
+    typography
+---------------- */
+h1,
+h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: .4rem;
+    /* background-color: aquamarine; */
+
+}
+
+h1 span {
+    color: var(--span-color);
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+p {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* ----------------
+    buttons
+---------------- */
+button {
+    font-size: 1.4rem;
+    margin: 1em 1em 2em 1em;
+    padding: .5em 2em;
+    /* width: 200px; */
+    font-weight: bold;
+    color: white;
+    background-color: var(--button-warning);
+    border: none;
+    border-radius: 4px;
+    transition: 200ms;
+}
+
+button:hover {
+    background-color: var(--button-warning-hover);
+
+}
+
+
+/* ----------------
+    span
+---------------- */
+.blurb_container {
+    text-align: center;
+    padding: 4em 2em;
+}
+
+
+
+
+
+
+
+/* ----------------
+    section
+---------------- */
+section {
+    /* margin: 2em 0; */
+    padding: 1em;
+
+}
+
+/* ----------------
+    cards
+---------------- */
+
+
+/* .video {
+    aspect-ratio: 16/9;
+    border-radius: 0 0 6px 6px;
+} */
+
+/* .video-other {
+    aspect-ratio: 17/9;
+    border-radius: 6px 6px 0 0;
+} */
+
+
+
+
+/* desktop side of things */
+@media only screen and (min-width: 740px) {
+
+
+    h1 {
+        font-size: 8.4rem;
+    }
+
+
+    .hero {
+        /* height: 50vh; */
+        background-position: 50% 40%;
+
+    }
+
+    .hero_content {
+        align-items: flex-start;
+        margin: 6em 2em 2em 3em;
+    }
+
+
+    .hero_text {
+        text-align: start;
+    }
+
+    button {
+        font-size: 1.7rem;
+    }
+}
