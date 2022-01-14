@@ -16,6 +16,9 @@
 
 3. components
     3.1 buttons
+
+    icons
+
     3.2 span
     3.3 section
     3.4 cards
@@ -33,9 +36,14 @@
 :root {
     --primary-color: #aecec8;
     --button-warning: #f76143;
-    --button-warning-hover: #df7c68;
+    --button-warning-hover: #c02f11;
     --span-color: #ffa500;
 }
+
+.orange {
+    color: var(--span-color);
+}
+
 
 /* ----------------
     gloable style
@@ -89,12 +97,11 @@ body {
 
 
 
-
-
-
 .hero,
 span,
-section {
+section,
+article,
+footer {
     grid-column: 2/3;
 }
 
@@ -120,18 +127,32 @@ h1 span {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     padding-bottom: 1rem;
 }
 
+h3 {
+    font-size: 1.6rem;
+    padding-bottom: 1em;
+}
 
-p {
-    font-size: 1.2rem;
+p,
+.howto_text li {
+    font-size: 1.3rem;
 }
 
 
 
 
+
+/* ----------------
+    icon
+---------------- */
+
+
+.icon {
+    font-size: 4em;
+}
 
 /* ----------------
     buttons
@@ -146,7 +167,7 @@ button {
     background-color: var(--button-warning);
     border: none;
     border-radius: 4px;
-    transition: 200ms;
+    transition: 120ms;
 }
 
 button:hover {
@@ -161,11 +182,9 @@ button:hover {
 .blurb_container {
     text-align: center;
     padding: 4em 2em;
+    margin-bottom: 2em;
+    background-color: var(--span-color);
 }
-
-
-
-
 
 
 
@@ -174,13 +193,56 @@ button:hover {
 ---------------- */
 section {
     /* margin: 2em 0; */
-    padding: 1em;
+    /* padding: 1em; */
 
 }
+
+
+.icon_container {
+    /* background-color: rgb(223, 223, 135); */
+    margin-bottom: 4em;
+}
+
 
 /* ----------------
     cards
 ---------------- */
+.icon_card {
+    /* background-color: gray; */
+    margin: 4em 1em;
+    text-align: center;
+    /* background-color: violet; */
+    text-align: center;
+}
+
+.icon_card_text {
+    margin: auto;
+    width: min(40%, 500px);
+    background-color: white;
+}
+
+
+
+.howto_container {
+    width: 100%;
+}
+
+.howto_text {
+    padding: 2em;
+}
+
+.howto_text p {
+    margin-bottom: 2em;
+}
+
+
+.howto_text ul {
+    padding-left: 2em;
+}
+
+li {
+    padding-bottom: 1.4em;
+}
 
 
 /* .video {
@@ -196,9 +258,17 @@ section {
 
 
 
+
+footer {
+    height: 400px;
+    background-color: rgb(37,
+            37,
+            37);
+}
+
+
 /* desktop side of things */
 @media only screen and (min-width: 740px) {
-
 
     h1 {
         font-size: 8.4rem;
@@ -224,4 +294,33 @@ section {
     button {
         font-size: 1.7rem;
     }
+
+    .blurb_container {
+        margin-bottom: 4em;
+    }
+
+
+    .icon_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+
+    .howto_container {
+        display: flex;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1600px) {
+
+
+    .icon_container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
 }
