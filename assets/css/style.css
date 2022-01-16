@@ -10,7 +10,7 @@
 
 /* [table of contents]
 
-1. gloable style
+1. globle style
 
 2. typography
 
@@ -34,10 +34,20 @@
 }
 
 :root {
-    --primary-color: #aecec8;
-    --button-warning: #f76143;
-    --button-warning-hover: #c02f11;
-    --span-color: #ffa500;
+    --primary-color: #ffa500;
+    --secondary-color: #313a4b;
+
+    --white: #f5f5f5;
+
+
+    --cta-btn: #f76143;
+    --cta-btn-hover: #f78169;
+
+    --blurb-color: #ffa500;
+    --btn-color: #ffa500;
+    --btn-color-hover: #c58612;
+    --btn-color-active: #7785a1;
+
 }
 
 .orange {
@@ -46,7 +56,7 @@
 
 
 /* ----------------
-    gloable style
+    globle style
 ---------------- */
 html,
 body {
@@ -60,47 +70,13 @@ body {
     grid-template-columns: 1fr minmax(40ch, 240ch) 1fr;
 }
 
-.hero {
-    grid-row: 1;
-    background-image: url(/assets/images/hero_small.jpg);
-    filter: brightness(70%);
-    background-position: center;
-    background-size: cover;
-    z-index: -10;
-
-}
-
-.hero_content {
-    grid-column: 2/3;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 6em 0 3em 0;
-    /* background-color: rgba(153, 205, 50, 0.322); */
-}
-
-.hero_content p {
-    font-size: 1.4rem;
-    /* text-align: center; */
-    color: white;
-    /* background-color: aquamarine; */
-    display: inline-block;
-}
-
-.hero_text {
-    /* background-color: yellowgreen; */
-    padding: 2rem;
-    text-align: center;
-}
 
 
 
+nav,
 .hero,
-span,
+.blurb_container,
 section,
-article,
 footer {
     grid-column: 2/3;
 }
@@ -116,7 +92,7 @@ h2 {
 h1 {
     font-size: 5rem;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: var(--white);
     margin-bottom: .4rem;
     /* background-color: aquamarine; */
 
@@ -154,6 +130,7 @@ p,
     font-size: 4em;
 }
 
+
 /* ----------------
     buttons
 ---------------- */
@@ -163,27 +140,115 @@ button {
     padding: .5em 2em;
     /* width: 200px; */
     font-weight: bold;
-    color: white;
-    background-color: var(--button-warning);
+    color: var(--white);
+    background-color: var(--cta-btn);
     border: none;
     border-radius: 4px;
-    transition: 120ms;
+    transition: 140ms;
 }
 
 button:hover {
-    background-color: var(--button-warning-hover);
+    background-color: var(--cta-btn-hover);
+
+}
+
+/* ----------------
+    navigation bar
+---------------- */
+nav {
+    grid-row: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding: 0 2em;
+    color: var(--white);
+    font-weight: bolder;
+    background-color: var(--secondary-color)
+}
+
+nav li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav a {
+    color: var(--btn-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 140ms;
+
+}
+
+nav a:hover {
+    color: var(--btn-color-hover);
+    text-decoration: underline;
+}
+
+#active {
+    color: var(--btn-color-active);
+    text-decoration: none;
+    cursor: default;
 
 }
 
 
+
 /* ----------------
-    span
+    hero
+---------------- */
+.hero {
+    grid-row: 2;
+    background-image: url(/assets/images/hero_small.jpg);
+    filter: brightness(70%);
+    background-position: center;
+    background-size: cover;
+    z-index: -10;
+
+}
+
+.hero_content {
+    grid-column: 2/3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6em 0 3em 0;
+    /* background-color: rgba(153, 205, 50, 0.322); */
+}
+
+.hero_content p {
+    font-size: 1.4rem;
+    /* text-align: center; */
+    /* color: var(--white); */
+    /* background-color: aquamarine; */
+    display: inline-block;
+}
+
+.hero_text {
+    /* background-color: yellowgreen; */
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero_subheading {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+
+
+
+/* ----------------
+    The blurb_container
 ---------------- */
 .blurb_container {
     text-align: center;
     padding: 4em 2em;
     margin-bottom: 2em;
-    background-color: var(--span-color);
+    background-color: var(--blurb-color);
 }
 
 
@@ -218,12 +283,18 @@ section {
 .icon_card_text {
     margin: auto;
     width: min(40%, 500px);
-    background-color: white;
+    /* background-color: var(--white); */
 }
 
 
 
 .howto_container {
+    background-color: #f3d59e;
+    ;
+
+}
+
+.howto_img {
     width: 100%;
 }
 
@@ -259,14 +330,6 @@ li {
 
 
 
-footer {
-    height: 400px;
-    background-color: rgb(37,
-            37,
-            37);
-}
-
-
 /* desktop side of things */
 @media only screen and (min-width: 740px) {
 
@@ -276,8 +339,8 @@ footer {
 
 
     .hero {
-        /* height: 50vh; */
-        background-position: 50% 40%;
+        /* height: 40vw; */
+        background-position: 50% 34%;
 
     }
 
@@ -308,19 +371,32 @@ footer {
         margin-bottom: 4em;
     }
 
-    .howto_container {
-        display: flex;
-    }
+
+
 
 }
 
 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1440px) {
 
+
+
+
+    .hero_content {
+
+        padding: 3em 0;
+        /* background-color: #f76143; */
+
+    }
 
     .icon_container {
         grid-template-columns: repeat(4, 1fr);
     }
+
+
+
+
+
 
 }
