@@ -23,6 +23,10 @@
 
 ## Images
 
+![Mockup of website](https://github.com/dmcginley/project1_yoga_site/blob/main/assets/markdown_images/Screenshot%20from%202022-01-18%2002-02-21.png)
+
+
+
 ## References Section
 
 ### Design Decisions
