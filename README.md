@@ -18,13 +18,15 @@
 ### Project one 
 
 ## Wireframe
+Desktop, Tablet and Mobile wireframe, created in Figma 
+
+![Wireframe created in Figma ](/assets/markdown_images/wireframe.png "Wireframe")
 
 ## Style Guide
 
 ## Images
 
-![Mockup of website](https://github.com/dmcginley/project1_yoga_site/blob/main/assets/markdown_images/Screenshot%20from%202022-01-18%2002-02-21.png)
-
+![Mockup image for the website ](/assets/markdown_images/mockup.png "Mockup")
 
 
 ## References Section
@@ -33,7 +35,7 @@
 
 ### Color Choices
 
-### Responsively
+### Responsivity
 ### Simplicity
 ### Accessibility
 ### Consistency
@@ -45,6 +47,12 @@
 
 ### Manual Testing
 - How I went about it.
+I checked each link went to the desired page and that all < a > tags opened in a new tab.
+
+#### Responsive Testing
+I used Chrome and Firefox "developer tools, device toggle" to check the responsiveness for each device. From iPhone, roughly 320px, to laptop 1920px, and to the desktop at 2560px (QHD).
+
+I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by margin or overflow fixed widths to elements on the page.
 
 
 ## Deployment
@@ -69,6 +77,14 @@ from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
+
+#### Font Awesome
+The icons in the card section and footer were taken from Font Awesome <https://fontawesome.com/license>
+
+I downloaded the icon pack and added it to my assets folder, using the method from their page **Hosting Font Awesome Yourself**, as a preferred method to using the Kit.
+<https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself>
+
+
 
 ### Media
 The photos used on the home and sign up page are from This Open Source site
