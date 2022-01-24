@@ -35,15 +35,17 @@
     --blurb-color: #ddc2eb;
 
     --card_icon_col: #525252;
+    --video_text_color: #c0eeee;
 
 
     /* button colors */
-    --cta-btn: #fa6d35;
-    --cta-btn-hover: #c2533d;
+    --cta-btn: #f55516;
+    --cta-btn-hover: #bb371d;
     --btn-color: #ffa500;
     --btn-color-hover: #c58612;
-    --btn-color-active: #494b55;
+    --btn-color-active: #c5c6ce;
 
+    /* footer and footer elements */
     --footer: #1a1b1d;
     --footer-text: #7b7f86;
     --footer-icon: #7b7f86;
@@ -91,7 +93,8 @@ nav,
 .blurb_container,
 section,
 article,
-footer {
+footer,
+.form_container {
     grid-column: 2/3;
 }
 
@@ -137,7 +140,7 @@ p {
 /* global button style */
 .btn {
     font-size: 1.4rem;
-    margin: 1em 1em 2em 1em;
+    margin: 1em 1em 2em 1.4em;
     padding: .5em 2em;
     /* width: 200px; */
     font-weight: bold;
@@ -146,6 +149,8 @@ p {
     border-radius: 4px;
     transition: 140ms;
     text-decoration: none;
+    /* background-color: cadetblue; */
+    /* padding: 2px; */
 }
 
 .call_to_action {
