@@ -1,0 +1,211 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Rubik:wght@300;400;500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;1,400&family=Work+Sans:wght@300;400&display=swap');
+
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* -----------------------
+
+   [table of contents]
+
+1.  color styling
+2.  global style
+3.  maine grid style
+4   typography
+5.  buttons
+
+-------------------------- */
+
+
+/* ----------------
+    color styling
+---------------- */
+:root {
+    /* page colors */
+    --white: #f5f5f5;
+    --primary-color: #ffa500;
+    --secondary-color: #27292e;
+    --blurb-color: #ddc2eb;
+
+    --card_icon_col: #525252;
+
+
+    /* button colors */
+    --cta-btn: #fa6d35;
+    --cta-btn-hover: #c2533d;
+    --btn-color: #ffa500;
+    --btn-color-hover: #c58612;
+    --btn-color-active: #494b55;
+
+    --footer: #1a1b1d;
+    --footer-text: #7b7f86;
+    --footer-icon: #7b7f86;
+
+
+}
+
+/* the "orange" class for when adding color directly to the HTML file */
+.orange {
+    color: var(--primary-color);
+}
+
+/* .color_1 {
+    background-color: #eec984;
+}
+
+.color_2 {
+    background-color: #fa9784;
+} */
+
+
+/* ----------------
+    global style
+---------------- */
+html,
+body {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.4;
+    color: #1b1b1b;
+}
+
+/* ----------------
+    maine grid style
+---------------- */
+
+/* maine grid style with collapsing borders left and right for large displays */
+body {
+    display: grid;
+    grid-template-columns: 1fr minmax(30ch, 240ch) 1fr;
+}
+
+/* location of the top level elements in the grid */
+nav,
+.hero,
+.blurb_container,
+section,
+article,
+footer {
+    grid-column: 2/3;
+}
+
+/* ----------------
+    typography
+---------------- */
+h1,
+h2 {
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-size: 20vw;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: .4rem;
+    /* background-color: aquamarine; */
+}
+
+.h2_subheading {
+    color: var(--white);
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    padding-bottom: .4em;
+}
+
+p {
+    font-size: 1.2;
+}
+
+/* ----------------
+    buttons
+---------------- */
+
+/* global button style */
+.btn {
+    font-size: 1.4rem;
+    margin: 1em 1em 2em 1em;
+    padding: .5em 2em;
+    /* width: 200px; */
+    font-weight: bold;
+    color: var(--white);
+    border: none;
+    border-radius: 4px;
+    transition: 140ms;
+    text-decoration: none;
+}
+
+.call_to_action {
+    background-color: var(--cta-btn);
+}
+
+.call_to_action:hover {
+    background-color: var(--cta-btn-hover);
+    cursor: pointer;
+}
+
+
+
+/* desktop side of things */
+@media only screen and (min-width: 740px) {
+
+    h1 {
+        font-size: 8.4rem;
+    }
+
+    .hero {
+        /* height: 40vw; */
+        background-position: 50% 34%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_small.jpg);
+        height: auto;
+    }
+
+    .hero_content {
+        align-items: flex-start;
+        /* margin: 6em 2em 2em 3em; */
+        margin: 2em 0 1em 0;
+        height: auto;
+    }
+
+    .hero_text {
+        text-align: start;
+    }
+
+    button {
+        font-size: 1.7rem;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    h2 {
+        font-size: 2.8rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero_content {
+        padding: 2em;
+        /* background-color: #f76143; */
+
+    }
+
+    .icon_container {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 2em 2em 4em 2em;
+        /* background-color: #f76143; */
+    }
+}
