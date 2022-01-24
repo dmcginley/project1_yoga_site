@@ -104,7 +104,7 @@ h2 {
 }
 
 h1 {
-    font-size: 20vw;
+    font-size: 4rem;
     font-weight: 500;
     color: var(--white);
     margin-bottom: .4rem;
@@ -163,25 +163,7 @@ p {
 @media only screen and (min-width: 740px) {
 
     h1 {
-        font-size: 8.4rem;
-    }
-
-    .hero {
-        /* height: 40vw; */
-        background-position: 50% 34%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_small.jpg);
-        height: auto;
-    }
-
-    .hero_content {
-        align-items: flex-start;
-        /* margin: 6em 2em 2em 3em; */
-        margin: 2em 0 1em 0;
-        height: auto;
-    }
-
-    .hero_text {
-        text-align: start;
+        font-size: 5.4rem;
     }
 
     button {
@@ -193,19 +175,7 @@ p {
 @media only screen and (min-width: 1440px) {
 
     h2 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         padding-bottom: 1rem;
-    }
-
-    .hero_content {
-        padding: 2em;
-        /* background-color: #f76143; */
-
-    }
-
-    .icon_container {
-        grid-template-columns: repeat(4, 1fr);
-        padding: 2em 2em 4em 2em;
-        /* background-color: #f76143; */
     }
 }
