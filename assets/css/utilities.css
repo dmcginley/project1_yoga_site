@@ -32,23 +32,24 @@
     --white: #f5f5f5;
     --primary-color: #ffa500;
     --secondary-color: #27292e;
+    --nav-link-warning: #ffa500;
+    --nav-link-active: #c5c6ce;
+
     --blurb-color: #ddc2eb;
-
-    --card_icon_col: #525252;
-    --video_text_color: #c0eeee;
-
+    --card-icon-col: #525252;
+    --text-background-color: #c0eeee;
+    --h4-color: #c5c6ce;
+    --form-color: #f0f0f0;
 
     /* button colors */
-    --cta-btn: #f55516;
-    --cta-btn-hover: #bb371d;
-    --btn-color: #ffa500;
-    --btn-color-hover: #c58612;
-    --btn-color-active: #c5c6ce;
+    --btn-cta: #f55516;
+    --btn-cta-hover: #bb371d;
+    --btn-warning: #0094da;
+    --btn-warning-hover: #0a6c99;
 
     /* footer and footer elements */
-    --footer: #1a1b1d;
-    --footer-text: #7b7f86;
-    --footer-icon: #7b7f86;
+    --footer-bg: #1a1b1d;
+    --footer-light-col: #7b7f86;
 
 
 }
@@ -94,7 +95,7 @@ nav,
 section,
 article,
 footer,
-.form_container {
+.form_area {
     grid-column: 2/3;
 }
 
@@ -104,6 +105,7 @@ footer,
 h1,
 h2 {
     font-family: 'Cabin', sans-serif;
+    text-transform: capitalize;
 }
 
 h1 {
@@ -114,9 +116,10 @@ h1 {
     /* background-color: aquamarine; */
 }
 
-.h2_subheading {
+.subheading {
     color: var(--white);
     font-weight: bolder;
+    font-size: 1.6rem;
 }
 
 h2 {
@@ -126,6 +129,12 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
+    padding-top: 1em;
+    padding-bottom: .4em;
+}
+
+h4 {
+    /* font-size: 1.2rem; */
     padding-bottom: .4em;
 }
 
@@ -154,11 +163,11 @@ p {
 }
 
 .call_to_action {
-    background-color: var(--cta-btn);
+    background-color: var(--btn-cta);
 }
 
 .call_to_action:hover {
-    background-color: var(--cta-btn-hover);
+    background-color: var(--btn-cta-hover);
     cursor: pointer;
 }
 
