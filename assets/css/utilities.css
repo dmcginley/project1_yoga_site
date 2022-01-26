@@ -29,16 +29,19 @@
 ---------------- */
 :root {
     /* page colors */
+    --h1-color: #f1f1f1;
+    --h2-color: #1a1a1a;
+    --h3-p-color: #2d313b;
+
     --white: #f5f5f5;
     --primary-color: #ffa500;
-    --secondary-color: #27292e;
+    --secondary-color: #4a5061;
     --nav-link-warning: #ffa500;
     --nav-link-active: #c5c6ce;
 
     --blurb-color: #ddc2eb;
-    --card-icon-col: #525252;
-    --text-background-color: #c0eeee;
-    --h4-color: #c5c6ce;
+    --card-icon-col: #4a5061;
+    --text-background-color: #cce6e6;
     --form-color: #f0f0f0;
 
     /* button colors */
@@ -48,8 +51,8 @@
     --btn-warning-hover: #0a6c99;
 
     /* footer and footer elements */
-    --footer-bg: #1a1b1d;
-    --footer-light-col: #7b7f86;
+    --footer-bg: #363942;
+    --footer-light-col: #cca254;
 
 
 }
@@ -111,7 +114,7 @@ h2 {
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    color: var(--white);
+    color: var(--h1-color);
     margin-bottom: .4rem;
     /* background-color: aquamarine; */
 }
@@ -125,12 +128,14 @@ h1 {
 h2 {
     font-size: 2rem;
     padding-bottom: 1rem;
+    color: var(--h2-color);
 }
 
 h3 {
     font-size: 1.4rem;
     padding-top: 1em;
     padding-bottom: .4em;
+    color: var(--h3-p-color);
 }
 
 h4 {

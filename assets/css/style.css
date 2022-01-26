@@ -58,7 +58,7 @@ nav a:hover {
 ---------------- */
 .hero {
     grid-row: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_small.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_sm.jpg);
     /* filter: brightness(70%); */
     background-position: center;
     background-size: cover;
@@ -234,14 +234,22 @@ footer {
 }
 
 
+
 .info {
     padding: 2em;
+    color: var(--footer-light-col);
+    font-size: 1.2rem;
+}
+
+.info p {
+    padding-bottom: 1em;
 }
 
 .info a {
-    color: var(--footer-text);
-    font-size: 18px;
-    padding-bottom: 1em;
+    color: var(--footer-light-col);
+    font-size: 1rem;
+    /* font-size: 18px; */
+    /* padding-bottom: 1em; */
 }
 
 
@@ -279,7 +287,8 @@ footer {
 }
 
 .media_title {
-    padding-left: 1em;
+    /* padding-left: 1em; */
+    text-align: center;
 }
 
 
@@ -341,8 +350,8 @@ video {
 @media only screen and (min-width: 740px) {
 
     .hero {
-        background-position: 50% 34%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_small.jpg);
+        background-position: 50% 36%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_md.jpg);
         height: auto;
     }
 
@@ -387,6 +396,13 @@ video {
         padding: 1em;
     }
 
+
+    .media_title {
+        padding-left: 1em;
+        text-align: left;
+    }
+
+
     .article_text {
         /* padding-top: 0; */
         padding: 0 4em 4em 4em;
@@ -409,7 +425,7 @@ video {
         width: 60%;
         margin: auto;
         margin-top: 4em;
-        margin-bottom: 4em;
+        margin-bottom: 14em;
 
     }
 
@@ -442,6 +458,11 @@ video {
 
 @media only screen and (min-width: 980px) {
 
+    /* .hero {
+        grid-row: 2;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_md.jpg);
+    } */
+
     /* ----------------
     grid_media_container
 ---------------- */
@@ -472,7 +493,7 @@ video {
     }
 
     .video_text {
-        background-color: rgb(192, 238, 238);
+        background-color: var(--text-background-color);
         border-radius: 6px;
     }
 
@@ -505,6 +526,13 @@ video {
 }
 
 @media only screen and (min-width: 1440px) {
+
+    .hero {
+        grid-row: 2;
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_xl.jpg); */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_xl.jpg);
+
+    }
 
     .hero_content {
         padding: 2em;
@@ -564,7 +592,7 @@ video {
     }
 
     .video_text {
-        background-color: var(--text-background-color);
+        /* background-color: var(--text-background-color); */
         border-radius: 4px;
         padding: 0 2em 3em 2em;
         border-radius: 0 0 6px 6px;
