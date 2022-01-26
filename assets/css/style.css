@@ -58,7 +58,7 @@ nav a:hover {
 ---------------- */
 .hero {
     grid-row: 2;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_sm.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.jpg);
     /* filter: brightness(70%); */
     background-position: center;
     background-size: cover;
@@ -351,7 +351,7 @@ video {
 
     .hero {
         background-position: 50% 36%;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_md.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_md.jpg);
         height: auto;
     }
 
@@ -530,7 +530,7 @@ video {
     .hero {
         grid-row: 2;
         /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_xl.jpg); */
-        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(/assets/images/hero_xl.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_xl.jpg);
 
     }
 
