@@ -1,41 +1,55 @@
+# Project one
+Name of the site is: Yoga 4 Life
 
-# Table of contents
+Site url: <https://dmcginley.github.io/project1_yoga_site/>
 
-- [Yoga 4 Life](#yoga-4-life)
+Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
+
+## Table of contents
+
   - [Wireframe](#wireframe)
   - [Style Guide](#style-guide)
-  - [Images](#images)
   - [References Section](#references-section)
   - [Testing](#testing)
-  - [Deployment](#deployment)
-  - [Credits](#credits)
+	- [Validator Testing](#Validator-Testing)
+	- [Manual Testing](#Manual-Testing)
+	- [Responsive Testing](#Responsive-Testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-
-
-
-# Yoga 4 Life
-
-### Project one 
 
 ## Wireframe
-Desktop, Tablet and Mobile wireframe, created in Figma 
+I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale so I could see the hierarchy of the elements on the page. 
 
-![Wireframe created in Figma ](/assets/markdown_images/wireframe.png "Wireframe")
+Created using Figma.
+
+![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
 
 ## Style Guide
 
-## Images
+### Designed with a 'Mobile First' responsive design.
+![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
 
-![Mockup image for the website ](/assets/markdown_images/mockup.png "Mockup")
 
+## Who is this website for
+Absolute beginners looking to learn yoga starting with a good. foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
+
+People with less free time on their hands
 
 ## References Section
 
 ### Design Decisions
+- simple design choice
+- clean design
+- easy to navigate
+
 
 ### Color Choices
 
+### Typography
+
 ### Responsivity
+
 ### Simplicity
 ### Accessibility
 ### Consistency
@@ -43,7 +57,10 @@ Desktop, Tablet and Mobile wireframe, created in Figma
 ## Testing
 ### Validator Testing
 - HTML
+<https://validator.w3.org/>
+
 - CSS
+<https://jigsaw.w3.org/css-validator/>
 
 ### Manual Testing
 - How I went about it.
@@ -56,6 +73,21 @@ I also used "developer tools" to check the margin and padding on each element to
 
 
 ## Deployment
+## Resources
+The Code Institute course material.
+
+[w3schools](https://www.w3schools.com/) to help with links and lists.
+
+[MDN Web Docs](https://developer.mozilla.org/en-US/) for looking up flex and grid, scaling images.
+
+[*CSS-TRICKS](https://css-tricks.com/)
+
+[Scrimba](https://scrimba.com/) video tutorials about Flex & Grid.
+
+[web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
+
+
+
 
 ## Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to **avoid plagiarism**.
@@ -72,11 +104,17 @@ Layout of the body divided into a 3 section grid
 from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 
 
+Aligning Flex items for the Footer **Traversy Media**
+<https://www.youtube.com/watch?v=3YW65K6LcIA>
+
 
 ### Content
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
+#### Form
+Form from w3schools and the book HTML&CSS by Jon Duckett
+<https://www.w3schools.com/howto/howto_css_contact_form.asp>
 
 #### Font Awesome
 The icons in the card section and footer were taken from Font Awesome <https://fontawesome.com/license>
