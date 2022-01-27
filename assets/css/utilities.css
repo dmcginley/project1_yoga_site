@@ -167,6 +167,33 @@ p {
     /* padding: 2px; */
 }
 
+/* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons */
+/* edited to suit my sizing */
+
+.material-icons {
+    color: var(--secondary-color);
+}
+
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.material-icons.md-lx {
+    font-size: 4em;
+}
+
 .call_to_action {
     background-color: var(--btn-cta);
 }
