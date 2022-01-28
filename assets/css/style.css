@@ -416,10 +416,6 @@ video {
     }
 
 
-
-
-
-
     .form_area {
         display: flex;
         width: 60%;
@@ -457,45 +453,6 @@ video {
 
 
 @media only screen and (min-width: 980px) {
-
-    /* .hero {
-        grid-row: 2;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(/assets/images/hero_md.jpg);
-    } */
-
-    /* ----------------
-    grid_media_container
----------------- */
-    .media_title {
-        grid-column: 1/3;
-        grid-row: 1;
-    }
-
-    .grid_media_container {
-        margin-top: 2em;
-        display: grid;
-        grid-template-columns: 1fr 50% 30% 1fr;
-        grid-template-rows: auto 1fr;
-        justify-content: center;
-        /* background-color: blueviolet; */
-    }
-
-    .video_container {
-        grid-column: 1/3;
-        grid-row: 2;
-    }
-
-    .video_text_container {
-        padding: 0 3em;
-        grid-column: 3/5;
-        grid-row: 2;
-        height: auto;
-    }
-
-    .video_text {
-        background-color: var(--text-background-color);
-        border-radius: 6px;
-    }
 
     .form_image {
         display: block;
@@ -558,52 +515,10 @@ video {
         padding: .4em;
     }
 
-    /* ----------------
-    grid_media_container
----------------- */
-    .media_title {
-        grid-column: 3;
-        grid-row: 1;
-        padding-top: 1em;
-        padding-left: 2rem;
-        background-color: var(--text-background-color);
-        margin: 0 2rem;
-        border-radius: 6px 6px 0 0;
-    }
-
-    .grid_media_container {
-        margin-top: 5em;
-        display: grid;
-        grid-template-columns: 1fr minmax(30%, 60ch) 30% 1fr;
-        grid-template-rows: auto 1fr;
-        column-gap: 4em;
-    }
-
-
-    .video_container {
-        grid-column: 2;
-        grid-row: 1/3;
-    }
-
-    .video_text_container {
-        padding: 0 2em;
-        grid-column: 3;
-        grid-row: 2;
-        height: auto;
-    }
-
-    .video_text {
-        /* background-color: var(--text-background-color); */
-        border-radius: 4px;
-        padding: 0 2em 3em 2em;
-        border-radius: 0 0 6px 6px;
-    }
-
     .form_area {
         /* display: flex; */
         width: 70%;
     }
-
 
 
     .form_container {

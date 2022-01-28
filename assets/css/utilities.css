@@ -97,6 +97,7 @@ nav,
 .blurb_container,
 section,
 article,
+.flex_container,
 footer,
 .form_area {
     grid-column: 2/3;
@@ -133,19 +134,40 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
-    padding-top: 1em;
-    padding-bottom: .4em;
+    padding-bottom: 1rem;
     color: var(--h3-p-color);
 }
 
 h4 {
-    /* font-size: 1.2rem; */
     padding-bottom: .4em;
 }
 
 p {
     font-size: 1.2;
 }
+
+
+.media_header {
+    padding: 1em;
+}
+
+.flex_container {
+    padding: 1em;
+    /* background-color: #1c7ba7; */
+}
+
+.text_container {
+    padding: 1em 0;
+    /* margin: 1em; */
+    /* background-color: #bb371d; */
+}
+
+
+
+
+
+
+
 
 /* ----------------
     buttons
@@ -215,13 +237,27 @@ p {
     button {
         font-size: 1.7rem;
     }
+
+
+    .flex_container {
+        display: flex;
+        padding: 1em;
+
+        /* background-color: #1c7ba7; */
+    }
+
+
 }
+
+@media only screen and (min-width: 1300px) {}
+
+
 
 
 @media only screen and (min-width: 1440px) {
 
     h2 {
         font-size: 2.4rem;
-        padding-bottom: 1rem;
+        /* padding-bottom: 1rem; */
     }
 }
