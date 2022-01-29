@@ -62,14 +62,6 @@
     color: var(--primary-color);
 }
 
-/* .color_1 {
-    background-color: #eec984;
-}
-
-.color_2 {
-    background-color: #fa9784;
-} */
-
 
 /* ----------------
     global style
@@ -117,7 +109,6 @@ h1 {
     font-weight: 500;
     color: var(--h1-color);
     margin-bottom: .4rem;
-    /* background-color: aquamarine; */
 }
 
 .subheading {
@@ -153,20 +144,11 @@ p {
 
 .flex_container {
     padding: 1em;
-    /* background-color: #1c7ba7; */
 }
 
 .text_container {
     padding: 1em 0;
-    /* margin: 1em; */
-    /* background-color: #bb371d; */
 }
-
-
-
-
-
-
 
 
 /* ----------------
@@ -185,8 +167,6 @@ p {
     border-radius: 4px;
     transition: 140ms;
     text-decoration: none;
-    /* background-color: cadetblue; */
-    /* padding: 2px; */
 }
 
 /* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons */
@@ -226,7 +206,6 @@ p {
 }
 
 
-
 /* desktop side of things */
 @media only screen and (min-width: 740px) {
 
@@ -237,8 +216,6 @@ p {
     button {
         font-size: 1.7rem;
     }
-
-
 }
 
 @media only screen and (min-width: 980px) {
@@ -247,12 +224,6 @@ p {
         display: flex;
         padding: 1em;
         gap: 2em;
-
-        /* background-color: #1c7ba7; */
-    }
-
-    .media_container {
-        /* background-color: #0094da; */
     }
 
     .media_header {
@@ -260,26 +231,19 @@ p {
         margin: auto;
         text-align: center;
     }
+}
 
 
+@media only screen and (min-width: 1440px) {
 
-
-    /* @media only screen and (min-width: 1300px) {} */
-
-
-
-
-    @media only screen and (min-width: 1440px) {
-
-        h2 {
-            font-size: 2.4rem;
-            /* padding-bottom: 1rem; */
-        }
-
-        .flex_container {
-            gap: 3em;
-            width: 80%;
-            margin: auto;
-        }
-
+    h2 {
+        font-size: 2.4rem;
+        /* padding-bottom: 1rem; */
     }
+
+    .flex_container {
+        gap: 3em;
+        width: 80%;
+        margin: auto;
+    }
+}
