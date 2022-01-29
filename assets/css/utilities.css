@@ -239,25 +239,47 @@ p {
     }
 
 
+}
+
+@media only screen and (min-width: 980px) {
+
     .flex_container {
         display: flex;
         padding: 1em;
+        gap: 2em;
 
         /* background-color: #1c7ba7; */
     }
 
-
-}
-
-@media only screen and (min-width: 1300px) {}
-
-
-
-
-@media only screen and (min-width: 1440px) {
-
-    h2 {
-        font-size: 2.4rem;
-        /* padding-bottom: 1rem; */
+    .media_container {
+        /* background-color: #0094da; */
     }
-}
+
+    .media_header {
+        max-width: 120ch;
+        margin: auto;
+        text-align: center;
+    }
+
+
+
+
+    /* @media only screen and (min-width: 1300px) {} */
+
+
+
+
+    @media only screen and (min-width: 1440px) {
+
+        h2 {
+            font-size: 2.4rem;
+            /* padding-bottom: 1rem; */
+        }
+
+        .flex_container {
+            gap: 3em;
+            width: 80%;
+            margin: auto;
+        }
+
+    }
