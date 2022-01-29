@@ -7,9 +7,15 @@
 3.  The blurb_container
 4.  card icon  
 5.  cards
-6.  section
-7.  form
-8.  footer
+6.  article
+7.  section
+
+    7.1 service_section
+    7.2 icon_container
+    7.3 flex_container
+
+8.  form
+9.  footer
 
 -------------------------- */
 
@@ -115,6 +121,19 @@ nav a:hover {
 }
 
 /* ----------------
+    article - article_media
+---------------- */
+.article_media {
+    padding: 1em;
+    width: 100%;
+
+}
+
+.article_text ul {
+    padding-left: 2em;
+}
+
+/* ----------------
     section
 ---------------- */
 .service_section {
@@ -127,6 +146,25 @@ nav a:hover {
     background-color: var(--form-color);
     padding-bottom: 1em;
 }
+
+.media_header {
+    max-width: 120ch;
+    margin: auto;
+    text-align: center;
+    padding: 2em;
+
+}
+
+.flex_container {
+    padding: 1em;
+    gap: 2em;
+}
+
+
+.text_container {
+    padding: 1em 0 4em 0;
+}
+
 
 /* ----------------
     form
@@ -240,21 +278,13 @@ footer {
     padding: 1em 2em;
 }
 
-.grid_media_container {
-    margin: 2em 0;
-}
-
 .media_title {
-    /* padding-left: 1em; */
     text-align: center;
 }
 
 /* #FIXME: image is not scaling properly */
 
 
-.article_image {
-    width: 100%;
-}
 
 
 /* ----------------
@@ -334,16 +364,36 @@ video {
         text-align: left;
     }
 
+    /* ----------------
+        article - article_media
+    ---------------- */
+    .article_container {
+        display: flex;
+        gap: 2em;
+        flex-direction: row-reverse;
+        padding: 1em;
+    }
 
     .article_text {
-        padding: 0 4em 4em 4em;
+        flex: 1;
+        padding: 2em;
+        border-radius: 4px;
+        background-color: var(--text-background-color);
     }
 
-    .article_image {
-        width: 100%;
-        padding: 0 6em;
+    .article_media {
+        flex: 1;
+        padding: 0;
+        object-fit: cover;
+        height: 500px;
+
     }
 
+
+    .flex_container {
+        display: flex;
+        padding: 1em;
+    }
 
     .form_area {
         display: flex;
@@ -364,7 +414,7 @@ video {
     }
 
     .form {
-        border-radius: 6px;
+        border-radius: 4px;
     }
 
     form .submit_button {
@@ -384,7 +434,7 @@ video {
         width: 100%;
         object-fit: cover;
         filter: opacity(.8);
-        border-radius: 6px;
+        border-radius: 4px;
     }
 
     .form_container {
@@ -397,6 +447,17 @@ video {
 
     .form_header {
         padding-top: 1rem;
+    }
+
+    /* ----------------
+        article - article_media
+    ---------------- */
+    .article_media {
+        flex: 1;
+        object-fit: cover;
+        height: 700px;
+        border-radius: 4px;
+
     }
 }
 
@@ -440,5 +501,25 @@ video {
 
     .form_container h3 {
         padding: 1em 2rem;
+    }
+
+
+    .flex_container {
+        gap: 3em;
+        width: 80%;
+        margin: auto;
+    }
+
+    /* ----------------
+        article - article_media
+    ---------------- */
+    .article_container {
+        width: 70%;
+        margin: auto;
+    }
+
+    .article_media {
+        height: 900px;
+
     }
 }
