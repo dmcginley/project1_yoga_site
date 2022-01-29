@@ -151,12 +151,13 @@ nav a:hover {
     max-width: 120ch;
     margin: auto;
     text-align: center;
-    padding: 2em;
+    /* padding: 2em; */
+    padding: max(4vh, 1em) 1em;
 
 }
 
 .flex_container {
-    padding: 1em;
+    padding: 0 1em;
     gap: 2em;
 }
 
