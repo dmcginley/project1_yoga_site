@@ -38,13 +38,13 @@
             <div class="form_header">
                 <h2>Contact Us</h2>
             </div>
-            <form class="form" action="">
+            <form class="form" action="thankyou.html" method="get">
                 <label for="name">First Name:</label>
-                <input class="form_input" type="text" id="name" name="name" placeholder="Your name...">
-
+                <input class="form_input" type="text" id="name" name="name" placeholder="Your name..." required>
+                <p><span>*</span> required field</p>
                 <label for="email">Email:</label>
-                <input class="form_input" type="email" id="email" name="email" placeholder="Your email...">
-
+                <input class="form_input" type="email" id="email" name="email" placeholder="Your email..." required>
+                <p><span>*</span> required field</p>
 
                 <label for="subject">Subject</label>
                 <textarea class="form_subject form_input" id="subject" name="subject"

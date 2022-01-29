@@ -166,6 +166,29 @@ nav a:hover {
 }
 
 
+#thank_you_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.thank_you {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    font-size: 5em;
+    background-color: var(--form-color);
+
+}
+
+.thank_you h2 {
+    /* color: #ffa500; */
+    text-decoration: underline;
+}
+
+
 /* ----------------
     form
 ---------------- */
@@ -196,6 +219,11 @@ form label {
     padding: 10px;
     margin: .6em 0;
 }
+
+.form span {
+    color: rgb(240, 41, 6);
+}
+
 
 .form_subject {
     resize: vertical;
@@ -282,31 +310,7 @@ footer {
     text-align: center;
 }
 
-/* #FIXME: image is not scaling properly */
 
-
-
-
-/* ----------------
-    grid_media_container
----------------- */
-.video_text {
-    padding: 3em 2em;
-}
-
-.article_text {
-    padding: 4em;
-}
-
-.flex_video {
-    margin: 4em 0;
-
-}
-
-video {
-    margin: 0;
-    padding: 0;
-}
 
 
 /* desktop side of things */
