@@ -13,9 +13,12 @@
     7.1 service_section
     7.2 icon_container
     7.3 flex_container
+8. video
 
-8.  form
-9.  footer
+    8.1 iframe
+
+9.  form
+10.  footer
 
 -------------------------- */
 
@@ -188,6 +191,14 @@ nav a:hover {
     /* color: #ffa500; */
     text-decoration: underline;
 }
+
+/* ----------------
+    video
+---------------- */
+iframe {
+    aspect-ratio: 16/9;
+}
+
 
 
 /* ----------------
