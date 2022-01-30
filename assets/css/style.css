@@ -147,7 +147,8 @@ nav a:hover {
 
 .icon_container {
     background-color: var(--form-color);
-    padding-bottom: 1em;
+    padding-top: 4em;
+
 }
 
 .media_header {
@@ -496,7 +497,6 @@ footer {
 
     .icon_container {
         grid-template-columns: repeat(4, 1fr);
-        padding: 2em 2em 4em 2em;
     }
 
     .icon_card {

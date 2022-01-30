@@ -225,6 +225,10 @@ p {
     padding-top: 6em;
 }
 
+.pb-1 {
+    padding-bottom: 1em;
+}
+
 .pb-2 {
     padding-bottom: 2em;
 }
@@ -237,6 +241,54 @@ p {
     padding-bottom: 6em;
 }
 
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.mt-2 {
+    margin-top: 2em;
+}
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.mt-6 {
+    margin-top: 6em;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mb-4 {
+    margin-bottom: 4em;
+}
+
+.mb-6 {
+    margin-bottom: 6em;
+}
+
+.mtb-1 {
+    margin: 1em 0;
+}
+
+.mtb-2 {
+    margin: 2em 0;
+}
+
+.mtb-4 {
+    margin: 4em 0;
+}
+
+.mtb-6 {
+    margin: 6em 0;
+}
 
 
 
