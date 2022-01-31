@@ -29,37 +29,36 @@
 ---------------- */
 :root {
     /* page colors */
-    --h1-color: #f1f1f1;
-    --h2-color: #1a1a1a;
-    --h3-p-color: #2d313b;
+    --white: #f8f8f8;
+    --black: #252525;
+    --dark-grey: #272b35;
+    --pale-grey: #4a5061;
+    --grey: #f0f0f0;
 
-    --white: #f5f5f5;
-    --primary-color: #ffa500;
-    --secondary-color: #4a5061;
-    --nav-link-warning: #ffa500;
-    --nav-link-active: #c5c6ce;
 
-    --blurb-color: #ddc2eb;
-    --card-icon-col: #4a5061;
+
+    --orange: #ffa500;
+    --pale-orange: #facc76;
+
     --text-background-color: #cce6e6;
-    --form-color: #f0f0f0;
 
     /* button colors */
     --btn-cta: #f55516;
-    --btn-cta-hover: #bb371d;
+    --btn-cta-hover: #bd4f23;
+
     --btn-warning: #0094da;
-    --btn-warning-hover: #0a6c99;
+    --btn-warning-hover: #337fa1;
+
 
     /* footer and footer elements */
-    --footer-bg: #363942;
-    --footer-light-col: #cca254;
+    /* --footer-bg: #363942; */
 
 
 }
 
 /* the "orange" class for when adding color directly to the HTML file */
 .orange {
-    color: var(--primary-color);
+    color: var(--orange);
 }
 
 
@@ -70,7 +69,7 @@ html,
 body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.4;
-    color: #1b1b1b;
+    color: var(--black);
 }
 
 /* ----------------
@@ -81,18 +80,27 @@ body {
 body {
     display: grid;
     grid-template-columns: 1fr minmax(30ch, 240ch) 1fr;
+    /* grid-template-rows: auto 1fr 1fr; */
 }
 
 /* location of the top level elements in the grid */
-nav,
-.hero,
-.blurb_container,
-section,
-article,
-.flex_container,
-footer,
-.form_area {
+
+header {
     grid-column: 2/3;
+    /* grid-row: 1; */
+    background-color: #0094da;
+    /* padding: 2px; */
+    width: 100%;
+}
+
+main {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+footer {
+    grid-column: 2/3;
+    grid-row: 3;
 }
 
 /* ----------------
@@ -107,7 +115,7 @@ h2 {
 h1 {
     font-size: 4rem;
     font-weight: 500;
-    color: var(--h1-color);
+    color: var(--white);
     margin-bottom: .4rem;
 }
 
@@ -120,17 +128,21 @@ h1 {
 h2 {
     font-size: 2rem;
     padding-bottom: 1rem;
-    color: var(--h2-color);
 }
 
 h3 {
     font-size: 1.4rem;
     padding-bottom: 1rem;
-    color: var(--h3-p-color);
 }
 
 h4 {
     padding-bottom: .4em;
+}
+
+h2,
+h3,
+h4 {
+    color: var(--dark-grey);
 }
 
 p {
@@ -156,11 +168,24 @@ p {
     text-decoration: none;
 }
 
+
+.call_to_action {
+    background-color: var(--btn-cta);
+    transition: 60ms;
+}
+
+.call_to_action:hover {
+    background-color: var(--btn-cta-hover);
+    cursor: pointer;
+}
+
+
+
 /* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons */
 /* edited to suit my sizing */
 
 .material-icons {
-    color: var(--secondary-color);
+    color: var(--pale-grey);
 }
 
 .material-icons.md-18 {
@@ -183,14 +208,6 @@ p {
     font-size: 4em;
 }
 
-.call_to_action {
-    background-color: var(--btn-cta);
-}
-
-.call_to_action:hover {
-    background-color: var(--btn-cta-hover);
-    cursor: pointer;
-}
 
 
 /* ----------------
@@ -289,16 +306,6 @@ p {
 .mtb-6 {
     margin: 6em 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -22,20 +22,72 @@
 
 -------------------------- */
 
+
+
+
+
+:root {
+    /* page colors */
+    --white: #f8f8f8;
+    --black: #252525;
+    --dark-grey: #272b35;
+    --pale-grey: #4a5061;
+    --grey: #f0f0f0;
+
+
+
+    --orange: #ffa500;
+    --pale-orange: #cca254;
+
+    --text-background-color: #cce6e6;
+
+    /* button colors */
+    --btn-cta: #f55516;
+    --btn-warning: #0094da;
+
+
+    /* footer and footer elements */
+    /* --footer-bg: #363942; */
+
+
+}
+
+
+
+
+
 /* ----------------
     navigation bar
 ---------------- */
 nav {
-    grid-row: 1;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-be tween; */
     align-items: center;
     width: 100%;
     height: 64px;
     padding: 0 2em;
     color: var(--white);
     font-weight: bolder;
-    background-color: var(--secondary-color)
+    background-color: var(--pale-grey)
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: var(--white);
+    text-decoration: none;
+    height: 74%;
+}
+
+
+nav p {
+    padding-left: 6px;
+    font-weight: 400;
+}
+
+.ul_links {
+    margin-left: auto;
 }
 
 nav li {
@@ -43,20 +95,20 @@ nav li {
     padding: 1em;
 }
 
-nav a {
-    color: var(--nav-link-warning);
+.links {
+    color: var(--orange);
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
     transition: 140ms;
 }
 
-nav a:hover {
+.links:hover {
     text-decoration: underline;
 }
 
 #active {
-    color: var(--nav-link-active);
+    color: var(--grey);
     text-decoration: none;
     cursor: default;
     text-decoration: underline;
@@ -71,11 +123,11 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 .hero_content {
-    grid-column: 2/3;
-    grid-row: 2;
+    /* grid-row: 2; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,24 +140,22 @@ nav a:hover {
     text-align: center;
 }
 
+
+.logo_stamp {
+    position: absolute;
+    height: 110px;
+    width: 110px;
+    right: 2em;
+    bottom: 2em;
+}
+
 /* ----------------
     The blurb_container
 ---------------- */
 .blurb_container {
     text-align: center;
     padding: max(4vh, 1em) 1em;
-    background-color: var(--blurb-color);
-}
-
-
-/* ----------------
-    card icon
----------------- */
-.card-icon-col {
-    display: block;
-    color: var(--card-icon-col);
-    font-size: 3.6rem;
-    padding: .6em;
+    background-color: var(--pale-orange);
 }
 
 
@@ -127,7 +177,8 @@ nav a:hover {
     article - article_media
 ---------------- */
 .article_media {
-    padding: 1em;
+    padding: 0;
+    margin: 0;
     width: 100%;
 
 }
@@ -142,20 +193,17 @@ nav a:hover {
 .service_section {
     text-align: center;
     padding: 4em 2em;
-    background-color: var(--form-color);
+    background-color: var(--grey);
 }
 
 .icon_container {
-    background-color: var(--form-color);
     padding-top: 4em;
-
 }
 
 .media_header {
     max-width: 120ch;
     margin: auto;
     text-align: center;
-    /* padding: 2em; */
     padding: max(4vh, 1em) 1em;
 
 }
@@ -172,24 +220,23 @@ nav a:hover {
 
 
 #thank_you_container {
-    height: 100vh;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--grey);
 }
+
 
 .thank_you {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
     font-size: 5em;
-    background-color: var(--form-color);
-
 }
 
 .thank_you h2 {
-    /* color: #ffa500; */
     text-decoration: underline;
 }
 
@@ -213,22 +260,18 @@ iframe {
 
 .form {
     padding: 2em;
-    background: var(--form-color);
+    background: var(--grey);
 }
 
 .form_header {
     text-align: center;
     padding: 2em 0 .4em 0;
-    /* padding: max(4vh, 1em) 1em; */
-
 }
 
 form label {
-    /* display: block; */
     font-weight: bold;
     font-size: 1.1rem;
-    /* margin-bottom: 2rem; */
-    /* padding: 1em; */
+
 }
 
 .form_input {
@@ -265,8 +308,8 @@ form .submit_button {
     footer
 ---------------- */
 footer {
-    background-color: var(--footer-bg);
-    color: var(--footer-light-col);
+    background-color: var(--dark-grey);
+    color: var(--pale-orange);
     height: 340px;
     padding: 0 2em;
 }
@@ -278,15 +321,8 @@ footer {
     height: 100%;
 }
 
-.auther {
-    grid-column: 1/4;
-    grid-row: 3;
-    align-items: end;
-}
-
 .info {
-    padding: 2em;
-    color: var(--footer-light-col);
+    padding: 2em 0;
     font-size: 1.2rem;
 }
 
@@ -295,11 +331,17 @@ footer {
 }
 
 .info a {
-    color: var(--footer-light-col);
+    color: var(--pale-orange);
     font-size: 1rem;
-    /* font-size: 18px; */
-    /* padding-bottom: 1em; */
 }
+
+
+.auther {
+    grid-column: 1/4;
+    font-size: 16px;
+    padding: 1em 0;
+}
+
 
 .social_links {
     grid-column: 1/4;
@@ -314,14 +356,9 @@ footer {
 }
 
 .social_links a {
-    color: var(--footer-icon);
+    color: var(--pale-orange);
     font-size: 1.4em;
     padding: .6em;
-}
-
-.auther {
-    font-size: 16px;
-    padding: 1em 2em;
 }
 
 .media_title {
@@ -335,15 +372,14 @@ footer {
 @media only screen and (min-width: 740px) {
 
     .hero {
-        background-position: 50% 36%;
+        background-position: 50% 40%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_md.jpg);
         height: auto;
     }
 
     .hero_content {
         align-items: flex-start;
-        margin: 1em 0 0 0;
-        height: auto;
+        height: 50vh;
     }
 
     .hero_text {
@@ -393,14 +429,14 @@ footer {
         display: flex;
         gap: 2em;
         flex-direction: row-reverse;
-        padding: 1em;
+        padding: 0;
+
     }
 
     .article_text {
         flex: 1;
         padding: 2em;
         border-radius: 4px;
-        background-color: var(--text-background-color);
     }
 
     .article_media {
@@ -451,6 +487,9 @@ footer {
 
 @media only screen and (min-width: 980px) {
 
+
+
+
     .form_image {
         display: block;
         width: 100%;
@@ -488,10 +527,11 @@ footer {
     .hero {
         grid-row: 2;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_xl.jpg);
-
+        background-position: 50% 30%;
     }
 
     .hero_content {
+        height: 60vh;
         padding: 2em;
     }
 
@@ -537,6 +577,7 @@ footer {
     .article_container {
         width: 70%;
         margin: auto;
+
     }
 
     .article_media {

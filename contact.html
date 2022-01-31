@@ -11,49 +11,57 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
 
-    <!-- Fontawesome icons-->
-    <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
-    <title>Yoga 4 life - </title>
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- boxicons icons for twitter, facebook... -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Yoga 4 life</title>
 </head>
 
 <body>
 
-    <!-- #TODO: add nav, posable hamburger bar -->
-    <nav>
-        <p>LOGO</p>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="howto.html">How To</a></li>
-            <li><a id="active" href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <a class="logo_container" href="index.html"><img src="assets/images/yoga_logo.svg" style="height: 100%;"
+                    alt="">
+                <p>Yoga4life</p>
+            </a>
+            <ul class="ul_links">
+                <li><a class="links" href="index.html">Home</a></li>
+                <li><a class="links" href="howto.html">Learn Yoga</a></li>
+                <li><a class="links" id="active" href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-    <section class="form_area">
-        <div>
-            <img class="form_image" src="assets/images/pexels-pixabay-355863.jpg" style="width: 100%;"
-                alt="Rocks balanced by a pebble beach">
-        </div>
-        <div class="form_container">
-            <div class="form_header">
-                <h2>Contact Us</h2>
+    <main>
+        <section class="form_area">
+            <div>
+                <img class="form_image" src="assets/images/pexels-pixabay-355863.jpg" style="width: 100%;"
+                    alt="Rocks balanced by a pebble beach">
             </div>
-            <form class="form" action="thankyou.html" method="get">
-                <label for="name">First Name:</label>
-                <input class="form_input" type="text" id="name" name="name" placeholder="Your name..." required>
-                <p><span>*</span> required field</p>
-                <label for="email">Email:</label>
-                <input class="form_input" type="email" id="email" name="email" placeholder="Your email..." required>
-                <p><span>*</span> required field</p>
-                <label for="subject">Subject</label>
-                <textarea class="form_subject form_input" id="subject" name="subject"
-                    placeholder="Feel free to ask anything..." style="height:200px; width: 100%;"></textarea>
+            <div class="form_container">
+                <div class="form_header">
+                    <h2>Contact Us</h2>
+                </div>
+                <form class="form" action="thankyou.html" method="get">
+                    <label for="name">First Name:</label>
+                    <input class="form_input" type="text" id="name" name="name" placeholder="Your name..." required>
+                    <p><span>*</span> required field</p>
+                    <label for="email">Email:</label>
+                    <input class="form_input" type="email" id="email" name="email" placeholder="Your email..." required>
+                    <p><span>*</span> required field</p>
+                    <label for="subject">Subject</label>
+                    <textarea class="form_subject form_input" id="subject" name="subject"
+                        placeholder="Feel free to ask anything..." style="height:200px; width: 100%;"></textarea>
 
-                <input class="btn submit_button" type="submit" value="Submit">
-            </form>
-        </div>
-
-    </section>
+                    <input class="btn submit_button" type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
 
 
     <footer>
@@ -64,17 +72,20 @@
             </div>
             <div class="social_links">
                 <ul>
-                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                                class='bx bxl-facebook-square bx-md'></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank" rel="noopener"><i
+                                class='bx bxl-twitter bx-md'></i></a></li>
+                    <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener"><i
+                                class='bx bxl-tiktok bx-md'></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i
+                                class='bx bxl-youtube bx-md'></i></a></li>
                 </ul>
             </div>
             <p class="auther">Site design by Donnchadh Mc Ginley</p>
 
         </div>
     </footer>
-
 
 
 </body>
