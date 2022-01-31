@@ -83,6 +83,18 @@ I also used "developer tools" to check the margin and padding on each element to
 Deployed using GitHub Pages. <https://github.com/dmcginley/project1_yoga_site/settings/pages>
 
 Once uploaded I checked everything was working ok.
+
+## Image optimization for the web
+
+- Optimizilla <https://imagecompressor.com/>
+
+- Tinypng <https://tinypng.com/>
+
+Later I also used automated optimizing of my images as they're uploaded to GitHub, *(Free for open source projects).*
+
+- Imgbot
+<https://github.com/marketplace/imgbot>
+
 ## Resources
 The Code Institute course material.
 
@@ -95,9 +107,6 @@ The Code Institute course material.
 [Scrimba](https://scrimba.com/) video tutorials about Flex & Grid.
 
 [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
-
-
-
 
 ## Credits
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to **avoid plagiarism**.
@@ -119,6 +128,7 @@ Aligning Flex items for the Footer **Traversy Media**
 
 Pushing footer to bottom on thank you page
 <https://stackoverflow.com/>
+
 
 
 ### Content
