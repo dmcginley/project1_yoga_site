@@ -8,8 +8,11 @@
     <meta name="keywords" content="yoga, health, wellbeing, lifestyle, better yoga">
     <meta name="author" content="Donnchadh Mc Ginley">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- I have 3 css files for easy reading of the related content -->
     <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/hamburger_menu.css">
 
     <!-- google icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,22 +25,23 @@
 
 <body>
 
-    <header>
+    <header class="header">
+        <img src="assets/images/yoga_logo.svg" alt="">
+        <a href="#" class="logo">Yoga4life</a>
         <nav>
-            <a class="logo_container" href="index.html"><img src="assets/images/yoga_logo.svg" style="height: 100%;"
-                    alt="">
-                <p>Yoga4life</p>
-            </a>
-            <ul class="ul_links">
-                <li><a class="links" href="index.html">Home</a></li>
-                <li><a class="links" id="active" href="#">Learn Yoga</a></li>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+            <ul class="menu">
+                <li><a class="links" id="active" href="#">Home</a></li>
+                <li><a class="links" href="howto.html">Learn Yoga</a></li>
                 <li><a class="links" href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="media_header">
+        <section class="media_heading pt-6">
             <h2>BEGINNERS YOGA</h2>
             <p>We know that yoga can seem intimidating and can seem like it’s a million miles away from what is
                 attainable,
@@ -57,9 +61,9 @@
                 <div class="text_container">
                     <div class="stars_container">
 
-                        <h3>Lorem, ipsum.</h3>
+                        <h3 class="pr-1">Lorem, ipsum.</h3>
 
-                        <!-- <ul class="stars">
+                        <ul class="stars">
                             <li><span class="material-icons">
                                     star
                                 </span></li>
@@ -75,7 +79,7 @@
                             <li><span class="material-icons">
                                     star_outline
                                 </span></li>
-                        </ul> -->
+                        </ul>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos natus accusamus
                         mollitia!

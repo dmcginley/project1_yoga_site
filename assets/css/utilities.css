@@ -35,8 +35,6 @@
     --pale-grey: #4a5061;
     --grey: #f0f0f0;
 
-
-
     --orange: #ffa500;
     --pale-orange: #facc76;
 
@@ -46,9 +44,9 @@
     --btn-cta: #f55516;
     --btn-cta-hover: #bd4f23;
 
-    --btn-warning: #0094da;
-    --btn-warning-hover: #337fa1;
-
+    /* --btn-warning: #0094da; */
+    --btn-warning: #2655bb;
+    --btn-warning-hover: #2f477a;
 
     /* footer and footer elements */
     /* --footer-bg: #363942; */
@@ -85,12 +83,23 @@ body {
 
 /* location of the top level elements in the grid */
 
-header {
+/* header {
     grid-column: 2/3;
-    /* grid-row: 1; */
-    background-color: #0094da;
-    /* padding: 2px; */
     width: 100%;
+    background-color: violet;
+    padding: 2px;
+} */
+
+.header {
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: violet;
+    /* padding: 4px; */
+}
+
+nav {
+    grid-column: 2/3;
+
 }
 
 main {
@@ -205,7 +214,7 @@ p {
 }
 
 .material-icons.md-lx {
-    font-size: 4em;
+    font-size: 4rem;
 }
 
 
@@ -258,6 +267,21 @@ p {
     padding-bottom: 6em;
 }
 
+.pr-1 {
+    padding-right: 1em;
+}
+
+.pr-2 {
+    padding-right: 2em;
+}
+
+.pl-1 {
+    padding-left: 1em;
+}
+
+.pl-1 {
+    padding-left: 2em;
+}
 
 .mt-1 {
     margin-top: 1em;

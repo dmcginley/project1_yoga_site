@@ -59,19 +59,26 @@
 /* ----------------
     navigation bar
 ---------------- */
-nav {
+/* .nav {
+    position: absolute;
     display: flex;
-    /* justify-content: space-be tween; */
+    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 64px;
     padding: 0 2em;
     color: var(--white);
     font-weight: bolder;
-    background-color: var(--pale-grey)
-}
+    background-color: var(--dark-grey);
+    z-index: 20;
+} */
 
-.logo_container {
+
+
+
+
+/* .logo_container {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -86,17 +93,17 @@ nav p {
     font-weight: 400;
 }
 
-.ul_links {
+.nav-links-container {
     margin-left: auto;
 }
 
-nav li {
+.nav-links-container li {
     display: inline-block;
     padding: 1em;
     color: var(--grey);
-}
+} */
 
-.links {
+/* .links {
     color: var(--orange);
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -106,10 +113,10 @@ nav li {
 
 a .links:hover {
     text-decoration: underline;
-}
+} */
 
 #active {
-    color: var(--grey);
+    color: var(--pale-grey);
     text-decoration: none;
     cursor: default;
     text-decoration: underline;
@@ -123,7 +130,7 @@ a .links:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh - 68px; */
     position: relative;
 }
 
@@ -133,7 +140,7 @@ a .links:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 68px);
 }
 
 .hero_text {
@@ -155,7 +162,7 @@ a .links:hover {
 ---------------- */
 .blurb_container {
     text-align: center;
-    padding: max(4vh, 1em) 1em;
+    padding: max(6vh, 1em) 1em;
     background-color: var(--pale-orange);
 }
 
@@ -201,29 +208,13 @@ a .links:hover {
     padding-top: 4em;
 }
 
-.media_header {
+.media_heading {
     max-width: 120ch;
     margin: auto;
     text-align: center;
-    padding: max(4vh, 1em) 1em;
+    padding: max(6vh, 1em) 1em;
 
 }
-
-
-
-.media_container {}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -241,6 +232,8 @@ a .links:hover {
 .stars_container {
     /* background-color: #928e86; */
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .text_container h3 {
@@ -248,11 +241,13 @@ a .links:hover {
     /* background-color: aquamarine; */
 }
 
-/* .stars_container ul {
+.stars_container ul {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 1em;
+    /* padding-left: 20px; */
+
 }
 
 .stars li {
@@ -260,13 +255,14 @@ a .links:hover {
 }
 
 .stars span {
-    color: #ffa600;
-    /* color: var(--dark-grey); */
-font-size: 1.4rem;
-padding-left: 6px;
+    /* color: #ffa600; */
+    color: var(--btn-warning);
+    font-size: 1.4rem;
+    padding-left: 4px;
 }
 
-*/ #thank_you_container {
+
+#thank_you_container {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -299,6 +295,10 @@ iframe {
 /* ----------------
     form
 ---------------- */
+.form_area {
+    padding-top: 2em;
+}
+
 .form_image {
     width: 100%;
     display: none;
@@ -310,7 +310,7 @@ iframe {
     background: var(--grey);
 }
 
-.form_header {
+.form_heading {
     text-align: center;
     padding: 2em 0 .4em 0;
 }
@@ -382,8 +382,6 @@ footer {
     font-size: 1rem;
 }
 
-.info a:hover {}
-
 .auther {
     grid-column: 1/4;
     font-size: 16px;
@@ -423,17 +421,17 @@ footer {
 
 
 /* desktop side of things */
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 768px) {
 
     .hero {
-        background-position: 50% 40%;
+        background-position: 50% 30%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_md.jpg);
         height: auto;
     }
 
     .hero_content {
         align-items: flex-start;
-        height: 50vh;
+        height: 55vh;
     }
 
     .hero_text {
@@ -512,17 +510,19 @@ footer {
         width: 60%;
         margin: auto;
         margin-top: 4em;
+        padding-top: 0;
+
         margin-bottom: 14em;
 
     }
 
-    .form_header {
+    .form_heading {
         text-align: left;
         padding: 2rem 2rem .6rem 2rem;
     }
 
-    .form_header h2 {
-        padding-bottom: .2em;
+    .form_heading h2 {
+        /* padding-bottom: .2em; */
     }
 
     .form {
@@ -560,7 +560,7 @@ footer {
         width: 90%;
     }
 
-    .form_header {
+    .form_heading {
         padding-top: 1rem;
     }
 

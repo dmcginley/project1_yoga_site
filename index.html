@@ -8,8 +8,11 @@
     <meta name="keywords" content="yoga, health, wellbeing, lifestyle, better yoga">
     <meta name="author" content="Donnchadh Mc Ginley">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- I have 3 css files for easy reading of the related content -->
     <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/hamburger_menu.css">
 
     <!-- google icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -23,12 +26,26 @@
 <body>
 
     <!-- #TODO: add nav, posable hamburger bar -->
-    <header>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="assets/images/yoga_logo.svg" alt="">
+
+
+
+            <!-- #TODO: add nav, posable hamburger bar -->
+            <!-- #TODO: add nav, posable hamburger bar -->
+
+            <p>Yoga4life</p>
+
+
+
+
+        </a>
         <nav>
-            <a class="logo_container" href="#"><img src="assets/images/yoga_logo.svg" style="height: 100%;" alt="">
-                <p>Yoga4life</p>
-            </a>
-            <ul class="ul_links">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+
+            <ul class="menu">
                 <li><a class="links" id="active" href="#">Home</a></li>
                 <li><a class="links" href="howto.html">Learn Yoga</a></li>
                 <li><a class="links" href="contact.html">Contact Us</a></li>
@@ -37,7 +54,7 @@
     </header>
 
     <main>
-        <div class="hero">
+        <section class="hero">
             <div class="hero_content">
                 <div class="hero_text">
                     <h1><span class="orange">Yoga</span> 4 life</h1>
@@ -46,15 +63,15 @@
                 <a class="btn call_to_action" type="button" href="contact.html">Contact us</a>
             </div>
             <div class="watermark"><img src="assets/images/yoga_logo_lg.svg" style="width: 100%;" alt=""></div>
-        </div>
-        <div class="blurb_container">
+        </section>
+        <section class="blurb_container">
             <h2>Beginners Yoga</h2>
             <p class="blurb_text">We know that yoga can seem intimidating and like it’s a million miles away.
                 With our new method of bringing everything back to basics, you'll be able to learn the fundamentals of
                 Yoga.
             </p>
             <!--p> FIXME: MAIN PURPOSE OF WEBSITE HERE</ -->
-        </div>
+        </section>
 
         <!-- #FIXME: text too long-->
         <!-- Icon section uses Grid as a quick and easy way to get a grid of 2x2 or 1x4 -->
@@ -114,10 +131,10 @@
         <!-- #FIXME: image is not scaling properly-->
 
         <!-- FIXME: move section to "how to/ learn yoga" page -->
-        <section class="article_container" style="border: 1px dashed red; padding-bottom: 0; ">
+        <section class="article_container p-6">
             <!-- <h2 class="media_title">Lorem, ipsum.</h2> -->
 
-            <div class="article_text" style="border: 1px dotted black">
+            <div class="article_text">
                 <h2>The Quarter Lotus</h2>
                 <p>Here you can sit on your meditation seat with your legs loosely crossed and both feet resting below
                     the
@@ -135,8 +152,10 @@
                 </ul>
             </div>
 
-            <img class="article_media" src="assets/images/q_iotus_sm.jpg" alt="Man sitting down doing quarter Lotus"
-                style="border: 1px solid greenyellow; margin-bottom: 0">
+            <img class="article_media" src="assets/images/test_sm.jpg"
+                srcset="assets/images/test_sm.jpg 600w, assets/images/test_md.jpg 980w, assets/images/test_lx.jpg 1920w"
+                alt="Man sitting down doing quarter Lotus">
+
 
         </section>
     </main>

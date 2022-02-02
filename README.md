@@ -96,38 +96,45 @@ Later I also used automated optimizing of my images as they're uploaded to GitHu
 <https://github.com/marketplace/imgbot>
 
 ## Resources
-The Code Institute course material.
+*General reading and resources.*
 
-[w3schools](https://www.w3schools.com/) to help with links and lists.
+- The Code Institute course material.
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/) for looking up flex and grid, scaling images, iframe for video content.
+- [w3schools](https://www.w3schools.com/) to help with links and lists.
 
-[*CSS-TRICKS](https://css-tricks.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/) for looking up flex and grid, scaling images, iframe for video content.
 
-[Scrimba](https://scrimba.com/) video tutorials about Flex & Grid.
+- [*CSS-TRICKS](https://css-tricks.com/)
 
-[web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
+- [Scrimba](https://scrimba.com/) video tutorials about Flex & Grid.
+
+- [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
 
 ## Credits
+*Sites content, media, and help with implementing code for tutorials/on-line help.*
+
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to **avoid plagiarism**.
 
-#### Use of linear-gradient for Hero image.
+- Use of linear-gradient for Hero image.
 
-from <https://www.w3schools.com/howto/howto_css_hero_image.asp>
+	from <https://www.w3schools.com/howto/howto_css_hero_image.asp>
+
+- Pushing footer to bottom on thank you page
+<https://stackoverflow.com/>
+
+- Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube <https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s>
+
 
 #### Using Flex & Grid.
 
-Using Flex for the Navbar, and other Grid and Flex elements from Kevin Powell on YouTube <https://www.youtube.com/kepowob>
+- Using Flex and Grid elements from Kevin Powell on YouTube <https://www.youtube.com/kepowob>
 
-Layout of the body divided into a 3 section grid
+- Layout of the body divided into a 3 section grid
 from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 
 
-Aligning Flex items for the Footer **Traversy Media**
+- Aligning Flex items for the Footer **Traversy Media**
 <https://www.youtube.com/watch?v=3YW65K6LcIA>
-
-Pushing footer to bottom on thank you page
-<https://stackoverflow.com/>
 
 
 
@@ -135,6 +142,8 @@ Pushing footer to bottom on thank you page
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
+
+
 #### Form
 Form from w3schools and the book HTML&CSS by Jon Duckett
 <https://www.w3schools.com/howto/howto_css_contact_form.asp>
@@ -146,7 +155,11 @@ Boxicons - The icons in the footer were taken from Boxicons <https://boxicons.co
 
 ### Media
 The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
+The images used for the gallery page were taken from this other open source site.
+
+#### Images and Videos were taken from Pexels
+
+<https://www.pexels.com/>
 
 
 
