@@ -1,5 +1,4 @@
-# Project one
-Name of the site is: Yoga 4 Life
+# Project one - *Yoga 4 Life*
 
 Site url: <https://dmcginley.github.io/project1_yoga_site/>
 
@@ -18,6 +17,12 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 - [Credits](#credits)
 
 
+
+![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
+
+### Designed with a 'Mobile First' responsive design.
+
+
 ## Wireframe
 I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale so I could see the hierarchy of the elements on the page. 
 
@@ -26,9 +31,6 @@ Created using Figma.
 ![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
 
 ## Style Guide
-
-### Designed with a 'Mobile First' responsive design.
-![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
 
 
 ## Who is this website for
@@ -71,6 +73,19 @@ I checked each link went to the desired page and that all < a > tags opened in a
 Checked the videos and their refresh times.
 
 The web browsers I used in manual testing are Chrome, Firefox, Microsoft Edge, and Opera.
+
+DOM X-Ray
+
+I used this Chrome extension to check the flow of white space and that the items were centred.
+
+<details><summary>Supporting image</summary>
+
+![DOM X-Ray being used on the website ](assets/markdown_images/dom-x-ray.png "DOM X-Ray")
+
+</details>
+
+
+
 
 #### Responsive Testing
 I used Chrome and Firefox "developer tools, device toggle" to check the responsiveness for each device. From iPhone, roughly 320px, to laptop 1920px, and to the desktop at 2560px (QHD).
@@ -142,7 +157,7 @@ from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 
 
 
-### Content
+## Content
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from Font Awesome
@@ -164,6 +179,16 @@ The images used for the gallery page were taken from this other open source site
 #### Images and Videos were taken from Pexels
 
 <https://www.pexels.com/>
+
+#### The watermark I created using Inkscape (vector graphics software).
+
+<details><summary>Supporting image</summary>
+
+![Icon/Watermark created in Inkscape ](assets/markdown_images/inkscape.png "Inkscape")
+
+</details>
+
+
 
 
 
