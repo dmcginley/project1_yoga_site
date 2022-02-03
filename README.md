@@ -122,6 +122,10 @@ In this section you need to reference where you got your content, media and extr
 - Pushing footer to bottom on thank you page
 <https://stackoverflow.com/>
 
+	*Link to the method used.*
+
+	<https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing>
+
 - Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube <https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s>
 
 

@@ -2,125 +2,31 @@
 
    [table of contents]
 
-1.  navigation bar
-2.  hero
-3.  The blurb_container
-4.  card icon  
-5.  cards
-6.  article
-7.  section
+1.  hero
+2.  The blurb_container
+3.  cards
 
-    7.1 service_section
-    7.2 icon_container
-    7.3 flex_container
-8. video
 
-    8.1 iframe
+4.  article
 
-9.  form
-10.  footer
+
+5.  section
+
+    5.1 service_section
+    5.2 icon_container
+    5.3 flex_container
+    5.4 media_heading
+    5.5 thank_you_container
+
+6.  iframe
+7.  form
+8.  footer
+
+    8.1 social_links 
 
 -------------------------- */
 
 
-
-
-
-:root {
-    /* page colors */
-    --white: #f8f8f8;
-    --black: #252525;
-    --dark-grey: #272b35;
-    --pale-grey: #4a5061;
-    --grey: #f0f0f0;
-
-
-
-    --orange: #ffa500;
-    --pale-orange: #cca254;
-
-    --text-background-color: #cce6e6;
-
-    /* button colors */
-    --btn-cta: #f55516;
-    --btn-warning: #0094da;
-
-
-    /* footer and footer elements */
-    /* --footer-bg: #363942; */
-
-
-}
-
-
-
-
-
-/* ----------------
-    navigation bar
----------------- */
-/* .nav {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 64px;
-    padding: 0 2em;
-    color: var(--white);
-    font-weight: bolder;
-    background-color: var(--dark-grey);
-    z-index: 20;
-} */
-
-
-
-
-
-/* .logo_container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    color: var(--white);
-    text-decoration: none;
-    height: 74%;
-}
-
-
-nav p {
-    padding-left: 6px;
-    font-weight: 400;
-}
-
-.nav-links-container {
-    margin-left: auto;
-}
-
-.nav-links-container li {
-    display: inline-block;
-    padding: 1em;
-    color: var(--grey);
-} */
-
-/* .links {
-    color: var(--orange);
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: 80s;
-}
-
-a .links:hover {
-    text-decoration: underline;
-} */
-
-#active {
-    color: var(--pale-grey);
-    text-decoration: none;
-    cursor: default;
-    text-decoration: underline;
-}
 
 /* ----------------
     hero
@@ -151,11 +57,12 @@ a .links:hover {
 
 .watermark {
     position: absolute;
-    height: 110px;
-    width: 110px;
-    right: 2em;
-    bottom: 2em;
+    height: 68px;
+    width: 68px;
+    right: 1em;
+    bottom: 1em;
 }
+
 
 /* ----------------
     The blurb_container
@@ -180,6 +87,11 @@ a .links:hover {
     margin: auto;
     width: min(70%, 500px);
 }
+
+
+
+/* < !-- #FIXME: not being used --> */
+/* < !-- #FIXME: not being used --> */
 
 /* ----------------
     article - article_media
@@ -215,9 +127,6 @@ a .links:hover {
     padding: max(6vh, 1em) 1em;
 
 }
-
-
-
 
 .flex_container {
     padding: 0 1em;
@@ -262,6 +171,9 @@ a .links:hover {
 }
 
 
+/* ----------------
+    thank_you_container
+---------------- */
 #thank_you_container {
     display: flex;
     min-height: 100vh;
@@ -270,13 +182,22 @@ a .links:hover {
     background-color: var(--grey);
 }
 
-
 .thank_you {
     flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 5em;
+    /* background-color: violet; */
+    padding: .4em 0;
+}
+
+.thankyou-watermark {
+    height: 110px;
+    width: 110px;
+    margin-bottom: .4em;
+    /* filter: contrast(0); */
 }
 
 .thank_you h2 {
@@ -284,12 +205,11 @@ a .links:hover {
 }
 
 /* ----------------
-    video
+    iframe - video
 ---------------- */
 iframe {
     aspect-ratio: 16/9;
 }
-
 
 
 /* ----------------
@@ -388,7 +308,9 @@ footer {
     padding: 1em 0;
 }
 
-
+/* ----------------
+    social_links
+---------------- */
 .social_links {
     grid-column: 1/4;
     grid-row: 2;
@@ -418,8 +340,6 @@ footer {
 }
 
 
-
-
 /* desktop side of things */
 @media only screen and (min-width: 768px) {
 
@@ -438,6 +358,15 @@ footer {
         text-align: start;
         padding: 4em 2em 0 2em;
     }
+
+    .watermark {
+        /* position: absolute; */
+        height: 110px;
+        width: 110px;
+        right: 2em;
+        bottom: 2em;
+    }
+
 
     .blurb_text {
         max-width: 100ch;
@@ -534,9 +463,6 @@ footer {
         width: auto;
     }
 }
-
-
-
 
 
 @media only screen and (min-width: 980px) {

@@ -23,17 +23,22 @@
     <title>Yoga 4 life</title>
 </head>
 
+<!-- I wrapped the hole body in a flex container with min-height of 100vh to push footer to bottom -->
+
 <body id="thank_you_container">
 
+    <!-- header section with the nav inside it -->
     <header class="header">
-        <img src="assets/images/yoga_logo.svg" alt="">
-        <a href="#" class="logo">Yoga4life</a>
+        <a href="index.html" class="logo">
+            <img src="assets/images/yoga_logo.svg" alt="website logo abstract image of a buddha sitting praying">
+            <p>Yoga4life</p>
+        </a>
         <nav>
+            <!-- the two lines from the tutorial to achieve the hamburger menu -->
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-
             <ul class="menu">
-                <li><a class="links" id="active" href="#">Home</a></li>
+                <li><a class="links" href="index.html">Home</a></li>
                 <li><a class="links" href="howto.html">Learn Yoga</a></li>
                 <li><a class="links" href="contact.html">Contact Us</a></li>
             </ul>
@@ -41,8 +46,10 @@
     </header>
 
     <main>
-        <section class="thank_you pt-1">
-            <h2>Thank you for contacting us!</h3>
+        <section class="thank_you">
+            <img class="thankyou-watermark" src="assets/images/yoga_logo_lg_grey.svg"
+                alt="website logo abstract image of a buddha sitting praying">
+            <h2>Thank you for your message.</h3>
         </section>
     </main>
 
@@ -65,7 +72,6 @@
                 </ul>
             </div>
             <p class="auther">Site design by Donnchadh Mc Ginley</p>
-
         </div>
     </footer>
 
