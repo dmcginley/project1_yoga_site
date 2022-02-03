@@ -18,7 +18,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 
 
-![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
+![Mockup image for the website ](../markdown_images/mockup.png "Mockup")
 
 ### Designed with a 'Mobile First' responsive design.
 
@@ -28,7 +28,7 @@ I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale
 
 Created using Figma.
 
-![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
+![Wireframe created in Figma](../markdown_images/wireframe.png "Wireframe")
 
 ## Style Guide
 
@@ -80,7 +80,7 @@ I used this Chrome extension to check the flow of white space and that the items
 
 <details><summary>Supporting image</summary>
 
-![DOM X-Ray being used on the website ](assets/markdown_images/dom-x-ray.png "DOM X-Ray")
+![DOM X-Ray being used on the website ](../markdown_images/dom-x-ray.png "DOM X-Ray")
 
 </details>
 
@@ -184,7 +184,7 @@ The images used for the gallery page were taken from this other open source site
 
 <details><summary>Supporting image</summary>
 
-![Icon/Watermark created in Inkscape ](assets/markdown_images/inkscape.png "Inkscape")
+![Icon/Watermark created in Inkscape ](../markdown_images/inkscape.png "Inkscape")
 
 </details>
 
