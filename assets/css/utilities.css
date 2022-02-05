@@ -44,12 +44,11 @@
     --text-background-color: #cce6e6;
 
     /* button colors */
-    --btn-cta: #f55516;
-    --btn-cta-hover: #bd4f23;
+    --btn-cta: #de3e44;
+    --btn-cta-hover: #af363a;
 
-    /* btn-warning: #0094da; */
-    --btn-warning: #2655bb;
-    --btn-warning-hover: #2f477a;
+    --btn-warning: #01a2b9;
+    --btn-warning-hover: #057c8f;
 
 }
 

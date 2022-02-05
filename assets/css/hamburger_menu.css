@@ -98,7 +98,7 @@ a {
 }
 
 #active {
-    color: var(--pale-grey);
+    color: var(--white);
     text-decoration: none;
     cursor: default;
     text-decoration: underline;
@@ -111,7 +111,7 @@ a {
 .header .logo {
     display: block;
     float: left;
-    padding: 20px 6rem;
+    padding: 20px 0 20px 6rem;
     text-decoration: none;
 }
 
@@ -205,9 +205,7 @@ a {
 }
 
 
-/* 48em = 768px @ 16pt font */
-
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 768px) {
 
     .header {
         /* clear: both; */

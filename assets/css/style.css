@@ -14,6 +14,7 @@
 
     5.1 service_section
     5.2 icon_container
+    5.2 quote section
     5.3 flex_container
     5.4 media_heading
     5.5 thank_you_container
@@ -46,6 +47,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 400px;
     height: calc(100vh - 68px);
 }
 
@@ -109,6 +111,57 @@
     padding-top: 4em;
 }
 
+
+
+
+
+
+
+/* ----------------
+    quote section
+---------------- */
+/* .red-img {
+    width: 100%;
+} */
+
+.quote-box {
+    position: relative;
+    width: 70%;
+    max-width: 280px;
+    margin: auto;
+    padding: 1em;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    background-color: aqua;
+}
+
+
+.quote-text {
+    font-size: 1rem;
+}
+
+.bxs-quote-right,
+.bxs-quote-left {
+    color: var(--black);
+    font-size: 1.8em;
+    user-select: none;
+}
+
+
+.bxs-quote-left {
+    position: absolute;
+    left: -26px;
+    top: -26px;
+}
+
+.bxs-quote-right {
+    position: absolute;
+    right: -26px;
+    bottom: -26px;
+}
+
+
+/* media_heading section for the video's page */
 .media_heading {
     max-width: 120ch;
     margin: auto;
@@ -117,6 +170,10 @@
 
 }
 
+/* ----------------
+    flex container
+---------------- */
+/* flex container for the videos on the 'Learn Yoga' page */
 .flex_container {
     padding: 0 1em;
     gap: 2em;
@@ -128,7 +185,6 @@
 }
 
 .stars_container {
-    /* background-color: #928e86; */
     display: flex;
     flex-wrap: wrap;
 
@@ -136,7 +192,6 @@
 
 .text_container h3 {
     display: inline-block;
-    /* background-color: aquamarine; */
 }
 
 .stars_container ul {
@@ -161,7 +216,7 @@
 
 
 /* ----------------
-    thank_you_container
+    thank_you_container on thank you page
 ---------------- */
 #thank_you_container {
     display: flex;
@@ -265,7 +320,7 @@ form .submit_button {
 ---------------- */
 footer {
     background-color: var(--dark-grey);
-    color: var(--pale-orange);
+    /* color: var(--white); */
     height: 340px;
     padding: 0 2em;
 }
@@ -287,7 +342,7 @@ footer {
 }
 
 .info a {
-    color: var(--pale-orange);
+    color: var(--white);
     font-size: 1rem;
 }
 
@@ -295,6 +350,7 @@ footer {
     grid-column: 1/4;
     font-size: 16px;
     padding: 1em 0;
+    color: var(--white);
 }
 
 /* ----------------
@@ -313,7 +369,7 @@ footer {
 }
 
 .social_links a {
-    color: var(--pale-orange);
+    color: var(--white);
     font-size: 1.4em;
     padding: .6em;
     transition: 80ms;
@@ -349,7 +405,6 @@ footer {
     }
 
     .watermark {
-        /* position: absolute; */
         height: 110px;
         width: 110px;
         right: 2em;
@@ -369,6 +424,104 @@ footer {
         width: 80%;
         margin: auto;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .quote-container {
+        /* width: 80%; */
+        /* margin: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2em;
+        width: 100%;
+        max-height: 50vh;
+        background-color: brown;
+        margin: 4em 0;
+    }
+
+    .quote-img {
+        /* flex: 1; */
+        /* width: 50%; */
+        /* max-height: 500px; */
+        background-color: blue;
+        padding: 4px;
+
+    }
+
+    .quote-img img {
+        max-width: 400px;
+        background-color: aqua;
+        padding: 2px;
+    }
+
+
+
+
+    .quote-text {
+        margin: 2.1em;
+        border: 2px dotted rgb(241, 142, 49);
+    }
+
+
+    .quote-text {
+        font-size: 1.2rem;
+    }
+
+    .bxs-quote-right,
+    .bxs-quote-left {
+        color: var(--black);
+        font-size: 2.4em;
+        user-select: none;
+    }
+
+
+    .bxs-quote-left {
+        position: absolute;
+        left: -1em;
+        top: -1em;
+    }
+
+    .bxs-quote-right {
+        position: absolute;
+        right: -1em;
+        bottom: -1em;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .social_links {
         grid-column: 3;
@@ -403,18 +556,12 @@ footer {
         margin: auto;
         margin-top: 4em;
         padding-top: 0;
-
         margin-bottom: 14em;
-
     }
 
     .form_heading {
         text-align: left;
         padding: 2rem 2rem .6rem 2rem;
-    }
-
-    .form_heading h2 {
-        /* padding-bottom: .2em; */
     }
 
     .form {
@@ -501,88 +648,4 @@ footer {
         margin: auto;
     }
 
-}
-
-
-
-
-
-
-/* ----------------
-        article - article_media
-    ---------------- */
-.quote_container {
-    display: flex;
-
-    width: 70%;
-    margin: auto;
-}
-
-
-
-
-.red-box {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 4em;
-    grid-column: 2/3;
-    /* grid-row: ; */
-    width: 100%;
-    /* height: 600px; */
-    /* background-color: brown; */
-    margin: 4em 0;
-}
-
-.red-img {
-    flex: 1;
-    width: 50%;
-    /* height: 70%; */
-    background-color: cadetblue;
-    padding: 2px;
-}
-
-.quote-box {
-    position: relative;
-
-    flex: 1;
-
-    /* height: 200px; */
-    max-width: 400px;
-    /* width: 100px; */
-    /* background-color: cadetblue; */
-    padding: .4em;
-    margin: 2.4em;
-    border: 2px dotted rgb(241, 142, 49);
-}
-
-.quote-text {
-    /* position: absolute; */
-    font-size: 1.6rem;
-    /* font-weight: bold; */
-
-}
-
-
-.bxs-quote-right,
-.bxs-quote-left {
-    /* background-color: chartreuse; */
-    /* width: 20px; */
-    /* height: 20px; */
-    color: var(--black);
-    font-size: 2.4em;
-    user-select: none;
-}
-
-
-.bxs-quote-left {
-    position: absolute;
-    left: -1em;
-    top: -1em;
-}
-
-.bxs-quote-right {
-    position: absolute;
-    right: -1em;
-    bottom: -1em;
 }
