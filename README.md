@@ -18,6 +18,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 
 
+
 ![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
 
 ### Designed with a 'Mobile First' responsive design.
@@ -26,15 +27,27 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 ## Wireframe
 I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale so I could see the hierarchy of the elements on the page. 
 
-Created using Figma.
+*Using basic shapes, created using Figma prototyping tool.*
 
 ![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
 
 ## Style Guide
 
 
+
+I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
+
+The CSS style sheets are named clearly as:
+- style.css
+- utilities.css
+- hamburger_menu.css
+
+(The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below).
+
+
+
 ## Who is this website for
-Absolute beginners looking to learn yoga starting with a good. foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
+The site is designed for absolute beginners looking to learn yoga starting with a good and simple foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
 
 People with less free time on their hands
 
@@ -42,16 +55,36 @@ People with less free time on their hands
 - simple design choice
 - clean design
 - easy to navigate
+- two buttons, easy to find
 
 
 ### Color Choices
+- fresh color palette
+- buttons that stand out in the hierarchy
+
+
+
 
 ### Typography
+- two fonts
 
 ### Responsivity
+Mobile first and then 3 breakpoints for desktop (768px, 980px 1440px).
+The 1440px large display is so the website doesn't break on large QHD monitors.
+
 
 ### Simplicity
+Easy to navigate
+
 ### Accessibility
+- 'alt' text on images 
+- 'title' on the social icons in the footer
+- contrasting colors
+- easy to see buttons and navigation area
+- background images to to be distracting or masking the text
+e.g on mobile version of the site I darkened the background Hero image so as not to detract from the text as it is displayed on the small screen.
+
+
 ### Consistency
 - colors, I reduced the colors used by about half.
 - footer same feel placeing at the bottom of the page.
@@ -60,12 +93,22 @@ People with less free time on their hands
 - padding is same for each element across the web site.
 
 ## Testing
+
+- Lighthouse in Chrome DevTools.
+
+	*Tested in Incognito mode.*
+
+After a few errors like images being too big or missing title on social links (facebook, twitter)
+I ran Lighthouse a few times to check my code and text.
+Tested both mobile and desktop.
+
 ### Validator Testing
 - HTML
 <https://validator.w3.org/>
 
 - CSS
 <https://jigsaw.w3.org/css-validator/>
+
 
 ### Manual Testing
 - How I went about it.
@@ -83,8 +126,6 @@ I used this Chrome extension to check the flow of white space and that the items
 ![DOM X-Ray being used on the website ](assets/markdown_images/dom-x-ray.png "DOM X-Ray")
 
 </details>
-
-
 
 
 #### Responsive Testing
