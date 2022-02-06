@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Rubik:wght@300;400;500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Libre+Baskerville:ital@1&family=Rubik:wght@300;400&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,600;1,400&family=Work+Sans:wght@300;400&display=swap');
 
 
 /* css reset */
@@ -41,7 +40,7 @@
     --pale-orange: #facc76;
 
     /* nav hover */
-    --black-hover: #4a5357;
+    --black-hover: #404655;
     /* button colors */
     --btn-cta: #de3e44;
     --btn-cta-hover: #af363a;
@@ -62,7 +61,7 @@
 ---------------- */
 html,
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     line-height: 1.4;
     color: var(--black);
 }
@@ -99,8 +98,13 @@ footer {
 ---------------- */
 h1,
 h2 {
-    font-family: 'Cabin', sans-serif;
     text-transform: capitalize;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Cabin', sans-serif;
 }
 
 h1 {
@@ -135,6 +139,7 @@ h2,
 h3,
 h4 {
     color: var(--dark-grey);
+    font-weight: lighter;
 }
 
 p {
@@ -142,6 +147,10 @@ p {
     color: var(--black);
 }
 
+.quote-text {
+    font-weight: 500;
+    font-family: 'Libre Baskerville', serif;
+}
 
 /* ----------------
     buttons
@@ -225,6 +234,11 @@ I kept the original sizes incase I was to use them in the future without breakin
 
     button {
         font-size: 1.7rem;
+    }
+
+    form .submit-button {
+        margin-left: 0;
+        width: auto;
     }
 }
 
