@@ -2,50 +2,17 @@
 
    [table of contents]
 
-1.  navigation bar
-2.  hero
-3.  The blurb_container
-4.  card icon  
-5.  cards
-6.  article
-7.  section
-
-    7.1 service_section
-    7.2 icon_container
-    7.3 flex_container
-8. video
-
-    8.1 iframe
-
-9.  form
-10.  footer
+1.  header
+2.  menu 3 bars
+3.  menu button (+ animations)
 
 -------------------------- */
 
 
-
-
-/* body {
-    margin: 0;
-    font-family: Helvetica, sans-serif;
-    background-color: #bbb;
-}
-
-a {
-    color: rgb(233, 233, 233);
-} */
-
-
-
-
-
-:root {
-    --black: #242b2e;
-    --black-hover: #4a5357;
-    --white: #e7e7e7;
-    --light-yellow: #e9ac51;
-}
-
+/* ----------------
+    header
+---------------- */
+/* nav and nav text hight in px, as it is a constant hight  */
 .header,
 .header .logo,
 .header img,
@@ -53,19 +20,13 @@ a {
 .header li a:hover,
 .header .menu-btn:hover {
     height: 68px;
-
-
-
 }
 
 /* header */
 .header {
     position: relative;
-    /* position: absolute; */
-
     width: 100%;
     background-color: var(--black);
-    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
     width: 100%;
     z-index: 3;
 }
@@ -83,18 +44,13 @@ a {
     /* height: 100%; */
     padding: 22px 10px;
     color: var(--orange);
-    /* background-color: #ecb234; */
-
-    /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
     text-align: center;
 }
 
-
 .header li a:hover,
 .header .menu-btn:hover {
     background-color: var(--black-hover);
-    /* color: #e7e7e7; */
 }
 
 #active {
@@ -117,32 +73,31 @@ a {
 
 .header img {
     float: left;
-
     position: absolute;
     top: 0;
     left: .8em;
-    /* background-color: #ec8d34; */
     padding: 8px;
 }
 
 .header p {
     color: var(--white);
-    /* background-color: violet; */
     height: 100%;
     font-size: 1.2rem;
     padding-top: 2px;
 }
 
 /* menu */
-
+/* the menu is taken from a tutorial I followed along with, I edited it to fit my grid and the style of the website
+Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s */
 .header .menu {
     clear: both;
     max-height: 0;
     transition: max-height .2s ease-out;
 }
 
-/* menu icon */
-
+/* ----------------
+    menu 3 bars
+---------------- */
 .header .menu-icon {
     cursor: pointer;
     float: right;
@@ -179,8 +134,9 @@ a {
     top: -5px;
 }
 
-/* menu btn */
-
+/* ----------------
+    menu button
+---------------- */
 .header .menu-btn {
     display: none;
 }
@@ -204,30 +160,20 @@ a {
     top: 0;
 }
 
-
 @media only screen and (min-width: 768px) {
-
-    .header {
-        /* clear: both; */
-        /* position: absolute; */
-    }
 
     .header li {
         float: left;
-        /* height: 100%; */
     }
 
     .header li a {
         padding: 25px 30px;
-        /* margin-top: 1px; */
-        /* height: 100%; */
     }
 
     .header .menu {
         clear: none;
         float: right;
         max-height: none;
-        /* width: 100%; */
     }
 
     .header .menu-icon {

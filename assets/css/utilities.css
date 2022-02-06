@@ -20,9 +20,9 @@
 3.  maine grid style
 4   typography
 5.  buttons
+6.  google icons
 
 -------------------------- */
-
 
 
 
@@ -37,12 +37,11 @@
     --dark-grey: #272b35;
     --pale-grey: #4a5061;
     --grey: #f0f0f0;
-
     --orange: #ffa500;
     --pale-orange: #facc76;
 
-    --text-background-color: #cce6e6;
-
+    /* nav hover */
+    --black-hover: #4a5357;
     /* button colors */
     --btn-cta: #de3e44;
     --btn-cta-hover: #af363a;
@@ -71,7 +70,6 @@ body {
 /* ----------------
     maine grid style
 ---------------- */
-
 /* maine grid style with collapsing borders left and right for large displays */
 body {
     display: grid;
@@ -79,35 +77,21 @@ body {
     /* grid-template-rows: auto 1fr 1fr; */
 }
 
-/* location of the top level elements in the grid */
 
-/* header {
-    grid-column: 2/3;
-    width: 100%;
-    background-color: violet;
-    padding: 2px;
-} */
-
+/* the 3 parts of the page (header, main, and footer), placed in the center of the page */
 .header {
     grid-column: 2/3;
-    grid-row: 1;
-    background-color: violet;
-    /* padding: 4px; */
-}
-
-nav {
-    grid-column: 2/3;
-
+    /* grid-row: 1; */
 }
 
 main {
     grid-column: 2/3;
-    grid-row: 2;
+    /* grid-row: 2; */
 }
 
 footer {
     grid-column: 2/3;
-    grid-row: 3;
+    /* grid-row: 3; */
 }
 
 /* ----------------
@@ -126,6 +110,7 @@ h1 {
     margin-bottom: .4rem;
 }
 
+/* subheading under the h1 element */
 .subheading {
     color: var(--white);
     font-weight: bolder;
@@ -161,8 +146,7 @@ p {
 /* ----------------
     buttons
 ---------------- */
-
-/* global button style */
+/* global button style for the 2 buttons on the website */
 .btn {
     font-size: 1.4rem;
     margin: 1em 1em 2em 1.4em;
@@ -176,22 +160,37 @@ p {
     text-decoration: none;
 }
 
-
-.call_to_action {
+/* the 4 states of the two buttons (hover and normal) */
+.call-to-action {
     background-color: var(--btn-cta);
     transition: 60ms;
 }
 
-.call_to_action:hover {
+.call-to-action:hover {
     background-color: var(--btn-cta-hover);
     cursor: pointer;
 }
 
+form .submit-button {
+    background-color: var(--btn-warning);
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.submit-button:hover {
+    background-color: var(--btn-warning-hover);
+    cursor: pointer;
+}
 
 
-/* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons */
-/* edited to suit my sizing */
+/* ----------------
+    google icons
+---------------- */
+/* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons
 
+edited to suit my sizing.
+I kept the original sizes incase I was to use them in the future without breaking Material Icons. */
 .material-icons {
     color: var(--pale-grey);
 }
