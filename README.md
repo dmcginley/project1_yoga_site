@@ -131,25 +131,31 @@ I used this Chrome extension to check the flow of white space and that the items
 #### Responsive Testing
 I used Chrome and Firefox "developer tools, device toggle" to check the responsiveness for each device. From iPhone, roughly 320px, to laptop 1920px, and to the desktop at 2560px (QHD).
 
-I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by margin or overflow fixed widths to elements on the page.
 
-
+I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by margin or overflow fixed widths to elements on the page. Fixing any sizing errors or overflow of content as I went along.
 
 ## Deployment
 Deployed using GitHub Pages. <https://github.com/dmcginley/project1_yoga_site/settings/pages>
 
-Once uploaded I checked everything was working ok.
+Once uploaded I checked everything was working ok. I checked response times and refresh time.
+Also checking every link and button was working.
 
 ## Image optimization for the web
+After I edited the images in [Gimp](https://www.gimp.org/), I'd pass the images through Optimizilla or Tinypng and then put them in the image folder. *(Personally I found Optimizilla to be the better of the two websites for keeping a clean image).*
 
 - Optimizilla <https://imagecompressor.com/>
 
 - Tinypng <https://tinypng.com/>
 
-Later I also used automated optimizing of my images as they're uploaded to GitHub, *(Free for open source projects).*
+Later I also used Imgbot, automated optimizing of my images as they're uploaded to GitHub, *(Free for open source projects).*
 
 - Imgbot
 <https://github.com/marketplace/imgbot>
+
+favicon.io used for generating the set of images for the tab in the browser.
+
+- favicon.io
+<https://favicon.io/favicon-converter/>
 
 ## Resources
 *General reading and resources.*
@@ -166,10 +172,17 @@ Later I also used automated optimizing of my images as they're uploaded to GitHu
 
 - [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
 
+Book I used for further reading on HTML5 semantic markup.
+- [HTML & CSS: Design and Build Websites](https://www.goodreads.com/book/show/10361330-html-and-css) *by Jon Duckett.*
+
 ## Credits
 *Sites content, media, and help with implementing code for tutorials/on-line help.*
 
+<fieldset>
+
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to **avoid plagiarism**.
+
+</fieldset>
 
 - Use of linear-gradient for Hero image.
 
@@ -196,34 +209,39 @@ from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 - Aligning Flex items for the Footer **Traversy Media**
 <https://www.youtube.com/watch?v=3YW65K6LcIA>
 
+#### Form
+- Code Institute course material. The section for Semantic Form Elements, eg. fieldset, legend.
+
+- < fieldset > - The Field Set element form Mozilla <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset>
+
+- Form from w3schools and the book HTML&CSS *by Jon Duckett* <https://www.w3schools.com/howto/howto_css_contact_form.asp>
 
 
 ## Content
+
+<fieldset>
+
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
+The icons in the footer were taken from Font Awesome>
+
+</fieldset>
 
 
-#### Form
-Form from w3schools and the book HTML&CSS by Jon Duckett
-<https://www.w3schools.com/howto/howto_css_contact_form.asp>
+
 #### Icons
-Material Icons - The icons in the card section were taken from Google's Material Icons
+- Material Icons - The icons in the card section were taken from Google's Material Icons
 <https://developers.google.com/fonts/docs/material_icons>
 
-Boxicons - The icons in the footer were taken from Boxicons <https://boxicons.com/>
+- Boxicons - The icons in the footer were taken from Boxicons <https://boxicons.com/>
 
-### Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site.
 
-#### Images and Videos were taken from Pexels
+#### Images and Videos
+The images and photos used on the site are from [Pexels.com](https://www.pexels.com/)
 
-<https://www.pexels.com/>
+ The watermark I created using [Inkscape](https://inkscape.org/) *(vector graphics software).*
 
-#### The watermark I created using Inkscape (vector graphics software).
-
-<details><summary>Supporting image</summary>
+<details><summary>Logo in Inkscape</summary>
 
 ![Icon/Watermark created in Inkscape ](assets/markdown_images/inkscape.png "Inkscape")
 
@@ -231,12 +249,5 @@ The images used for the gallery page were taken from this other open source site
 
 
 
-
-
-*This text is italicized*
-
-***All this text is important***
-
-> Text that is a quote
 
 
