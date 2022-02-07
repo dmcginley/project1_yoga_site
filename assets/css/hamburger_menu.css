@@ -35,8 +35,6 @@
     list-style: none;
     overflow: hidden;
     background-color: var(--dark-grey);
-    /* background-color: var(--black); */
-    /* width: 100%; */
 }
 
 .header li a {
@@ -143,7 +141,6 @@ Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtub
 
 .header .menu-btn:checked~.menu {
     max-height: 240px;
-    /* max-height: 100vh; */
 }
 
 .header .menu-btn:checked~.menu-icon .nav-icon {
