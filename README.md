@@ -219,15 +219,12 @@ from Layout Land <https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
 
 ## Content
 
-<fieldset>
+The text for the Home page I came up with myself as I used to work in a smiler field of health teaching and training.
 
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome>
+The text for the Video page was taken from Wikipedia articles on the [list of asanas](https://en.wikipedia.org/wiki/List_of_asanas).
 
-</fieldset>
-
-
+Yoga on Wikipedia
+<https://en.wikipedia.org/wiki/Yoga>
 
 #### Icons
 - Material Icons - The icons in the card section were taken from Google's Material Icons
