@@ -12,6 +12,7 @@
     4.3 quote section
     4.4 media-heading
     4.5 flex_container
+
     4.6 stars-container
     4.7 thank-you-container
 
@@ -141,6 +142,13 @@
 }
 
 
+
+/* main of the video page, class to add padding to the bottom of the desktop site
+so here I set it to 0 first */
+.video-main {
+    padding-bottom: 0;
+}
+
 /* media-heading section for the video's page */
 .media-heading {
     margin: auto;
@@ -160,13 +168,19 @@
     padding: 0 1em;
 }
 
+.media-container {
+    flex: 1;
+}
+
 /* ----------------
     stars-container
 ---------------- */
 .stars-container {
     display: flex;
     flex-wrap: wrap;
+    /* background-color: cadetblue; */
 }
+
 
 .text-and-star-container {
     padding: 1em 0 4em 0;
@@ -185,6 +199,7 @@
     padding-top: 4px;
 }
 
+
 .stars li {
     list-style: none;
 }
@@ -192,7 +207,11 @@
 .stars span {
     color: var(--btn-warning);
     font-size: 1.4rem;
+    /* padding-bottom: 10px; */
     padding-left: 4px;
+    /* height: 100%; */
+
+    /* background-color: darkgoldenrod; */
 }
 
 .stars-example {
@@ -376,6 +395,10 @@ footer {
 /* desktop side of things */
 @media only screen and (min-width: 768px) {
 
+    .video-main {
+        padding-bottom: 4em;
+    }
+
     .hero {
         background-position: 50% 30%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_md.jpg);
@@ -468,6 +491,14 @@ footer {
         padding: 1em 0 2em 0;
     }
 
+
+    .video-title {
+        /* background-color: rgb(252, 204, 132); */
+        width: 100%;
+    }
+
+
+
     .form-area {
         width: 80%;
         margin: auto;
@@ -475,6 +506,14 @@ footer {
     }
 }
 
+
+@media only screen and (min-width: 860px) {
+
+    .video-title {
+        /* background-color: rgb(255, 134, 239); */
+        width: 100%;
+    }
+}
 
 @media only screen and (min-width: 980px) {
 
@@ -505,6 +544,8 @@ footer {
         object-fit: cover;
         filter: opacity(.8);
     }
+
+
 }
 
 @media only screen and (min-width: 1440px) {
@@ -540,7 +581,16 @@ footer {
         margin: auto;
     }
 
+
     .form-image {
         padding-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 1716px) {
+
+    .video-title {
+        /* background-color: rgb(130, 112, 233); */
+        width: auto;
     }
 }
