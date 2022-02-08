@@ -9,8 +9,12 @@
 -------------------------- */
 
 
+
+
+/* -the pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s,
+I have also referenced this in my readme.md  */
 /* ----------------
-    header
+    1. header
 ---------------- */
 /* nav and nav text hight in px, as it is a constant hight  */
 .header,
@@ -94,7 +98,7 @@ Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtub
 }
 
 /* ----------------
-    menu 3 bars
+    2. menu 3 bars
 ---------------- */
 .header .menu-icon {
     cursor: pointer;
@@ -133,7 +137,7 @@ Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtub
 }
 
 /* ----------------
-    menu button
+    3. menu button
 ---------------- */
 .header .menu-btn {
     display: none;

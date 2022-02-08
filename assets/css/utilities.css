@@ -27,7 +27,7 @@
 
 
 /* ----------------
-    color styling
+    1. color styling
 ---------------- */
 :root {
     /* page colors */
@@ -61,7 +61,7 @@
 }
 
 /* ----------------
-    global style
+    2. global style
 ---------------- */
 html,
 body {
@@ -71,7 +71,7 @@ body {
 }
 
 /* ----------------
-    maine grid style
+    3. maine grid style
 ---------------- */
 /* maine grid style with collapsing borders left and right for large displays */
 body {
@@ -98,7 +98,7 @@ footer {
 }
 
 /* ----------------
-    typography
+    4. typography
 ---------------- */
 h1,
 h2,
@@ -153,7 +153,7 @@ p {
 }
 
 /* ----------------
-    buttons
+    5. buttons
 ---------------- */
 /* global button style for the 2 buttons on the website */
 .btn {
@@ -193,12 +193,12 @@ form .submit-button {
 
 
 /* ----------------
-    google icons
+    6. google icons
 ---------------- */
 /* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons
 
 edited to suit my sizing.
-I kept the original sizes incase I was to use them in the future without breaking Material Icons. */
+I kept the original sizes in case I was to use them in the future without breaking Material Icons. */
 .material-icons {
     color: var(--pale-grey);
 }

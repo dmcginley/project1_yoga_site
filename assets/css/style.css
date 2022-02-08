@@ -12,7 +12,6 @@
     4.3 quote section
     4.4 media-heading
     4.5 flex_container
-
     4.6 stars-container
     4.7 footer-bottom-container
 
@@ -28,7 +27,7 @@
 
 
 /* ----------------
-    hero
+    1. hero
 ---------------- */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.jpg);
@@ -60,7 +59,7 @@
 }
 
 /* ----------------
-    The blurb-container
+    2. The blurb-container
 ---------------- */
 .blurb-container {
     text-align: center;
@@ -69,7 +68,7 @@
 }
 
 /* ----------------
-    cards
+    3. cards
 ---------------- */
 .icon-card {
     margin: 2em 1em;
@@ -83,7 +82,8 @@
 }
 
 /* ----------------
-    section
+    4. section
+    4.1 service-section
 ---------------- */
 .service-section {
     text-align: center;
@@ -91,13 +91,17 @@
     background-color: var(--grey);
 }
 
+
+
+/* ----------------
+    4.2 icon-container
+---------------- */
 .icon-container {
     padding-top: 4em;
 }
 
-
 /* ----------------
-    quote section
+    4.3 quote section
 ---------------- */
 .quote-box {
     position: relative;
@@ -143,13 +147,15 @@
 }
 
 
-
 /* main of the video page, class to add padding to the bottom of the desktop site
 so here I set it to 0 first */
 .video-main {
     padding-bottom: 0;
 }
 
+/* ----------------
+    4.4 media-heading
+---------------- */
 /* media-heading section for the video's page */
 .media-heading {
     margin: auto;
@@ -158,7 +164,7 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    flex container
+    4.5 flex_container
 ---------------- */
 /* flex container for the videos on the 'Learn Yoga' page */
 .flex-container {
@@ -174,14 +180,12 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    stars-container
+    4.6 stars-container
 ---------------- */
 .stars-container {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: cadetblue; */
 }
-
 
 .text-and-star-container {
     padding: 1em 0 4em 0;
@@ -208,11 +212,7 @@ so here I set it to 0 first */
 .stars span {
     color: var(--btn-warning);
     font-size: 1.4rem;
-    /* padding-bottom: 10px; */
     padding-left: 4px;
-    /* height: 100%; */
-
-    /* background-color: darkgoldenrod; */
 }
 
 .stars-example {
@@ -227,7 +227,7 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    footer-bottom-container
+    4.7 footer-bottom-container
 ---------------- */
 /* pushes the footer to the bottom of the page for pages that have little content */
 .footer-bottom-container {
@@ -258,7 +258,7 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    iframe - video
+    5. iframe (video)
 ---------------- */
 iframe {
     aspect-ratio: 16/9;
@@ -266,7 +266,7 @@ iframe {
 
 
 /* ----------------
-    form
+    6. form
 ---------------- */
 .form-area {
     display: block;
@@ -287,7 +287,6 @@ iframe {
 .form-heading {
     text-align: center;
     padding: max(3vh, 1em) 1em;
-
 }
 
 form label {
@@ -303,7 +302,7 @@ form label {
     border: 1px solid var(--black);
 }
 
-/* the asterisks * before the required field text */
+/* the asterisks * beside the required input  */
 .form span {
     color: rgb(240, 41, 6);
     padding-left: 4px;
@@ -326,9 +325,8 @@ fieldset {
 }
 
 /* ----------------
-    footer
+    7. footer
 ---------------- */
-
 .footer-flexbox {
     display: flex;
     flex-direction: column;
@@ -337,19 +335,18 @@ fieldset {
 }
 
 /* ----------------
-    social-links
+    7.1 social-links 
 ---------------- */
 .social-links {
-    padding: 2em 0 4em 0;
+    padding: 3em 0 4em 0;
     width: 80vw;
     max-width: 700px;
-
 }
 
 .social-links ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .social-links a {
@@ -377,6 +374,14 @@ fieldset {
 
 
 /* desktop side of things */
+/* this media query is just so the social links don't go to far apart */
+@media only screen and (min-width: 768px) {
+    .social-links ul {
+
+        justify-content: space-around;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .video-main {
@@ -498,10 +503,7 @@ fieldset {
         height: 700px;
         margin: auto;
         padding-bottom: 2em;
-        /* background-color: tomato; */
         height: 800px;
-
-
     }
 
     .form-img-container {
@@ -560,10 +562,6 @@ fieldset {
         width: 80%;
         margin: auto;
     }
-
-    /* .form-image {
-        padding-right: 2em;
-    } */
 }
 
 @media only screen and (min-width: 1716px) {
