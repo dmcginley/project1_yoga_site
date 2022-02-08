@@ -50,11 +50,15 @@
 
 }
 
-/* the "orange" class for when adding color directly to the HTML file eg. the 'Yoga' in them h1 */
+/* the "orange" and "grey" class for when adding color directly to the HTML file eg. the 'Yoga' in them h1 */
 .orange {
     color: var(--orange);
 }
 
+/* grey background color */
+.grey {
+    background-color: var(--grey);
+}
 
 /* ----------------
     global style

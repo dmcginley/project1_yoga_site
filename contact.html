@@ -23,7 +23,7 @@
     <title>Yoga 4 life</title>
 </head>
 
-<body>
+<body class="footer-bottom-container">
 
     <!-- header section with the nav inside it -->
     <header class="header">
@@ -62,17 +62,15 @@
                     <form class="form" action="thankyou.html" method="get">
                         <fieldset>
                             <legend>Your Details</legend>
-                            <label for="name">Name</label>
+                            <label for="name">Name<span>*</span></label>
                             <input class="form-input" type="text" id="name" name="name" placeholder="Your name..."
                                 required>
-                            <p><span>*</span> required field</p>
                         </fieldset>
                         <fieldset>
                             <legend>Contact Information</legend>
-                            <label for="email">Email</label>
+                            <label for="email">Email<span>*</span></label>
                             <input class="form-input" type="email" id="email" name="email" placeholder="Your email..."
                                 required>
-                            <p><span>*</span> required field</p>
                         </fieldset>
                         <label for="subject">Subject</label>
                         <textarea class="form-subject form-input" id="subject" name="subject"
@@ -87,13 +85,8 @@
         </section>
     </main>
 
-
     <footer>
-        <div class="footer-grid">
-            <div class="info">
-                <p>Info</p>
-                <a href="contact.html">Contact Us</a>
-            </div>
+        <div class="footer-flexbox">
             <div class="social-links">
                 <ul>
                     <li><a href="https://www.facebook.com/" title="Visit our Facebook webpage" target="_blank"
@@ -107,10 +100,8 @@
                 </ul>
             </div>
             <p class="auther">Site design by Donnchadh Mc Ginley</p>
-
         </div>
     </footer>
-
 
 </body>
 

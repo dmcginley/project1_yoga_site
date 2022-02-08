@@ -14,12 +14,13 @@
     4.5 flex_container
 
     4.6 stars-container
-    4.7 thank-you-container
+    4.7 footer-bottom-container
 
 5.  iframe
 6.  form
 7.  footer
-8.  social-links 
+    
+    7.1 social-links 
 
 -------------------------- */
 
@@ -226,22 +227,22 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    thank-you-container on thank you page
+    footer-bottom-container
 ---------------- */
-#thank-you-container {
+/* pushes the footer to the bottom of the page for pages that have little content */
+.footer-bottom-container {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--grey);
 }
 
 .thank-you {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 5em;
     padding: .4em 0;
 }
@@ -305,6 +306,7 @@ form label {
 /* the asterisks * before the required field text */
 .form span {
     color: rgb(240, 41, 6);
+    padding-left: 4px;
 }
 
 .form p {
@@ -326,65 +328,47 @@ fieldset {
 /* ----------------
     footer
 ---------------- */
-footer {
+
+.footer-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--dark-grey);
-    height: 340px;
-    padding: 0 2em;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: 2fr 4fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    height: 100%;
-}
-
-.info {
-    padding: 2em 0;
-    font-size: 1.2rem;
-}
-
-.info p {
-    color: var(--white);
-    padding-bottom: 1em;
-}
-
-.info a {
-    color: var(--white);
-    font-size: 1rem;
-}
-
-.auther {
-    grid-column: 1/4;
-    font-size: 16px;
-    padding: 1em 0;
-    color: var(--white);
 }
 
 /* ----------------
     social-links
 ---------------- */
 .social-links {
-    grid-column: 1/4;
-    padding: 1em;
+    padding: 2em 0 4em 0;
+    width: 80vw;
+    max-width: 700px;
+
 }
 
 .social-links ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .social-links a {
     color: var(--white);
     font-size: 1.4em;
-    padding: .6em;
     transition: 80ms;
 }
 
 .social-links a:hover,
 .info a:hover {
     color: var(--grey);
+}
+
+.auther {
+    display: inline;
+    font-size: 16px;
+    color: var(--white);
+    padding: 0 10px;
+    margin-bottom: 1em;
 }
 
 .media-title {
@@ -463,16 +447,6 @@ footer {
         font-size: 1.4rem;
     }
 
-    .social-links a {
-        margin: 1em;
-    }
-
-    .social-links {
-        grid-column: 3;
-        grid-row: 2;
-        padding: 1em;
-    }
-
     .media-title {
         padding-left: 1em;
         text-align: left;
@@ -491,13 +465,9 @@ footer {
         padding: 1em 0 2em 0;
     }
 
-
     .video-title {
-        /* background-color: rgb(252, 204, 132); */
         width: 100%;
     }
-
-
 
     .form-area {
         width: 80%;
@@ -510,7 +480,6 @@ footer {
 @media only screen and (min-width: 860px) {
 
     .video-title {
-        /* background-color: rgb(255, 134, 239); */
         width: 100%;
     }
 }
@@ -526,12 +495,19 @@ footer {
         justify-content: space-between;
         gap: 2em;
         width: 90%;
+        height: 700px;
         margin: auto;
         padding-bottom: 2em;
+        /* background-color: tomato; */
+        height: 800px;
+
+
     }
 
     .form-img-container {
         width: 50%;
+        height: 716px;
+
     }
 
     .form-container {
@@ -539,13 +515,17 @@ footer {
         max-width: 700px;
     }
 
+    .form {
+        height: 716px;
+    }
+
+    /* positioning the rocks so it scales nicely on larger screens */
     .form-image {
         display: block;
         object-fit: cover;
+        object-position: 50% 70%;
         filter: opacity(.8);
     }
-
-
 }
 
 @media only screen and (min-width: 1440px) {
@@ -581,16 +561,14 @@ footer {
         margin: auto;
     }
 
-
-    .form-image {
+    /* .form-image {
         padding-right: 2em;
-    }
+    } */
 }
 
 @media only screen and (min-width: 1716px) {
 
     .video-title {
-        /* background-color: rgb(130, 112, 233); */
         width: auto;
     }
 }
