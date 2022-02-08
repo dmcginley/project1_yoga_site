@@ -143,11 +143,9 @@
 
 /* media-heading section for the video's page */
 .media-heading {
-    max-width: 120ch;
     margin: auto;
     text-align: center;
     padding: max(6vh, 1em) 1em;
-
 }
 
 /* ----------------
@@ -252,8 +250,6 @@ iframe {
 ---------------- */
 .form-area {
     display: block;
-
-
     padding-top: 1em;
 }
 
@@ -405,7 +401,7 @@ footer {
     }
 
     .blurb_text {
-        max-width: 100ch;
+        max-width: 80ch;
         margin: auto;
     }
 
@@ -508,11 +504,10 @@ footer {
 
     .form-image {
         display: block;
-        /* width: 50%; */
         object-fit: cover;
         filter: opacity(.8);
-        border-radius: 4px;
     }
+
 
 }
 
@@ -547,5 +542,9 @@ footer {
         gap: 3em;
         width: 80%;
         margin: auto;
+    }
+
+    .form-image {
+        padding-right: 2em;
     }
 }
