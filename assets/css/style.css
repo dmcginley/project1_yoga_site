@@ -218,7 +218,7 @@ so here I set it to 0 first */
 .stars-example {
     display: flex;
     justify-content: center;
-    padding: 2em 0 .4em 0;
+    padding: 1em 0 .4em 0;
     margin: auto;
 }
 
@@ -412,7 +412,7 @@ fieldset {
     }
 
     .blurb_text {
-        max-width: 80ch;
+        max-width: 70ch;
         margin: auto;
     }
 
