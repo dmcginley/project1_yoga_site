@@ -92,8 +92,6 @@
     background-color: var(--grey);
 }
 
-
-
 /* ----------------
     4.2 icon-container
 ---------------- */
@@ -139,7 +137,6 @@
     right: .2em;
     bottom: .2em;
 }
-
 
 .quote-alt-left,
 .quote-alt-right {
@@ -209,10 +206,8 @@ so here I set it to 0 first */
     list-style: none;
 }
 
-.stars span {
-    color: var(--btn-warning);
-    font-size: 1.4rem;
-    padding-left: 4px;
+.star-svg {
+    margin-right: 4px;
 }
 
 .stars-example {
@@ -278,6 +273,7 @@ iframe {
     display: none;
     height: 100%;
 }
+
 
 .form {
     padding: 2em;
@@ -523,9 +519,14 @@ fieldset {
     /* positioning the rocks so it scales nicely on larger screens */
     .form-image {
         display: block;
+    }
+
+    .form-image img {
+        height: 100%;
+        width: 100%;
         object-fit: cover;
+        opacity: .85;
         object-position: 50% 70%;
-        filter: opacity(.8);
     }
 }
 

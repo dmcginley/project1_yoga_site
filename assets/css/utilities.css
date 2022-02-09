@@ -56,7 +56,7 @@
 }
 
 /* grey background color */
-.grey {
+.grey-bg {
     background-color: var(--grey);
 }
 
@@ -77,24 +77,20 @@ body {
 body {
     display: grid;
     grid-template-columns: 1fr minmax(30ch, 240ch) 1fr;
-    /* grid-template-rows: auto 1fr 1fr; */
 }
 
 
 /* the 3 parts of the page (header, main, and footer), placed in the center of the page */
 .header {
     grid-column: 2/3;
-    /* grid-row: 1; */
 }
 
 main {
     grid-column: 2/3;
-    /* grid-row: 2; */
 }
 
 footer {
     grid-column: 2/3;
-    /* grid-row: 3; */
 }
 
 /* ----------------
@@ -219,7 +215,6 @@ form .submit-button {
     }
 }
 
-/* @media only screen and (min-width: 980px) {} */
 @media only screen and (min-width: 1440px) {
 
     h2 {
