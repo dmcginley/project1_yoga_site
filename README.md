@@ -35,27 +35,55 @@ I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale
 
 
 
-I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
 
-The CSS style sheets are named clearly as:
-- style.css
-- utilities.css
-- hamburger_menu.css
-
-(The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below).
 
 
 
 ## Who is this website for
 The site is designed for absolute beginners looking to learn yoga starting with a good and simple foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
+The website is video heavy for the more visual student, so it can give more of a feel of following along with a teacher.
 
-People with less free time on their hands
+People with less free time on their hands wishing to get into a healthy lifestyle.
 
 ### Design Decisions
-- simple design choice
-- clean design
-- easy to navigate
-- two buttons, easy to find
+- Simple design choice.
+
+	I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
+
+	The CSS style sheets are named clearly as:
+
+	- style.css
+	- utilities.css
+	- hamburger_menu.css
+
+
+- Clean design, color, and ease of navigation.
+
+	The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
+
+	The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
+
+	The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
+
+	For the navigation the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the nav bar. The page you're on is indacated in white underlined, (when in mobile view this link is hidden as it cant be clicked).
+
+	![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
+
+	The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons dont spread too far apart on larger screens.
+
+	![Footer and icons inside](assets/markdown_images/footer.png "footer")
+
+	#### Card section
+
+	The card section is also often the main part of a website as it is the bullet-points for what the visitor will get. In this case learn points to keep in mind while watching and following along with the videos.
+
+	<details><summary>Image of card section</summary>
+
+	![Card & icon section](assets/markdown_images/card.png "icon cards")
+
+	</details>
+
+
 
 
 ### Color Choices
@@ -69,7 +97,7 @@ People with less free time on their hands
 - two fonts
 
 ### Responsivity
-Mobile first and then 3 breakpoints for desktop (768px, 980px 1440px).
+Mobile first and then 3 main breakpoints for desktop (768px, 980px 1440px).
 The 1440px large display is so the website doesn't break on large QHD monitors.
 
 
