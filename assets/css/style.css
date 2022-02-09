@@ -30,7 +30,8 @@
     1. hero
 ---------------- */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.webp);
+    background-color: #60eaff;
     background-position: center;
     background-size: cover;
     position: relative;

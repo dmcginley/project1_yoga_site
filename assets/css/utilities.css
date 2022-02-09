@@ -116,7 +116,7 @@ h1 {
 /* subheading under the h1 element */
 .subheading {
     color: var(--white);
-    font-weight: bolder;
+    font-weight: 400;
     font-size: 1.6rem;
 }
 
