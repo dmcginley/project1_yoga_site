@@ -31,7 +31,7 @@
 ---------------- */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(../images/hero_sm.webp);
-    background-color: #60eaff;
+    background-color: #d89266;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -128,25 +128,24 @@
     font-size: 1.2rem;
 }
 
-.bxs-quote-alt-right,
-.bxs-quote-alt-left {
-    color: var(--black);
-    font-size: 1.4em;
-    user-select: none;
-}
-
-.bxs-quote-alt-left {
+.quote-alt-left {
     position: absolute;
     left: .2em;
     top: .2em;
 }
 
-.bxs-quote-alt-right {
+.quote-alt-right {
     position: absolute;
     right: .2em;
     bottom: .2em;
 }
 
+
+.quote-alt-left,
+.quote-alt-right {
+    font-size: 1.4em;
+    user-select: none;
+}
 
 /* main of the video page, class to add padding to the bottom of the desktop site
 so here I set it to 0 first */

@@ -196,32 +196,9 @@ form .submit-button {
 /* ----------------
     6. google icons
 ---------------- */
-/* icon sizing from google -Styling icons in material design https://developers.google.com/fonts/docs/material_icons
-
-edited to suit my sizing.
-I kept the original sizes in case I was to use them in the future without breaking Material Icons. */
-.material-icons {
-    color: var(--pale-grey);
-}
-
-.material-icons.md-18 {
-    font-size: 18px;
-}
-
-.material-icons.md-24 {
-    font-size: 24px;
-}
-
-.material-icons.md-36 {
-    font-size: 36px;
-}
-
-.material-icons.md-48 {
-    font-size: 48px;
-}
-
-.material-icons.md-lx {
-    font-size: 4rem;
+.svg-icon {
+    width: 4rem;
+    height: 4rem;
 }
 
 
