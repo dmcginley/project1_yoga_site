@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="4.3090682mm"
-   height="4.5835333mm"
-   viewBox="0 0 4.3090681 4.5835332"
+   width="21.609921mm"
+   height="22.986359mm"
+   viewBox="0 0 21.60992 22.986358"
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -32,9 +32,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="45.254834"
-     inkscape:cx="8.0212426"
-     inkscape:cy="8.4079416"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="19.79899"
+     inkscape:cy="47.287766"
      inkscape:window-width="2111"
      inkscape:window-height="1112"
      inkscape:window-x="616"
@@ -47,10 +47,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-89.120323,-125.71913)">
+     transform="translate(-89.120326,-107.31631)">
     <g
        id="g5623"
-       transform="matrix(0.945647,0,0,0.945647,4.9810176,7.0688802)"
+       transform="matrix(4.7424072,0,0,4.7424072,-332.83718,-487.71311)"
        style="fill:#ffa500;fill-opacity:1;stroke:#ffa500;stroke-width:0.106908;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="/home/donnchadh/yoga_logo.png"
        inkscape:export-xdpi="3096.7625"
@@ -86,8 +86,8 @@
          r="0.4557139" />
     </g>
     <path
-       style="fill:#ffa500;fill-opacity:1;stroke:none;stroke-width:0.267485px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 90.065379,128.70214 0.151936,-0.99331 1.014635,-0.64293 0.743445,0.69593 0.591503,0.9526 -1.291174,1.23228 z"
+       style="fill:#ffa500;fill-opacity:1;stroke:none;stroke-width:1.34144px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 93.859765,122.27608 0.761957,-4.98144 5.088381,-3.22428 3.728367,3.49007 2.96638,4.77728 -6.475221,6.17986 z"
        id="path3282" />
   </g>
 </svg>

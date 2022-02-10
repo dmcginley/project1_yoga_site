@@ -200,7 +200,7 @@ favicon.io used for generating the set of images for the tab in the browser.
 
 - [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
 
-- [Can I use](https://caniuse.com/)
+- [Can I use](https://caniuse.com/) to check browser suppot for different elements on the site such as SVG icons, WebP images.
 
 Book I used for further reading on HTML5 semantic markup.
 - [HTML & CSS: Design and Build Websites](https://www.goodreads.com/book/show/10361330-html-and-css) *by Jon Duckett.*
@@ -214,14 +214,26 @@ In this section you need to reference where you got your content, media and extr
 
 </fieldset>
 
-- Use of linear-gradient for Hero image.
+- Help with linear-gradient for the Hero image.
 
-	from <https://www.w3schools.com/howto/howto_css_hero_image.asp>
+ 	<https://www.w3schools.com/howto/howto_css_hero_image.asp>
+
+
+- Use of the < picture >  element and implementing webp.
+
+	<https://web.dev/serve-images-webp/>
+
+	*  further help with < picture >  element and srcset to get two image types at different media query breakpoints.
+
+		<https://www.youtube.com/watch?v=Rik3gHT24AM&t=6s>
+
+
+
 
 - Pushing footer to bottom on thank you page
 <https://stackoverflow.com/>
 
-	*Link to the method used.*
+	*The link to the method used.*
 
 	<https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing>
 
@@ -257,12 +269,14 @@ Yoga on Wikipedia
 <https://en.wikipedia.org/wiki/Yoga>
 
 #### Icons
-- Material Icons - The icons in the card section were taken from Google's Material Icons
-<https://developers.google.com/fonts/docs/material_icons>
-
-- Boxicons - The icons in the footer were taken from Boxicons <https://boxicons.com/>
+- [Material Icons](https://developers.google.com/fonts/docs/material_icons) - The icons in the card section were taken from Google's Material Icons. Idownloaded the svg and used inside img tags.
 
 
+- [Boxicons](https://boxicons.com/) - The icons in the footer were taken from Boxicons. I downloaded the svg code and paisted it in to try get everything smaller on the site to try and help with loading speeds.
+
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+
+The star icons on the video page are from Bootstrap.
 #### Images and Videos
 The images and photos used on the site are from [Pexels.com](https://www.pexels.com/)
 
