@@ -257,6 +257,8 @@ so here I set it to 0 first */
 ---------------- */
 iframe {
     aspect-ratio: 16/9;
+    width: 100%;
+    border: 0;
 }
 
 
@@ -265,7 +267,6 @@ iframe {
 ---------------- */
 .form-area {
     display: block;
-    padding-top: 1em;
 }
 
 .form-image {
@@ -277,6 +278,7 @@ iframe {
 
 .form {
     padding: 2em;
+    padding-bottom: 2em;
     background: var(--grey);
 }
 
@@ -454,7 +456,7 @@ fieldset {
 
     .flex-container {
         display: flex;
-        padding: 1em;
+        /* padding: 1em; */
     }
 
     .flex-container-padding {
@@ -472,7 +474,7 @@ fieldset {
     .form-area {
         width: 80%;
         margin: auto;
-        padding-bottom: 2em;
+        padding-top: 2em;
     }
 }
 
@@ -495,16 +497,13 @@ fieldset {
         justify-content: space-between;
         gap: 2em;
         width: 90%;
-        height: 700px;
         margin: auto;
         padding-bottom: 2em;
-        height: 800px;
+        height: auto;
     }
 
     .form-img-container {
         width: 50%;
-        height: 716px;
-
     }
 
     .form-container {
@@ -513,12 +512,13 @@ fieldset {
     }
 
     .form {
-        height: 716px;
+        height: auto;
     }
 
     /* positioning the rocks so it scales nicely on larger screens */
     .form-image {
         display: block;
+        max-width: 800px;
     }
 
     .form-image img {

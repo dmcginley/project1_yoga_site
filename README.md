@@ -31,13 +31,6 @@ I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale
 
 ![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
 
-## Style Guide
-
-
-
-
-
-
 
 ## Who is this website for
 The site is designed for absolute beginners looking to learn yoga starting with a good and simple foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
@@ -83,26 +76,24 @@ People with less free time on their hands wishing to get into a healthy lifestyl
 
 	</details>
 
+### Typography
+- [Cabin](https://fonts.google.com/?query=Cabin) - for the h1, h2 and h3 as a strong, clean, easy to read font.
 
+- [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, simmiler to Cabin font, midderen and clean in style
 
+- [Libre+Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - fo tthe quotation on the home page, a more flowery font looks like a book type of font.
 
 ### Color Choices
-- fresh color palette
-- buttons that stand out in the hierarchy
+I went for a muted color palette which is in keeping with a lot of yoga websites.
+The buttons stand out in the hierarchy with stronger colors as do the videos against the off white.
 
+## Style Guide
 
-
-
-### Typography
-- two fonts
 
 ### Responsivity
 Mobile first and then 3 main breakpoints for desktop (768px, 980px 1440px).
 The 1440px large display is so the website doesn't break on large QHD monitors.
 
-
-### Simplicity
-Easy to navigate
 
 ### Accessibility
 - 'alt' text on images 
@@ -125,6 +116,8 @@ e.g on mobile version of the site I darkened the background Hero image so as not
 - Lighthouse in Chrome DevTools.
 
 	*Tested in Incognito mode.*
+
+![website in Lighthouse in Chrome ](assets/markdown_images/both_lighthouse.png "Lighthouse score")
 
 After a few errors like images being too big or missing title on social links (facebook, twitter)
 I ran Lighthouse a few times to check my code and text.
@@ -151,7 +144,7 @@ I used this Chrome extension to check the flow of white space and that the items
 
 <details><summary>Supporting image</summary>
 
-![DOM X-Ray being used on the website ](assets/markdown_images/dom-x-ray.png "DOM X-Ray")
+![DOM X-Ray being used on the website ](assets/markdown_images/dom_x_ray.png "DOM X-Ray")
 
 </details>
 
@@ -171,14 +164,15 @@ Also checking every link and button was working.
 ## Image optimization for the web
 After I edited the images in [Gimp](https://www.gimp.org/), I'd pass the images through Optimizilla or Tinypng and then put them in the image folder. *(Personally I found Optimizilla to be the better of the two websites for keeping a clean image).*
 
-- Optimizilla <https://imagecompressor.com/>
+- [Optimizilla](https://imagecompressor.com/)
 
-- Tinypng <https://tinypng.com/>
+- [Tinypng](https://tinypng.com/)
 
 Later I also used Imgbot, automated optimizing of my images as they're uploaded to GitHub, *(Free for open source projects).*
 
-- Imgbot
-<https://github.com/marketplace/imgbot>
+- [Imgbot](https://github.com/marketplace/imgbot)
+
+ [squoosh](https://squoosh.app/) - Used to convert jpg files to WebP. 
 
 favicon.io used for generating the set of images for the tab in the browser.
 
@@ -200,7 +194,7 @@ favicon.io used for generating the set of images for the tab in the browser.
 
 - [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
 
-- [Can I use](https://caniuse.com/) to check browser suppot for different elements on the site such as SVG icons, WebP images.
+- [Can I use](https://caniuse.com/) to check browser support for different elements on the site such as SVG icons, WebP images.
 
 Book I used for further reading on HTML5 semantic markup.
 - [HTML & CSS: Design and Build Websites](https://www.goodreads.com/book/show/10361330-html-and-css) *by Jon Duckett.*
@@ -226,9 +220,6 @@ In this section you need to reference where you got your content, media and extr
 	*  further help with < picture >  element and srcset to get two image types at different media query breakpoints.
 
 		<https://www.youtube.com/watch?v=Rik3gHT24AM&t=6s>
-
-
-
 
 - Pushing footer to bottom on thank you page
 <https://stackoverflow.com/>
@@ -274,9 +265,8 @@ Yoga on Wikipedia
 
 - [Boxicons](https://boxicons.com/) - The icons in the footer were taken from Boxicons. I downloaded the svg code and paisted it in to try get everything smaller on the site to try and help with loading speeds.
 
-- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/) - The star icons on the video page are from Bootstrap, also using the svg code, rather than the images.
 
-The star icons on the video page are from Bootstrap.
 #### Images and Videos
 The images and photos used on the site are from [Pexels.com](https://www.pexels.com/)
 

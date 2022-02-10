@@ -46,37 +46,46 @@
     </header>
 
     <main>
-        <div class="form-heading">
-            <h2>Contact Us</h2>
-            <p class="blurb_text">If you have any questions or requests feel free to drop us a message.
-            </p>
-        </div>
+
         <div class="flex-container">
 
             <section class="form-area">
                 <div class="form-img-container">
                     <picture class="form-image">
-                        <source type=" image/webp" srcset="assets/images/rocks-min.webp">
+                        <source type="image/webp" srcset="assets/images/rocks-min.webp">
                         <source type="image/jpeg" srcset="assets/images/rocks-min.jpg">
                         <img src="assets/images/rocks-min.jpg" alt="Rocks balanced by a pebble beach">
                     </picture>
                 </div>
                 <div class="form-container">
-
+                    <div class="form-heading">
+                        <h2>Contact Us</h2>
+                        <p class="">If you have any questions or requests feel free to drop us a message.
+                        </p>
+                    </div>
                     <form class="form" action="thankyou.html" method="get">
+
+
+                        <!-- <h2>Contact Us</h2> -->
                         <fieldset>
                             <legend>Your Details</legend>
-                            <label for="name">Name<span>*</span></label>
+                            <label for="name">
+                                Name<span>*</span>
+                            </label>
                             <input class="form-input" type="text" id="name" name="name" placeholder="Your name..."
                                 required>
                         </fieldset>
                         <fieldset>
                             <legend>Contact Information</legend>
-                            <label for="email">Email<span>*</span></label>
+                            <label for="email">
+                                Email<span>*</span>
+                            </label>
                             <input class="form-input" type="email" id="email" name="email" placeholder="Your email..."
                                 required>
                         </fieldset>
-                        <label for="subject">Subject</label>
+                        <label for="subject">
+                            Subject
+                        </label>
                         <textarea class="form-subject form-input" id="subject" name="subject"
                             placeholder="Feel free to ask anything..." style="height:200px; width: 100%;"></textarea>
 
@@ -84,9 +93,10 @@
                         <input class="btn submit-button" type="submit" value="Submit">
                     </form>
                 </div>
-        </div>
 
-        </section>
+
+            </section>
+        </div>
     </main>
 
     <footer>
