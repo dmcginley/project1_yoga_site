@@ -140,16 +140,19 @@ h4 {
     font-weight: lighter;
 }
 
+/* I assigned the h5 to be quotation text  */
+h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 p {
     font-size: 1rem;
     color: var(--black);
     padding-bottom: 8px;
 }
 
-.quote-text {
-    font-weight: 500;
-    font-family: 'Libre Baskerville', serif;
-}
 
 /* ----------------
     5. buttons
@@ -210,6 +213,10 @@ form .submit-button {
 
     h1 {
         font-size: 5.4rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
     }
 
     button {

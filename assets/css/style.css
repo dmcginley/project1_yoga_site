@@ -122,10 +122,6 @@
     margin: 0;
 }
 
-.quote-text {
-    font-size: 1.2rem;
-}
-
 .quote-alt-left {
     position: absolute;
     left: .2em;
@@ -443,10 +439,6 @@ fieldset {
     .quote-box {
         width: 30%;
         margin-right: 4em;
-    }
-
-    .quote-text {
-        font-size: 1.4rem;
     }
 
     .media-title {
