@@ -111,13 +111,14 @@
     width: 80%;
 }
 
-.quote-img {
+.quote-picture-container {
     width: 100%;
     margin: 0;
 }
 
-.quote-img img {
-    width: 100%;
+.lunge-img {
+    width: 100vw;
+    height: auto;
     padding: 0;
     margin: 0;
 }
@@ -427,11 +428,12 @@ fieldset {
         margin: 4em 0;
     }
 
-    .quote-img {
+    .quote-picture-container {
         width: 50%;
     }
 
-    .quote-img img {
+    .lunge-img {
+        /* width: 50vw; */
         width: 100%;
         padding: 1em;
     }
@@ -480,7 +482,7 @@ fieldset {
 
 @media only screen and (min-width: 980px) {
 
-    .quote-img {
+    .quote-picture-container {
         padding: 2vw;
     }
 

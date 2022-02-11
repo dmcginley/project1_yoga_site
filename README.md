@@ -90,9 +90,12 @@ The buttons stand out in the hierarchy with stronger colors as do the videos aga
 ## Style Guide
 
 
-### Responsivity
+### Responsiveness
 Mobile first and then 3 main breakpoints for desktop (768px, 980px 1440px).
 The 1440px large display is so the website doesn't break on large QHD monitors.
+
+
+
 
 
 ### Accessibility
@@ -172,6 +175,17 @@ Once uploaded I checked everything was working ok. I checked response times and 
 Also checking every link and button was working.
 
 ## Image optimization for the web
+
+### “srcset”, and “sizes” for [Responsive Images](#How-to-Use-HTML5-“picture”,-“srcset”,-and-“sizes”-for-Responsive-Images)
+
+I wanted to make the images responsive through pulling in different resolution images depending on screen size.
+Using both Webp and Jpg (as a fall-back).
+
+
+How to Use HTML5 “picture”, “srcset”, and “sizes” for Responsive Images
+
+
+
 After I edited the images in [Gimp](https://www.gimp.org/), I'd pass the images through Optimizilla or Tinypng and then put them in the image folder. *(Personally I found Optimizilla to be the better of the two websites for keeping a clean image).*
 
 - [Optimizilla](https://imagecompressor.com/)
@@ -205,6 +219,11 @@ favicon.io used for generating the set of images for the tab in the browser.
 - [web.dev](https://web.dev/learn/) the Learn section, Responsive Design, Media queries.
 
 - [Can I use](https://caniuse.com/) to check browser support for different elements on the site such as SVG icons, WebP images.
+
+
+
+- [How to Use HTML5 “picture”, “srcset”, and “sizes” for Responsive Images](https://webdesign.tutsplus.com/tutorials/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015?utm_source=pocket_mylist)
+
 
 Book I used for further reading on HTML5 semantic markup.
 - [HTML & CSS: Design and Build Websites](https://www.goodreads.com/book/show/10361330-html-and-css) *by Jon Duckett.*
