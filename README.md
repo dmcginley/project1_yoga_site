@@ -115,6 +115,10 @@ e.g on mobile version of the site I darkened the background Hero image so as not
 
 - Lighthouse in Chrome DevTools.
 
+
+Best Practices on the video page was the only one that was low at (85), "SameSite cookie" this is server-side issue I think.
+I also reserched this here on [stackoverflow](https://stackoverflow.com/questions/60822936/where-to-add-samesite-none). 
+
 	*Tested in Incognito mode.*
 
 ![website in Lighthouse in Chrome ](assets/markdown_images/both_lighthouse.png "Lighthouse score")
@@ -127,8 +131,14 @@ Tested both mobile and desktop.
 - HTML
 <https://validator.w3.org/>
 
+After a few errors I went back to the code and researched the fixes using Google or Stack overflow to find the solution.
+For example I had a problem with the "quote section"  *< picture > < source srcset...* were the error was showing I had to have a "sizes" along with the "source".
+
+
 - CSS
 <https://jigsaw.w3.org/css-validator/>
+
+Passed with no errors in the code.
 
 
 ### Manual Testing
@@ -142,7 +152,7 @@ DOM X-Ray
 
 I used this Chrome extension to check the flow of white space and that the items were centred.
 
-<details><summary>Supporting image</summary>
+<details><summary>DOM X-Ray in use</summary>
 
 ![DOM X-Ray being used on the website ](assets/markdown_images/dom_x_ray.png "DOM X-Ray")
 
