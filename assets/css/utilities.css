@@ -66,7 +66,7 @@
 html,
 body {
     font-family: 'Rubik', sans-serif;
-    line-height: 1.4;
+    line-height: 1.6;
     color: var(--black);
 }
 
@@ -147,7 +147,6 @@ p {
     padding-bottom: 8px;
 }
 
-
 /* ----------------
     5. buttons
 ---------------- */
@@ -191,7 +190,6 @@ form .submit-button {
     background-color: var(--btn-warning-hover);
     cursor: pointer;
 }
-
 
 /* ----------------
     6. google icons

@@ -433,7 +433,6 @@ fieldset {
     }
 
     .lunge-img {
-        /* width: 50vw; */
         width: 100%;
         padding: 1em;
     }
@@ -450,7 +449,6 @@ fieldset {
 
     .flex-container {
         display: flex;
-        /* padding: 1em; */
     }
 
     .flex-container-padding {
@@ -543,11 +541,6 @@ fieldset {
         margin: 1em 1em;
         text-align: center;
         text-align: center;
-    }
-
-    .icon {
-        font-size: 4.2rem;
-        padding: .4em;
     }
 
     .flex-container {
