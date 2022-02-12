@@ -45,8 +45,8 @@
     --btn-cta: #c4242a;
     --btn-cta-hover: #912226;
 
-    --btn-warning: #01a2b9;
-    --btn-warning-hover: #086d7c;
+    --btn-warning: #0456c0;
+    --btn-warning-hover: #154788;
 
 }
 
@@ -98,8 +98,7 @@ footer {
 ---------------- */
 h1,
 h2,
-h3,
-h4 {
+h3 {
     font-family: 'Cabin', sans-serif;
 }
 
@@ -128,11 +127,6 @@ h3 {
     padding-bottom: 1rem;
 }
 
-h4 {
-    font-weight: 400;
-    font-size: 1.4rem;
-}
-
 h2,
 h3,
 h4 {
@@ -141,7 +135,7 @@ h4 {
 }
 
 /* I assigned the h5 to be quotation text  */
-h5 {
+h4 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 500;
     font-size: 1.2rem;
