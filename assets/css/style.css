@@ -13,7 +13,7 @@
     4.4 media-heading
     4.5 flex_container
     4.6 stars-container
-    4.7 footer-bottom-container
+    4.7 footer-100vh-container
 
 5.  iframe
 6.  form
@@ -219,10 +219,10 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    4.7 footer-bottom-container
+    4.7 footer-100vh-container
 ---------------- */
 /* pushes the footer to the bottom of the page for pages that have little content */
-.footer-bottom-container {
+.footer-100vh-container {
     display: flex;
     min-height: 100vh;
     flex-direction: column;

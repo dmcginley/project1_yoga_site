@@ -93,6 +93,10 @@ footer {
     grid-column: 2/3;
 }
 
+.footer-100vh-container {
+    grid-column: 2/3;
+}
+
 /* ----------------
     4. typography
 ---------------- */
