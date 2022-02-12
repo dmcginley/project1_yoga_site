@@ -87,6 +87,10 @@ People with less free time on their hands wishing to get into a healthy lifestyl
 I went for a muted color palette which is in keeping with a lot of yoga websites.
 The buttons stand out in the hierarchy with stronger colors as do the videos against the off white.
 
+
+![Color code in the utilities.css](assets/markdown_images/color.png "Color code")
+
+
 ## Style Guide
 
 
@@ -94,7 +98,9 @@ The buttons stand out in the hierarchy with stronger colors as do the videos aga
 Mobile first and then 3 main breakpoints for desktop (768px, 980px 1440px).
 The 1440px large display is so the website doesn't break on large QHD monitors.
 
+The website has a basic Grid across all four pages, with a minmax for the page content. Three elements, header, main and footer.
 
+![Grid code](assets/markdown_images/base_grid.png "The code for Grid")
 
 
 
@@ -134,14 +140,16 @@ Tested both mobile and desktop.
 - HTML
 <https://validator.w3.org/>
 
-After a few errors I went back to the code and researched the fixes using Google or Stack overflow to find the solution.
+After a few errors I went back to the code and researched the fixes through a web serch or on Stack overflow to find the solution.
 For example I had a problem with the "quote section"  *< picture > < source srcset...* were the error was showing I had to have a "sizes" along with the "source".
+
+On final run the "Document checking completed. No errors or warnings to show" in the four pages.
 
 
 - CSS
 <https://jigsaw.w3.org/css-validator/>
 
-Passed with no errors in the code.
+No Error Found in the three CSS pages
 
 
 ### Manual Testing
