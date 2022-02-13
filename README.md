@@ -25,9 +25,9 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 
 ## Wireframe
-I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale so I could see the hierarchy of the elements on the page. 
+I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale, using basic shapes so I could see the hierarchy of the elements on the page. 
 
-*Using basic shapes, created using Figma prototyping tool.*
+*created using Figma prototyping tool.*
 
 ![Wireframe created in Figma](assets/markdown_images/wireframe.png "Wireframe")
 
@@ -39,59 +39,70 @@ The website is video heavy for the more visual student, so it can give more of a
 People with less free time on their hands wishing to get into a healthy lifestyle.
 
 ### Design Decisions
-- Simple design choice.
-
-	I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
-
-	The CSS style sheets are named clearly as:
-
-	- style.css
-	- utilities.css
-	- hamburger_menu.css
 
 
-- Clean design, color, and ease of navigation.
+I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
 
-	The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
+The CSS style sheets are named clearly as:
 
-	The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
+- style.css
+- utilities.css
+- hamburger_menu.css
 
-	The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
 
-	For the navigation the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the nav bar. The page you're on is indacated in white underlined, (when in mobile view this link is hidden as it cant be clicked).
+#### Simple, clean design, color, and ease of navigation.
 
-	![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
+The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
 
-	The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons dont spread too far apart on larger screens.
+The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
 
-	![Footer and icons inside](assets/markdown_images/footer.png "footer")
+The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
 
-	#### Card section
+For the navigation the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the nav bar. The page you're on is indacated in white underlined, (when in mobile view this link is hidden as it cant be clicked).
 
-	The card section is also often the main part of a website as it is the bullet-points for what the visitor will get. In this case learn points to keep in mind while watching and following along with the videos.
+![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
 
-	<details><summary>Image of card section</summary>
+The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons dont spread too far apart on larger screens.
 
-	![Card & icon section](assets/markdown_images/card.png "icon cards")
+![Footer and icons inside](assets/markdown_images/footer.png "footer")
 
-	</details>
+#### Card section
+
+The card section is also often the main part of a website as it is the bullet-points for what the visitor will get. In this case learn points to keep in mind while watching and following along with the videos.
+
+<details><summary>Image of card section</summary>
+
+![Card & icon section](assets/markdown_images/card.png "icon cards")
+
+</details>
 
 ### Typography
+![Typography](assets/markdown_images/type.png "Typography")
+
+
 - [Cabin](https://fonts.google.com/?query=Cabin) - for the h1, h2 and h3 as a strong, clean, easy to read font.
 
 - [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, simmiler to Cabin font, midderen and clean in style
 
-- [Libre+Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - fo tthe quotation on the home page, a more flowery font looks like a book type of font.
+- [Libre+Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - for the quotation on the home page, I chose a more flowery font to look like a book type of font, somthing in print.
+
+All three fonts together helps continue the clean aesthetic across the site.
 
 ### Color Choices
-I went for a muted color palette which is in keeping with a lot of yoga websites.
+I went for a simple color palette which I found is in keeping with a lot of yoga websites.
 The buttons stand out in the hierarchy with stronger colors as do the videos against the off white.
+
+I chose the common red and blue style of button, red usually as a call to immediate action.
+
+
+![Color sheet](assets/markdown_images/colors.png "Colors")
+
+
+### CSS :root Selector
 
 
 ![Color code in the utilities.css](assets/markdown_images/color.png "Color code")
 
-
-## Style Guide
 
 
 ### Responsiveness
