@@ -94,7 +94,7 @@ The card section is also often the main part of a website as it is the 'bullet-p
 
 - [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, simmiler to Cabin font, modern and clean in style.
 
-- [Libre+Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - for the quotation on the home page, I chose a more flowery font to look similar to a book type of font, or something in print.
+- [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - for the quotation on the home page, I chose a more flowery font to look similar to a book type of font, or something in print.
 
 All three fonts together helps continue the clean aesthetic across the site.
 
