@@ -225,7 +225,7 @@ Also checking every link and button was working.
 I wanted to make the images responsive while pulling in different resolution images depending on screen size.
 Using both Webp and Jpg (as a fall-back).
 
-I used “srcset”, and “sizes” for [Responsive Images](#How-to-Use-HTML5-picture-srcset-and-sizes-for-Responsive-Images)
+I used “srcset”, and “sizes” for [Responsive Images](#how-to-use-html5-picture-srcset-and-sizes-for-responsive-images)
 
 The 'quote' picture on the homepage probably took the longest to set up as as it's a constantly responsive image so I had to carefly work out which resolution image to pull in.
 
