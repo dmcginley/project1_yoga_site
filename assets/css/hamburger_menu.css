@@ -43,7 +43,6 @@ I have also referenced this in my readme.md  */
 
 .header li a {
     display: block;
-    /* height: 100%; */
     padding: 22px 10px;
     color: var(--orange);
     text-decoration: none;
@@ -59,7 +58,6 @@ I have also referenced this in my readme.md  */
     color: var(--white);
     text-decoration: none;
     cursor: default;
-    text-decoration: underline;
 }
 
 #active:hover {
