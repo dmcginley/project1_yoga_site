@@ -171,7 +171,7 @@ Tested both mobile and desktop.
 When testing in Lighthouse, this is when I desided to have Webp image format as well as Jpg.
 
 ### Validator Testing
-- HTML
+- **HTML**
 <https://validator.w3.org/>
 
 After a few errors I went back to the code and researched the fixes through a web serch or on Stack overflow to find the solution.
@@ -180,13 +180,28 @@ For example I had a problem with the "quote section"  *< picture > < source srcs
 
 For the iframes it suggested that all styling should go in the CSS file, so I fixed that.
 
-On final run the "Document checking completed. No errors or warnings to show" in all the four pages.
+On final run the "Document checking completed.
 
+No errors or warnings to show" in all the four pages.
 
-- CSS
+**No Warnings found**
+<p>&nbsp;</p>
+- **CSS**
 <https://jigsaw.w3.org/css-validator/>
 
-No Error Found in the three CSS pages.
+No error were found in the three CSS pages.
+
+**Warnings found**
+
+The warnings were to do with the colors being imported from the utilities.css file.
+	
+		Due to their dynamic nature, CSS variables are currently not statically checked
+
+
+...and 1 warning about the import of Google fonts into the utilities.css file.
+
+	Imported style sheets are not checked in direct input and file upload modes
+
 
 
 ### Manual Testing
