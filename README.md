@@ -200,7 +200,7 @@ The warnings were to do with the colors being imported from the utilities.css fi
 
 ...and 1 warning about the import of Google fonts into the utilities.css file.
 
-	Imported style sheets are not checked in direct input and file upload modes
+		Imported style sheets are not checked in direct input and file upload modes
 
 
 
