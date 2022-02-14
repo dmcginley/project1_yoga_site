@@ -211,6 +211,11 @@ form .submit-button {
         font-size: 5.4rem;
     }
 
+    h2 {
+        font-size: 2.4rem;
+        padding-bottom: 1.2rem;
+    }
+
     h4 {
         font-size: 1.4rem;
     }
@@ -222,12 +227,5 @@ form .submit-button {
     form .submit-button {
         margin-left: 0;
         width: auto;
-    }
-}
-
-@media only screen and (min-width: 1440px) {
-
-    h2 {
-        font-size: 2.4rem;
     }
 }

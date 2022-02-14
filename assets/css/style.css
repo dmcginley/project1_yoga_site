@@ -245,9 +245,9 @@ so here I set it to 0 first */
     margin-bottom: .4em;
 }
 
-.thank-you h2 {
+/* .thank-you h2 {
     text-decoration: underline;
-}
+} */
 
 /* ----------------
     5. iframe (video)
@@ -290,6 +290,7 @@ form label {
 }
 
 .form-input {
+    font-size: 1rem;
     width: 100%;
     padding: 12px;
     margin: .6em 0;
