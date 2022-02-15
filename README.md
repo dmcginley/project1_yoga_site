@@ -6,31 +6,33 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 # Table of contents
 
+  * [Wireframe](#wireframe)
+  * [Who is this website for](#who-is-this-website-for)
+  * [Design Decisions](#design-decisions)
+      - [Simple, clean design, color, and ease of navigation.](#simple--clean-design--color--and-ease-of-navigation)
+      - [Card section](#card-section)
+  * [Typography](#typography)
+  * [Color Choices](#color-choices)
+      - [CSS :root Selector -  *pseudo-class selector*](#css--root-selector-----pseudo-class-selector-)
+  * [Responsiveness](#responsiveness)
+  * [Accessibility](#accessibility)
+  * [Consistency](#consistency)
+  * [Testing](#testing)
+    + [Lighthouse in Chrome DevTools.](#lighthouse-in-chrome-devtools)
+    + [Validator Testing](#validator-testing)
+    + [Manual Testing](#manual-testing)
+    + [Responsive Testing](#responsive-testing)
+  * [Error Handling](#error-handling)
+  * [Deployment](#deployment)
+  * [Image optimization for the web](#image-optimization-for-the-web)
+  * [Resources](#resources)
+  * [Credits](#credits)
+      - [Using Flex & Grid.](#using-flex---grid)
+      - [Form](#form)
+  * [Content](#content)
+    + [Icons](#icons)
+    + [Images and Videos](#images-and-videos)
 
-
-	do new table of contents
-	error handeling
-
-  - [Wireframe](#wireframe)
-  - [Who is this website for](#who-is-this-website-for)
-  - [Design Decisions](#design-decisions)
-  - [Typography](#typography)
-  - [Color Choices](#color-choices)
-  - [Responsiveness](#responsiveness)
-  - [Accessibility](#accessibility)
-  - [Consistency](#consistency)
-  - [Testing](#testing)
-    - [Lighthouse in Chrome DevTools.](#lighthouse-in-chrome-devtools)
-    - [Validator Testing](#validator-testing)
-    - [Manual Testing](#manual-testing)
-    - [Responsive Testing](#responsive-testing)
-  - [Deployment](#deployment)
-  - [Image optimization for the web](#image-optimization-for-the-web)
-  - [Resources](#resources)
-  - [Credits](#credits)
-  - [Content](#content)
-    - [Icons](#icons)
-    - [Images and Videos](#images-and-videos)
 
 <p>&nbsp;</p>
 
@@ -40,7 +42,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 
 ## Wireframe
-I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale, using basic shapes so I could see the hierarchy of the elements on the page. 
+I created the Desktop, Tablet, and Mobile wireframe of the Home Page in greyscale, using basic shapes so I could see the hierarchy of the elements on the page. 
 
 *created using Figma prototyping tool.*
 
@@ -48,15 +50,15 @@ I created the Desktop, Tablet and Mobile wireframe of the Home Page in greyscale
 
 
 ## Who is this website for
-The site is designed for absolute beginners looking to learn yoga starting with a good and simple foundation. People wishing to learn from home using easy techniques that can be done at any part of the day in short bursts.
-The website is video heavy for the more visual student, so it can give more of a feel of following along with a teacher.
+The site is designed for absolute beginners looking to learn yoga starting with a good and simple foundation. People who wish to learn from home using easy techniques that can be done at any part of the day in short bursts.
+The website is video-heavy for the more visual student, so it can give more of a feel of following along with a teacher.
 
-People with less free time on their hands wishing to get into a healthy lifestyle.
+People with less free time on their hands, who want to get into a healthy lifestyle.
 
 ## Design Decisions
 
 
-As a method of working to keep uniformity across the website, I created three CSS style sheets for easy navigation and changing of elements on in the website. Each style sheets has a table of contents at the top of each page to help navigate through it.
+As a method of working to keep uniformity across the website, I created three CSS style sheets for easy navigation and changing of elements in the website. Each style sheet has a table of contents at the top of each page to help navigate through it.
 
 The CSS style sheets are named clearly as:
 
@@ -69,21 +71,21 @@ The CSS style sheets are named clearly as:
 
 The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
 
-The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
+The 'call to action button in the Hero section brings you to the video content page, as this is the main goal of the website.
 
 The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
 
-For the navigation the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the nav bar. The page you're on is indacated in white. (when in mobile view this link is hidden as it can not be clicked).
+For the navigation, the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the navbar. The page you're on is indicated in white. (when in mobile view this link is hidden as it can not be clicked).
 
 ![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
 
-The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens so that they're easier for the used to navigate or click.
+The footer is a simple flexbox container with centered content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens so that they're easier for the user to navigate or click.
 
 ![Footer and icons inside](assets/markdown_images/footer.png "footer")
 
 #### Card section
 
-The card section is also often the main part of a website as it is the 'bullet-points' for what the visitor will get/learn. In this case learning points to keep in mind while watching and following along with the videos. Each card has a clear white space around it marking out there is only four points for the used to keep in mind. 
+The card section is also often the main part of a website as it is the 'bullet-points' for what the visitor will get/learn. In this case, learning points to keep in mind while watching and following along with the videos. Each card has a clear white space around it marking out there are only four points for the user to keep in mind. 
 
 <details><summary>Image of card section</summary>
 
@@ -97,18 +99,18 @@ The card section is also often the main part of a website as it is the 'bullet-p
 
 - [Cabin](https://fonts.google.com/?query=Cabin) - for the h1, h2 and h3 as a strong, clean, easy to read font.
 
-- [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, simmiler to Cabin font, modern and clean in style.
+- [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, similar to Cabin font, modern and clean in style.
 
 - [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=Libre+Baskerville) - for the quotation on the home page, I chose a more flowery font to look similar to a book type of font, or something in print.
 
-All three fonts together helps continue the clean aesthetic across the site.
+All three fonts together help continue the clean aesthetic across the site.
 
 ## Color Choices
 
-In the end I went for a simple color palette (cutting my colors down by about half), which I found is in keeping with a lot of yoga websites.
-The buttons stand out in the hierarchy with stronger colors as do the videos against the off white.
+In the end, I went for a simple color palette (cutting my colors down by about half), which I found is in keeping with a lot of yoga websites.
+The buttons stand out in the hierarchy with stronger colors as do the videos against the off-white.
 
-I chose the common red and blue style of button, red usually as a call to immediate action and blue in the form.
+I chose the common red and blue style of button, red usually as a call to immediate action, and blue in the form.
 
 
 ![Color sheet](assets/markdown_images/colors.png "Main colors")
@@ -117,7 +119,7 @@ I chose the common red and blue style of button, red usually as a call to immedi
 #### CSS :root Selector -  *pseudo-class selector*
 I used the :root Selector for creating a personalised color set.
 
-eg. The black to be a dark grey, and the white to be a off-white.
+eg. The black to be a dark grey, and the white to be an off-white.
 
 
 ![Color code in the utilities.css](assets/markdown_images/color.png ":root Selector color code")
@@ -128,7 +130,7 @@ eg. The black to be a dark grey, and the white to be a off-white.
 I created the website using mobile first and then I have 3 main breakpoints for desktop/tablet (768px, 980px 1440px).
 The 1440px large display is so the website doesn't break on large QHD monitors.
 
-The website has a basic Grid across all four pages, with a minmax for the page content. Three elements: the header, main and footer.
+The website has a basic Grid across all four pages, with a min-max for the page content. Three elements: the header, main, and footer.
 
 ![Grid code](assets/markdown_images/base_grid.png "The code for main Grid layout")
 
@@ -142,8 +144,8 @@ The 1fr allows for the white margins on either side to collapse to 0 before the 
 - Contrasting colors.
  	* Easy to see buttons and navigation area.
 	
-		The main (red) button I had to adjust to a darker red because devtools through up an error saying it was too low contrast.
-- Background images not to be distracting or masking the text
+		The main (red) button I had to adjust to a darker red because DevTools threw up an error saying it was too low contrast.
+- Background images not to be distracting or mask the text
 e.g on mobile version of the site I darkened the background Hero image so as not to detract from the text as it is displayed on the small screen, and could appear more cramped.
 
 
@@ -153,44 +155,44 @@ e.g on mobile version of the site I darkened the background Hero image so as not
 	* For the shorter pages I used a flex container to push the footer to the bottom.
 - The icons all match the same style, from Google and Boxicons, and Bootstrap.
 - The fonts match, the header fonts and content (paragraph) fonts.
-- The padding is same or smiler for each element across the website, for padding on boxes 2em or 4em.
-on text in the smaller numberes eg. 0.4 or 0.6 or 0.8rem.
-- Text size in in rem and box/container padding is in em. (there are a few occasions where I went with rem where it better suited the style).
+- The padding is the same or similar for each element across the website, for padding on boxes 2em or 4em.
+on text in the smaller numbers eg. 0.4 or 0.6 or 0.8rem.
+- Text size in rem and box/container padding is in em. (there are a few occasions where I went with rem where it better suited the style).
 
 ## Testing
 
 ### Lighthouse in Chrome DevTools.
 
 
-Best Practices on the video page was the only one that was low at (92), the issue was "SameSite cookie", this is server-side issue so there was little I could to to fix the issue.
-I also reserched this here on [stackoverflow](https://stackoverflow.com/questions/60822936/where-to-add-samesite-none). I also reached out to my tuttores and pears on Slack to conferm the issue.
+Best Practices on the video page was the only one that was low at (92), the issue was "SameSite cookie", this is a server-side issue so there was little I could do to fix the issue.
+I also researched this here on [stackoverflow](https://stackoverflow.com/questions/60822936/where-to-add-samesite-none). I also reached out to my tutors and peers on Slack to confirm the issue.
 
-*Tested in Incognito mode.*
+*All tested in Incognito mode.*
 
 ![website in Lighthouse in Chrome ](assets/markdown_images/both_lighthouse.png "Lighthouse score for home page")
 
-After a few errors like images being too big or missing title on social links (facebook, twitter)
+After a few errors like images being too big or missing title on social links (Facebook, Twitter)
 I ran Lighthouse a few times to check my code and text.
 Tested both mobile and desktop.
 
-When testing in Lighthouse, this is when I desided to have Webp image format as well as Jpg.
+When testing in Lighthouse, this is when I decided to have Webp image format as well as Jpg.
 
 ### Validator Testing
 - **HTML**
 <https://validator.w3.org/>
 
-After a few errors I went back to the code and researched the fixes through a web search or on Stack overflow to find the solutions.
+After a few errors, I went back to the code and researched the fixes through a web search or on Stack overflow to find the solutions.
 
-On final run the "Document checking completed.
+On the final run the "Document checking completed.
 
-No errors or warnings to show" in all the four pages.
+No errors or warnings to show" in all four pages.
 
 **No Warnings found**
 <p>&nbsp;</p>
 - **CSS**
 <https://jigsaw.w3.org/css-validator/>
 
-No error were found in the three CSS pages.
+No errors were found in the three CSS pages.
 
 **Warnings found**
 
@@ -201,7 +203,7 @@ The warnings were to do with the colors being imported from the utilities.css fi
 
 ...and 1 warning about the import of Google fonts into the utilities.css file.
 
-	Imported style sheets are not checked in direct input and file upload modes
+	Imported style sheets are not checked indirect input and file upload modes
 
 
 
@@ -212,9 +214,11 @@ Checked the videos and their refresh times.
 
 The web browsers I used in manual testing are Chrome, Firefox, Microsoft Edge, and Opera.
 
+I checked that the responsive design didn't break when changing the aspect ratio (from mobile to QHD)
+
 DOM X-Ray
 
-I used this Chrome extension to check the flow of white space and that the items were centred.
+I used this Chrome extension to check the flow of white space and that the items were centered.
 
 <details><summary>DOM X-Ray in use</summary>
 
@@ -226,31 +230,32 @@ I used this Chrome extension to check the flow of white space and that the items
 ### Responsive Testing
 I used Chrome and Firefox "developer tools, device toggle" to check the responsiveness for each device. From iPhone, roughly 320px, to laptop 1920px, and to the desktop at 2560px (QHD).
 
-Usual errors here were that the image wasn't fully responsive, was a problem with scaling (the image would overflow its container usual arounf 300 or 400px). 
+Usual errors here were that the image wasn't fully responsive, was a problem with scaling (the image would overflow its container usual around 300 or 400px). 
 
-I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by margin or overflow fixed widths to elements on the page. Fixing any sizing errors or overflow of content as I went along.
+I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by a margin or overflow fixed widths to elements on the page. Fixing any sizing errors or overflow of content as I went along.
 
 ## Error Handling
-		whatr i came accross
-- 
 
 Fixed through web searches or searching on Stack overflow to find the solutions, or revising the course material.
 
-For example I had a problem with the "quote section"  *< picture > < source srcset...* were the error was showing I had to have a "sizes" along with the "source".
+For example, I had a problem with the "quote section"  *< picture > < source srcset...* where the error was showing I had to have a "sizes" along with the "source".
 
-For the iframes it suggested that all styling should go in the CSS file, so I fixed that.
+For the iframes, it suggested that all styling should go in the CSS file, so I fixed that.
+
+When checking that the responsive design didn't break in mobile (landscape view), in the Hero section the button would overflow the main container. So I added a minimum height to the element so it wouldn't squash down too much.
 
 
 
 ## Deployment
 Deployed using GitHub Pages. <https://github.com/dmcginley/project1_yoga_site/settings/pages>
 
-Once uploaded I checked everything was working ok. I checked response times and refresh time.
-Also checking every link and button was working.
+I went to my  Repository (project1_yoga_site), and under the "Settings" tab went down to the "Pages" section on the left menu.
+In there I could easily deploy my site. 
+
+Once every deployed I checked everything was working ok. I checked response times and refresh time, the links/buttons, and that the videos worked as desired.
 
 
-
-The Yoga 4 Life site can be found here - https://dmcginley.github.io/project1_yoga_site
+My Yoga 4 Life site can be found here - https://dmcginley.github.io/project1_yoga_site (same link as above)
 
 
 
@@ -261,19 +266,25 @@ Using both Webp and Jpg (as a fall-back).
 
 I used “srcset”, and “sizes” for [Responsive Images](#how-to-use-html5-picture-srcset-and-sizes-for-responsive-images)
 
-The 'quote' picture on the homepage probably took the longest to set up as as it's a constantly responsive image so I had to carefly work out which resolution image to pull in.
+The 'quote' picture on the homepage probably took the longest to set up as it's a constantly responsive image so I had to carefully work out which resolution image to pull in.
+
+1. I started out with just an image, and each time the image changed size (say from mobile to mid-range device) I'd make a note of the width of the container of the image using Firefox Developer Tools.
+So then I knew what size images to make, how many, and at what breakpoint to pull in the different resolution image.
+
+
+2. I put the width in pixels over each image, so I could clearly see which image was being pulled in during testing.
+
+	(For this I used Firefox, as Chrome once a larger image is pulled in it cashes it, and won't revert to the smaller image again).
+
+3. After I thoroughly checked everything was working OK I just swapped in the proper images.
+
+	Also for this, I learnt How to Use HTML5 “picture”, “srcset”, and “sizes” for the responsive images
 
 ![testing for pulling different images](assets/markdown_images/responsive.png "Testing of image resolutions")
 
-I put the width in pixels over each image, so I could clearly see which image was being pulled in during testing.
-
-(For this I used Firefox, as Chrome once a larger images is pulled in it cashes it, and won't revert to the smaller image again).
 
 
-I learnt How to Use HTML5 “picture”, “srcset”, and “sizes” for Responsive Images
-
-
-After I edited the images in [Gimp](https://www.gimp.org/), I'd pass the images through Optimizilla or Tinypng and then put them in the image folder. *(Personally I found Optimizilla to be the better of the two websites for keeping a clean image).*
+For all the images I edited them in [Gimp](https://www.gimp.org/) changing the resolution when required. I'd pass the images through Optimizilla or Tinypng and then put them in the image folder. *(Personally I found Optimizilla to be the better of the two websites for keeping a clean image).*
 
 - [Optimizilla](https://imagecompressor.com/)
 
@@ -314,7 +325,7 @@ Book I used for further reading on HTML5 semantic markup.
 - [HTML & CSS: Design and Build Websites](https://www.goodreads.com/book/show/10361330-html-and-css) *by Jon Duckett.*
 
 ## Credits
-*Sites content, media, and help with implementing code for tutorials/on-line help.*
+*Sites content, media, and help with implementing code for tutorials/online help.*
 
 - Help with linear-gradient for the Hero image.
 
@@ -322,7 +333,7 @@ Book I used for further reading on HTML5 semantic markup.
 	<https://www.w3schools.com/howto/howto_css_hero_image.asp>
 
 
-- Use of the < picture >  element and implementing webp.
+- Use of the < picture >  element and implement webp.
 
 	<https://web.dev/serve-images-webp/>
 
@@ -338,7 +349,7 @@ Book I used for further reading on HTML5 semantic markup.
 
 	<https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing>
 
-- Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube
+- Pure CSS hamburger menu learned from 'FollowAndrew' on YouTube
 
  	<https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s>
 
@@ -349,7 +360,7 @@ Book I used for further reading on HTML5 semantic markup.
 
  	<https://www.youtube.com/kepowob>
 
-- Layout of the body divided into a 3 section grid
+- Layout of the body is divided into a 3 section grid
 from Layout Land
 
 	<https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag>
@@ -385,12 +396,12 @@ Yoga on Wikipedia
 <https://en.wikipedia.org/wiki/Yoga>
 
 ### Icons
-- [Material Icons](https://developers.google.com/fonts/docs/material_icons) - The icons in the card section were taken from Google's Material Icons. I downloaded the svg and used inside img tags.
+- [Material Icons](https://developers.google.com/fonts/docs/material_icons) - The icons in the card section were taken from Google's Material Icons. I downloaded the SVG and used it inside img tags.
 
 
-- [Boxicons](https://boxicons.com/) - The icons in the footer were taken from Boxicons. I downloaded the svg code and pasted it in, to try get everything smaller on the site to try and help with loading speeds.
+- [Boxicons](https://boxicons.com/) - The icons in the footer were taken from Boxicons. I downloaded the SVG code and pasted it in, to try to get everything smaller on the site to try and help with loading speeds.
 
-- [Bootstrap Icons](https://icons.getbootstrap.com/) - The star icons on the video page are from Bootstrap, also using the svg code, rather than the images.
+- [Bootstrap Icons](https://icons.getbootstrap.com/) - The star icons on the video page are from Bootstrap, also using the SVG code, rather than the images.
 
 ### Images and Videos
 The images and photos used on the site are from [Pexels.com](https://www.pexels.com/)
