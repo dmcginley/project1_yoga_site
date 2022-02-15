@@ -3,7 +3,7 @@
    [table of contents]
 
 1.  header
-2.  menu 3 bars
+2.  menu the 3 bars
 3.  menu button (+ animations)
 
 -------------------------- */
@@ -86,9 +86,6 @@ I have also referenced this in my readme.md  */
     padding-top: 2px;
 }
 
-/* menu */
-/* the menu is taken from a tutorial I followed along with, I edited it to fit my grid and the style of the website
-Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s */
 .header .menu {
     clear: both;
     max-height: 0;
@@ -96,7 +93,7 @@ Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtub
 }
 
 /* ----------------
-    2. menu 3 bars
+    2. menu the 3 bars
 ---------------- */
 .header .menu-icon {
     cursor: pointer;
@@ -163,7 +160,7 @@ Pure CSS hamburger menu learnt from 'FollowAndrew' on YouTube https://www.youtub
     display: none;
 }
 
-
+/* desktop side of things */
 @media only screen and (min-width: 768px) {
 
     .header li {

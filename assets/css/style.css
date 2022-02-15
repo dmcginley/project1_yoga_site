@@ -245,10 +245,6 @@ so here I set it to 0 first */
     margin-bottom: .4em;
 }
 
-/* .thank-you h2 {
-    text-decoration: underline;
-} */
-
 /* ----------------
     5. iframe (video)
 ---------------- */
@@ -298,7 +294,7 @@ form label {
     border: 1px solid var(--black);
 }
 
-/* the asterisks * beside the required input  */
+/* the asterisks (*) span beside the required input  */
 .form span {
     color: rgb(240, 41, 6);
     padding-left: 4px;
@@ -370,8 +366,9 @@ fieldset {
 
 
 /* desktop side of things */
-/* this media query is just so the social links don't go to far apart */
 @media only screen and (min-width: 768px) {
+
+    /* this "justify-content: space-around;" is just so the social links don't go to far apart when on large displays */
     .social-links ul {
         justify-content: space-around;
     }

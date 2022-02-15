@@ -16,10 +16,12 @@
 
 1.  color styling
 2.  global style
-3.  maine grid style
-4   typography
-5.  buttons
-6.  google icons
+    
+    2.1.  maine grid style
+    2.2.  typography
+
+3.  buttons
+4.  google icons
 
 -------------------------- */
 
@@ -71,7 +73,7 @@ body {
 }
 
 /* ----------------
-    3. maine grid style
+    2.1. maine grid style
 ---------------- */
 /* maine grid style with collapsing borders left and right for large displays */
 body {
@@ -80,7 +82,7 @@ body {
 }
 
 
-/* the 3 parts of the page (header, main, and footer), placed in the center of the page */
+/* the 3 main parts of the page (header, main, and footer), placed in the center of the page */
 .header {
     grid-column: 2/3;
 }
@@ -93,12 +95,13 @@ footer {
     grid-column: 2/3;
 }
 
+/* ..and for when a div withy hight of 100% needs to be applied */
 .footer-100vh-container {
     grid-column: 2/3;
 }
 
 /* ----------------
-    4. typography
+    2.2. typography
 ---------------- */
 h1,
 h2,
@@ -152,7 +155,7 @@ p {
 }
 
 /* ----------------
-    5. buttons
+    3. buttons
 ---------------- */
 /* global button style for the 2 buttons on the website */
 .btn {
@@ -196,7 +199,7 @@ form .submit-button {
 }
 
 /* ----------------
-    6. google icons
+    4. google icons
 ---------------- */
 .svg-icon {
     width: 4rem;

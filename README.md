@@ -6,6 +6,11 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
 # Table of contents
 
+
+
+	do new table of contents
+	error handeling
+
   - [Wireframe](#wireframe)
   - [Who is this website for](#who-is-this-website-for)
   - [Design Decisions](#design-decisions)
@@ -72,13 +77,13 @@ For the navigation the icon & text on the left brings you to the home page. The 
 
 ![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
 
-The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens.
+The footer is a simple flexbox container with centred content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens so that they're easier for the used to navigate or click.
 
 ![Footer and icons inside](assets/markdown_images/footer.png "footer")
 
 #### Card section
 
-The card section is also often the main part of a website as it is the 'bullet-points' for what the visitor will get/learn. In this case learning points to keep in mind while watching and following along with the videos.
+The card section is also often the main part of a website as it is the 'bullet-points' for what the visitor will get/learn. In this case learning points to keep in mind while watching and following along with the videos. Each card has a clear white space around it marking out there is only four points for the used to keep in mind. 
 
 <details><summary>Image of card section</summary>
 
@@ -174,11 +179,7 @@ When testing in Lighthouse, this is when I desided to have Webp image format as 
 - **HTML**
 <https://validator.w3.org/>
 
-After a few errors I went back to the code and researched the fixes through a web serch or on Stack overflow to find the solution.
-
-For example I had a problem with the "quote section"  *< picture > < source srcset...* were the error was showing I had to have a "sizes" along with the "source".
-
-For the iframes it suggested that all styling should go in the CSS file, so I fixed that.
+After a few errors I went back to the code and researched the fixes through a web search or on Stack overflow to find the solutions.
 
 On final run the "Document checking completed.
 
@@ -195,12 +196,12 @@ No error were found in the three CSS pages.
 
 The warnings were to do with the colors being imported from the utilities.css file.
 	
-		Due to their dynamic nature, CSS variables are currently not statically checked
+	Due to their dynamic nature, CSS variables are currently not statically checked
 
 
 ...and 1 warning about the import of Google fonts into the utilities.css file.
 
-		Imported style sheets are not checked in direct input and file upload modes
+	Imported style sheets are not checked in direct input and file upload modes
 
 
 
@@ -229,11 +230,29 @@ Usual errors here were that the image wasn't fully responsive, was a problem wit
 
 I also used "developer tools" to check the margin and padding on each element to check the style didn't break, especially on smaller devices usually caused by margin or overflow fixed widths to elements on the page. Fixing any sizing errors or overflow of content as I went along.
 
+## Error Handling
+		whatr i came accross
+- 
+
+Fixed through web searches or searching on Stack overflow to find the solutions, or revising the course material.
+
+For example I had a problem with the "quote section"  *< picture > < source srcset...* were the error was showing I had to have a "sizes" along with the "source".
+
+For the iframes it suggested that all styling should go in the CSS file, so I fixed that.
+
+
+
 ## Deployment
 Deployed using GitHub Pages. <https://github.com/dmcginley/project1_yoga_site/settings/pages>
 
 Once uploaded I checked everything was working ok. I checked response times and refresh time.
 Also checking every link and button was working.
+
+
+
+The Yoga 4 Life site can be found here - https://dmcginley.github.io/project1_yoga_site
+
+
 
 ## Image optimization for the web
 
