@@ -75,7 +75,7 @@ The text, icons, video all have white space around them so as not to detract fro
 
 The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
 
-The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
+The 'hamburger menu' is implemented using the help of this [CSS hamburger menu tutorial](https://www.youtube.com/watch?v=sjrp1FEHnyA&t=1707s), (also linked below in the Credits section).
 
 For the navigation, the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the navbar. The page you're on is indicated in white. (when in mobile view this link is hidden as it can not be clicked). This give the user a familiar way to navigate the website.
 
