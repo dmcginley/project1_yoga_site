@@ -9,11 +9,11 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
   * [Wireframe](#wireframe)
   * [Who is this website for](#who-is-this-website-for)
   * [Design Decisions](#design-decisions)
-      - [Simple, clean design, color, and ease of navigation.](#simple--clean-design--color--and-ease-of-navigation)
+      - [Simple, clean design -](#simple--clean-design--)
       - [Card section](#card-section)
   * [Typography](#typography)
   * [Color Choices](#color-choices)
-      - [CSS :root Selector -  *pseudo-class selector*](#css--root-selector-----pseudo-class-selector-)
+      - [CSS :root Selector -](#css--root-selector--)
   * [Responsiveness](#responsiveness)
   * [Accessibility](#accessibility)
   * [Consistency](#consistency)
@@ -32,7 +32,6 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
   * [Content](#content)
     + [Icons](#icons)
     + [Images and Videos](#images-and-videos)
-
 
 <p>&nbsp;</p>
 
@@ -67,7 +66,8 @@ The CSS style sheets are named clearly as:
 - hamburger_menu.css
 
 
-#### Simple, clean design, color, and ease of navigation.
+#### Simple, clean design -
+**Simple color, and ease of navigation.**
 
 The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
 
@@ -116,7 +116,9 @@ I chose the common red and blue style of button, red usually as a call to immedi
 ![Color sheet](assets/markdown_images/colors.png "Main colors")
 
 
-#### CSS :root Selector -  *pseudo-class selector*
+#### CSS :root Selector -
+**pseudo-class selector**
+
 I used the :root Selector for creating a personalised color set.
 
 eg. The black to be a dark grey, and the white to be an off-white.
