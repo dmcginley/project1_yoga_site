@@ -283,7 +283,7 @@ My Yoga 4 Life site can be found here - https://dmcginley.github.io/project1_yog
 I wanted to make the images responsive while pulling in different resolution images depending on screen size.
 Using both Webp and Jpg (as a fall-back).
 
-I used “srcset”, and “sizes” for [Responsive Images](#how-to-use-html5-picture-srcset-and-sizes-for-responsive-images)
+I used “srcset”, and “sizes” inside the picture element for Responsive Images.
 
 The 'quote' picture on the homepage probably took the longest to set up as it's a constantly responsive image so I had to carefully work out which resolution image to pull in.
 
