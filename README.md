@@ -68,11 +68,12 @@ The CSS style sheets are named clearly as:
 
 #### Simple clean design
 
-**Simple color, and ease of navigation**
+*...simple color, and ease of navigation.*
+
 
 The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
 
-The 'call to action button in the Hero section brings you to the video content page, as this is the main goal of the website.
+The 'call to action' button in the Hero section brings you to the video content page, as this is the main goal of the website.
 
 The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
 
@@ -96,7 +97,7 @@ The card section is also often the main part of a website as it is the 'bullet-p
 
 ##### Star Rating
 
-The star rating allows for the used to easily see the difficulty of the movement before having to click on the video. From one to five, the standard range to allow for quick evaluation.
+The star rating allows for the user to easily see the difficulty of the movement before having to click on the video. From one to five, the standard range to allow for quick evaluation.
 
 The star element is also responsive to never feel as if it is in the way of the user.
 
@@ -225,7 +226,8 @@ The warnings were to do with the colors being imported from the utilities.css fi
 
 
 ### Manual Testing
-How I went about it.
+*...and how I went about it.*
+
 I checked each link went to the desired page and that all < a > tags opened in a new tab.
 Checked the videos and their refresh times.
 
