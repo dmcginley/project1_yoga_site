@@ -417,7 +417,7 @@ Yoga on Wikipedia
 <https://en.wikipedia.org/wiki/Yoga>
 
 ### Icons
-- [Material Icons](https://developers.google.com/fonts/docs/material_icons) - The icons in the card section were taken from Google's Material Icons. I downloaded the SVG and used it inside img tags.
+- [Material Icons](https://developers.google.com/fonts/docs/material_icons) - The icons in the card section were taken from Google's Material Icons. I downloaded the SVG and used it inside img tags. I changed the color in Gimp (from black to the dark grey) to suit the coloring of the website.
 
 
 - [Boxicons](https://boxicons.com/) - The icons in the footer were taken from Boxicons. I downloaded the SVG code and pasted it in, to try to get everything smaller on the site to try and help with loading speeds.
