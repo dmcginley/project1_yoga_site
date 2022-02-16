@@ -10,7 +10,6 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
   * [Who is this website for](#who-is-this-website-for)
   * [Design Decisions](#design-decisions)
       - [Simple clean design](#simple-clean-design)
-      - [Card section](#card-section)
   * [Typography](#typography)
   * [Color Choices](#color-choices)
       - [CSS root Selector](#css-root-selector)
@@ -32,6 +31,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
   * [Content](#content)
     + [Icons](#icons)
     + [Images and Videos](#images-and-videos)
+
 
 <p>&nbsp;</p>
 
@@ -76,15 +76,15 @@ The 'call to action button in the Hero section brings you to the video content p
 
 The hamburger_menu is implemented using the help of this [CSS hamburger menu tutorial](#Credits) linked below.
 
-For the navigation, the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the navbar. The page you're on is indicated in white. (when in mobile view this link is hidden as it can not be clicked).
+For the navigation, the icon & text on the left brings you to the home page. The other two are clearly different in yellow to the right of the navbar. The page you're on is indicated in white. (when in mobile view this link is hidden as it can not be clicked). This give the user a familiar way to navigate the website.
 
 ![Navigation bar - nav](assets/markdown_images/nav.png "navbar")
 
-The footer is a simple flexbox container with centered content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens so that they're easier for the user to navigate or click.
+The footer is a simple flexbox container with centered content and a restriction in the icons of *max-width: 700px;* so the icons don't spread too far apart on larger screens so that they're easier for the user to navigate or click on.
 
 ![Footer and icons inside](assets/markdown_images/footer.png "footer")
 
-#### Card section
+##### Card section
 
 The card section is also often the main part of a website as it is the 'bullet-points' for what the visitor will get/learn. In this case, learning points to keep in mind while watching and following along with the videos. Each card has a clear white space around it marking out there are only four points for the user to keep in mind. 
 
@@ -93,6 +93,17 @@ The card section is also often the main part of a website as it is the 'bullet-p
 ![Card & icon section](assets/markdown_images/card.png "icon cards")
 
 </details>
+
+##### Star Rating
+
+The star rating allows for the used to easily see the difficulty of the movement before having to click on the video. From one to five, the standard range to allow for quick evaluation.
+
+The star element is also responsive to never feel as if it is in the way of the user.
+
+
+![Video with star rating ](assets/markdown_images/star_rating.png "Star Rating")
+
+
 
 ## Typography
 ![Typography](assets/markdown_images/type.png "Typography")
@@ -186,18 +197,19 @@ When testing in Lighthouse, this is when I decided to have Webp image format as 
 - **HTML**
 <https://validator.w3.org/>
 
-After a few errors, I went back to the code and researched the fixes through a web search or on Stack overflow to find the solutions.
+	After a few errors, I went back to the code and researched the fixes through a web search or on Stack overflow to find the solutions.
 
-On the final run the "Document checking completed.
+	On the final run the "Document checking completed.
 
-No errors or warnings to show" in all four pages.
+	No errors or warnings to show" in all four pages.
 
 **No Warnings found**
 <p>&nbsp;</p>
+
 - **CSS**
 <https://jigsaw.w3.org/css-validator/>
 
-No errors were found in the three CSS pages.
+	No errors were found in the three CSS pages.
 
 **Warnings found**
 
@@ -213,7 +225,7 @@ The warnings were to do with the colors being imported from the utilities.css fi
 
 
 ### Manual Testing
-- How I went about it.
+How I went about it.
 I checked each link went to the desired page and that all < a > tags opened in a new tab.
 Checked the videos and their refresh times.
 
@@ -257,7 +269,7 @@ Deployed using GitHub Pages. <https://github.com/dmcginley/project1_yoga_site/se
 I went to my  Repository (project1_yoga_site), and under the "Settings" tab went down to the "Pages" section on the left menu.
 In there I could easily deploy my site. 
 
-Once every deployed I checked everything was working ok. I checked response times and refresh time, the links/buttons, and that the videos worked as desired.
+Once everything deployed I checked everything was working ok. I checked response times and refresh time, the links/buttons, and that the videos worked as desired.
 
 
 My Yoga 4 Life site can be found here - https://dmcginley.github.io/project1_yoga_site (same link as above)
@@ -320,6 +332,8 @@ Later I also used Imgbot, automated optimizing of my images as they're uploaded 
 - [web.dev](https://web.dev/learn/) - the Learn section, for Responsive Design, Media queries.
 
 - [Can I use](https://caniuse.com/) - to check browser support for different elements on the site such as SVG icons, WebP images, srcset.
+
+- [UXtools](https://uxtools.co/blog/) - shows a lot of principles of UX Design.
 
 
 
