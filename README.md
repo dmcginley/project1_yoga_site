@@ -9,7 +9,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
   * [Wireframe](#wireframe)
   * [Who is this website for](#who-is-this-website-for)
   * [Design Decisions](#design-decisions)
-      - [Simple, clean design -](#simple--clean-design--)
+      - [Simple clean design, color, and ease of navigation](#-simple-clean-design)
       - [Card section](#card-section)
   * [Typography](#typography)
   * [Color Choices](#color-choices)
@@ -66,8 +66,7 @@ The CSS style sheets are named clearly as:
 - hamburger_menu.css
 
 
-#### Simple, clean design -
-**Simple color, and ease of navigation.**
+#### [Simple clean design, color, and ease of navigation](#simple-clean-design)
 
 The text, icons, video all have white space around them so as not to detract from each other. The less important content is designed to sit further back by use of tone and color (eg. the card icons are dark grey). While the button or 'Begin Your Yoga Journey' section are bright and with greater contrast.
 
