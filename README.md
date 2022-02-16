@@ -110,7 +110,7 @@ The star element is also responsive to never feel as if it is in the way of the 
 ![Typography](assets/markdown_images/type.png "Typography")
 
 
-- [Cabin](https://fonts.google.com/?query=Cabin) - for the h1, h2 and h3 as a strong, clean, easy to read font.
+- [Cabin](https://fonts.google.com/specimen/Cabin?query=Cabin) - for the h1, h2 and h3 as a strong, clean, easy to read font.
 
 - [Rubik](https://fonts.google.com/specimen/Rubik?query=Rubik) - for the body, similar to Cabin font, modern and clean in style.
 
