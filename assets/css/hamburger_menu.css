@@ -51,13 +51,13 @@ I have also referenced this in my readme.md  */
     background-color: var(--black-hover);
 }
 
-#active {
+#nav-btn-active {
     color: var(--white);
     text-decoration: none;
     cursor: default;
 }
 
-#active:hover {
+#nav-btn-active:hover {
     background-color: unset;
 }
 
