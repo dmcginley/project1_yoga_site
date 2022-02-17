@@ -4,10 +4,17 @@ Site url: <https://dmcginley.github.io/project1_yoga_site>
 
 Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
 
+<p>&nbsp;</p>
+
+![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
+
+#### *Designed with a 'Mobile First' responsive design.*
 # Table of contents
+
 
   * [Wireframe](#wireframe)
   * [Who is this website for](#who-is-this-website-for)
+  * [Technologies Used](#technologies-used)
   * [Design Decisions](#design-decisions)
       - [Simple clean design](#simple-clean-design)
   * [Typography](#typography)
@@ -32,12 +39,7 @@ Repository for the project: <https://github.com/dmcginley/project1_yoga_site>
     + [Icons](#icons)
     + [Images and Videos](#images-and-videos)
 
-
 <p>&nbsp;</p>
-
-![Mockup image for the website ](assets/markdown_images/mockup.png "Mockup")
-
-#### *Designed with a 'Mobile First' responsive design.*
 
 
 ## Wireframe
@@ -53,6 +55,12 @@ The site is designed for absolute beginners looking to learn yoga starting with 
 The website is video-heavy for the more visual student, so it can give more of a feel of following along with a teacher.
 
 People with less free time on their hands, who want to get into a healthy lifestyle.
+
+## Technologies Used
+- The Code
+	* **HTML & CSS.**
+- Graphic/UX Design
+	* **Figma, Gimp, & Inkscape.**
 
 ## Design Decisions
 
