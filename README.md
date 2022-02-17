@@ -284,6 +284,7 @@ I wanted to make the images responsive while pulling in different resolution ima
 Using both Webp and Jpg (as a fall-back).
 
 I used “srcset”, and “sizes” inside the picture element for Responsive Images.
+I also used 'lazy loading' for images below the fold (eg. quote picture).
 
 The 'quote' picture on the homepage probably took the longest to set up as it's a constantly responsive image so I had to carefully work out which resolution image to pull in.
 
