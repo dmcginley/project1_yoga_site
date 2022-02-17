@@ -23,9 +23,6 @@
 
 -------------------------- */
 
-
-
-
 /* ----------------
     1. hero
 ---------------- */
@@ -60,8 +57,8 @@
 }
 
 /* ----------------
-    2. The blurb-container
----------------- */
+      2. The blurb-container
+  ---------------- */
 .blurb-container {
     text-align: center;
     padding: max(6vh, 1em) 1em;
@@ -69,8 +66,8 @@
 }
 
 /* ----------------
-    3. cards
----------------- */
+      3. cards
+  ---------------- */
 .icon-card {
     margin: 2em 1em;
     text-align: center;
@@ -83,9 +80,9 @@
 }
 
 /* ----------------
-    4. section
-    4.1 service-section
----------------- */
+      4. section
+      4.1 service-section
+  ---------------- */
 .service-section {
     text-align: center;
     padding: 4em 2em;
@@ -93,15 +90,15 @@
 }
 
 /* ----------------
-    4.2 icon-container
----------------- */
+      4.2 icon-container
+  ---------------- */
 .icon-container {
     padding-top: 4em;
 }
 
 /* ----------------
-    4.3 quote section
----------------- */
+      4.3 quote section
+  ---------------- */
 .quote-box {
     position: relative;
     margin: auto;
@@ -125,14 +122,14 @@
 
 .quote-alt-left {
     position: absolute;
-    left: .2em;
-    top: .2em;
+    left: 0.2em;
+    top: 0.2em;
 }
 
 .quote-alt-right {
     position: absolute;
-    right: .2em;
-    bottom: .2em;
+    right: 0.2em;
+    bottom: 0.2em;
 }
 
 .quote-alt-left,
@@ -143,14 +140,14 @@
 }
 
 /* main of the video page, class to add padding to the bottom of the desktop site
-so here I set it to 0 first */
+  so here I set it to 0 first */
 .video-main {
     padding-bottom: 0;
 }
 
 /* ----------------
-    4.4 media-heading
----------------- */
+      4.4 media-heading
+  ---------------- */
 /* media-heading section for the video's page */
 .media-heading {
     margin: auto;
@@ -159,8 +156,8 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    4.5 flex_container
----------------- */
+      4.5 flex_container
+  ---------------- */
 /* flex container for the videos on the 'Learn Yoga' page */
 .flex-container {
     gap: 2em;
@@ -175,8 +172,8 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    4.6 stars-container
----------------- */
+      4.6 stars-container
+  ---------------- */
 .stars-container {
     display: flex;
     flex-wrap: wrap;
@@ -199,7 +196,6 @@ so here I set it to 0 first */
     padding-top: 4px;
 }
 
-
 .stars li {
     list-style: none;
 }
@@ -211,7 +207,7 @@ so here I set it to 0 first */
 .stars-example {
     display: flex;
     justify-content: center;
-    padding: 1em 0 .4em 0;
+    padding: 1em 0 0.4em 0;
     margin: auto;
 }
 
@@ -220,8 +216,8 @@ so here I set it to 0 first */
 }
 
 /* ----------------
-    4.7 footer-100vh-container
----------------- */
+      4.7 footer-100vh-container
+  ---------------- */
 /* pushes the footer to the bottom of the page for pages that have little content */
 .footer-100vh-container {
     display: flex;
@@ -237,28 +233,27 @@ so here I set it to 0 first */
     align-items: center;
     text-align: center;
     font-size: 5em;
-    padding: .4em 0;
+    padding: 0.4em 0;
 }
 
 .thankyou-watermark {
     height: 110px;
     width: 110px;
-    margin-bottom: .4em;
+    margin-bottom: 0.4em;
 }
 
 /* ----------------
-    5. iframe (video)
----------------- */
+      5. iframe (video)
+  ---------------- */
 iframe {
     aspect-ratio: 16/9;
     width: 100%;
     border: 0;
 }
 
-
 /* ----------------
-    6. form
----------------- */
+      6. form
+  ---------------- */
 .form-area {
     display: block;
 }
@@ -268,7 +263,6 @@ iframe {
     display: none;
     height: 100%;
 }
-
 
 .form {
     padding: 2em;
@@ -290,7 +284,7 @@ form label {
     font-size: 1rem;
     width: 100%;
     padding: 12px;
-    margin: .6em 0;
+    margin: 0.6em 0;
     border-radius: 4px;
     border: 1px solid var(--black);
 }
@@ -323,8 +317,8 @@ fieldset {
 }
 
 /* ----------------
-    7. footer
----------------- */
+      7. footer
+  ---------------- */
 .footer-flexbox {
     display: flex;
     flex-direction: column;
@@ -333,8 +327,8 @@ fieldset {
 }
 
 /* ----------------
-    7.1 social-links 
----------------- */
+      7.1 social-links 
+  ---------------- */
 .social-links {
     padding: 3em 0 4em 0;
     width: 80vw;
@@ -370,7 +364,6 @@ fieldset {
     text-align: center;
 }
 
-
 /* desktop side of things */
 @media only screen and (min-width: 768px) {
 
@@ -381,7 +374,6 @@ fieldset {
 }
 
 @media only screen and (min-width: 768px) {
-
     .video-main {
         padding-bottom: 4em;
     }
@@ -422,8 +414,8 @@ fieldset {
     }
 
     /* ----------------
-        quote section
-    ---------------- */
+          quote section
+      ---------------- */
     .quote-container {
         display: flex;
         align-items: center;
@@ -474,16 +466,13 @@ fieldset {
     }
 }
 
-
 @media only screen and (min-width: 860px) {
-
     .video-title {
         width: 100%;
     }
 }
 
 @media only screen and (min-width: 980px) {
-
     .quote-picture-container {
         padding: 2vw;
     }
@@ -520,13 +509,12 @@ fieldset {
         height: 100%;
         width: 100%;
         object-fit: cover;
-        opacity: .85;
+        opacity: 0.85;
         object-position: 50% 70%;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-
     .hero {
         background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../images/hero_xl.jpg);
         background-position: 50% 30%;
@@ -555,7 +543,6 @@ fieldset {
 }
 
 @media only screen and (min-width: 1716px) {
-
     .video-title {
         width: auto;
     }
