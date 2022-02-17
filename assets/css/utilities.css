@@ -22,6 +22,7 @@
 
 3.  buttons
 4.  google icons
+5. footer icons
 
 -------------------------- */
 
@@ -205,6 +206,15 @@ form .submit-button {
     width: 4rem;
     height: 4rem;
 }
+
+
+/* ----------------
+    5. footer icons
+---------------- */
+.social-svg {
+    fill: #f8f8f8;
+}
+
 
 
 /* desktop side of things */

@@ -138,6 +138,7 @@
 .quote-alt-left,
 .quote-alt-right {
     font-size: 1.4em;
+    fill: #252525;
     user-select: none;
 }
 
@@ -308,6 +309,11 @@ form label {
     resize: vertical;
     min-height: 160px;
     max-height: 460px;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
 }
 
 fieldset {
