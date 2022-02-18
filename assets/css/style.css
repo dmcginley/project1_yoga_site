@@ -454,7 +454,7 @@ fieldset {
     }
 
     .flex-container-padding {
-        padding: 1em;
+        padding: 0em 2em;
     }
 
     .text-and-star-container {
@@ -545,6 +545,10 @@ fieldset {
         gap: 3em;
         width: 80%;
         margin: auto;
+    }
+
+    .flex-container-padding {
+        padding: 0em;
     }
 }
 
