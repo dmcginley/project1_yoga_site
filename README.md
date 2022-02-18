@@ -436,11 +436,13 @@ Yoga on Wikipedia
 ### Images and Videos
 The images and photos used on the site are from [Pexels.com](https://www.pexels.com/)
 
- The watermark I created using [Inkscape](https://inkscape.org/) *(vector graphics software).*
+The favicon I created in [Inkscape](https://inkscape.org/) *(vector graphics software),* and then I used [favicon.io](https://favicon.io/favicon-converter/) to convert it to the desired formats. 
+
+The watermark I also created using Inkscape.
 
 <details><summary>Logo created in Inkscape</summary>
 
-![Icon/Watermark created in Inkscape ](assets/markdown_images/inkscape.png "Inkscape")
+![Icon/Watermark created in Inkscape](assets/markdown_images/inkscape.png "Inkscape")
 
 </details>
 
